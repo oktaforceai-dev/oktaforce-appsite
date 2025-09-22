@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "OKTAFORCE Solutions",
+    "description": "Discover OKTAFORCE remote concierge modules, smart view AI, resilient infrastructure, exclusive resident tools and premium support.",
+    "keywords": "oktaforce solutions, remote concierge, smart view, infrastructure, premium support"
+  },
+  "hero": {
+    "title": "A complete and scalable remote concierge stack",
+    "subtitle": "Combine the modules that make sense for your property and rely on AI orchestration, human-centered protocols and premium support.",
+    "cta": "Build my solution",
+    "tagline": "Integrated security"
+  },
+  "cta": {
+    "title": "Ready to build the ideal configuration?",
+    "subtitle": "Combine remote concierge, OKTAVISION and smart delivery modules in one tailored plan.",
+    "primary": "View plans and pricing",
+    "primaryHref": "/en/pricing",
+    "secondary": "Talk to the solutions team"
+  },
+  "sections": [
+    {
+      "key": "remote",
+      "title": "Remote concierge powered by AI",
+      "headline": "24/7 operations with dual validation and smart playbooks",
+      "description": "Our N+2 command center validates every access through facial recognition, biometrics and the resident app. Certified operators and proprietary AI work together to remove blind spots and keep the community safe.",
+      "bullets": [
+        "Smart authorisation with biometrics, facial recognition and resident app workflows.",
+        "Centralised triage with dual validation (AI + certified operator).",
+        "Complete audio, video and event logs available for real-time audits."
+      ]
+    },
+    {
+      "key": "oktavision",
+      "title": "OKTAVISION",
+      "headline": "Computer vision that anticipates incidents",
+      "description": "The platform analyses cameras and sensors in milliseconds, detects unusual behaviour and triggers coordinated response protocols before risks escalate.",
+      "bullets": [
+        "Real-time detection of loitering, perimeter breaches and unusual routes.",
+        "Automated alerts that start playbooks and dispatch tactical teams.",
+        "Dashboard with heatmaps, risk reports and full decision trail."
+      ]
+    },
+    {
+      "key": "lockers",
+      "title": "Smart Locker & Smart Drop",
+      "headline": "Smart deliveries for every condominium profile",
+      "description": "From modular lockers to discreet built-in compartments, we deliver full control over parcels with automatic notifications and digital tracking integrated with the OKTAFORCE app.",
+      "bullets": [
+        "Modular Smart Locker with multiple sizes and digital tracking.",
+        "Customisable Smart Drop for gates and compact lobbies.",
+        "Integration with the OKTAFORCE app, notifications and delivery audit trail."
+      ]
+    }
+  ],
+  "support": {
+    "title": "Implementation built around ROI",
+    "items": [
+      {
+        "title": "Dedicated engineering",
+        "description": "Technical design, turnkey installation and go-live executed alongside our customer success team."
+      },
+      {
+        "title": "Continuous governance",
+        "description": "Strategic reviews, executive reports and SLA dashboards shared with property managers and boards."
+      },
+      {
+        "title": "Contingency ready",
+        "description": "N+2 redundancy, 24/7 on-call support and incident response protocols with certified partners."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Fast comparison",
+    "features": [
+      {
+        "name": "Proprietary AI models trained on exclusive datasets",
+        "oktaforce": "included",
+        "market": "partial"
+      },
+      {
+        "name": "Real-time dashboard with SLA and audit trail",
+        "oktaforce": "included",
+        "market": "missing"
+      },
+      {
+        "name": "N+2 redundant command center with cloud backup",
+        "oktaforce": "included",
+        "market": "partial"
+      },
+      {
+        "name": "Local team and dedicated customer success per property",
+        "oktaforce": "included",
+        "market": "missing"
+      },
+      {
+        "name": "Certified integrations with ERPs and access control",
+        "oktaforce": "included",
+        "market": "partial"
+      }
+    ],
+    "legend": {
+      "included": "Available",
+      "partial": "Limited",
+      "missing": "Not offered"
+    },
+    "columns": {
+      "feature": "Feature",
+      "oktaforce": "OKTAFORCE",
+      "market": "Market"
+    }
+  },
+  "savingsChart": {
+    "title": "Annual cost comparison",
+    "description": "Based on a property with two lobbies and three shifts. Figures are estimated averages.",
+    "series": {
+      "traditional": "Traditional concierge",
+      "oktaforce": "OKTAFORCE"
+    },
+    "axis": {
+      "currency": "in BRL thousands"
+    },
+    "buckets": {
+      "payroll": "Payroll & labor",
+      "infrastructure": "Infrastructure",
+      "risk": "Risk & liabilities"
+    }
+  }
+}

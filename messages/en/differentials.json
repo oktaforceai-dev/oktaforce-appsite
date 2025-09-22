@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "OKTAFORCE Differentials",
+    "description": "Compare OKTAFORCE with the market: proprietary AI, real-time dashboards, premium support and proven savings.",
+    "keywords": "oktaforce differentials, remote concierge comparison, ai, dashboards, premium support"
+  },
+  "hero": {
+    "title": "Why demanding properties choose OKTAFORCE",
+    "subtitle": "We blend proprietary AI, transparent KPIs and specialized human operations to deliver measurable outcomes."
+  },
+  "valueGrid": {
+    "items": [
+      {
+        "title": "Proven savings",
+        "description": "Average 62% payroll reduction with ROI projection delivered before you sign."
+      },
+      {
+        "title": "Proactive security",
+        "description": "AI detects risks in milliseconds while operators confirm and execute playbooks without delay."
+      },
+      {
+        "title": "Real-time dashboards",
+        "description": "Clear indicators for boards and managers with one-click PDF and CSV export."
+      },
+      {
+        "title": "Premium support",
+        "description": "Dedicated customer success, on-site visits and direct communication with the 24/7 command center."
+      }
+    ]
+  },
+  "metrics": {
+    "title": "OKTAFORCE customer KPIs",
+    "items": [
+      {
+        "value": "78%",
+        "label": "incidents solved on the first call"
+      },
+      {
+        "value": "15s",
+        "label": "dashboard refresh SLA"
+      },
+      {
+        "value": "0",
+        "label": "breaches after deployment"
+      }
+    ]
+  },
+  "proof": {
+    "title": "Transparency in every step",
+    "items": [
+      "Monthly executive reports ready for board meetings",
+      "Audit portal with logs, recordings and evidence",
+      "Playbooks tailored to each property profile",
+      "Joint monitoring with integrators and security consultants"
+    ]
+  },
+  "cta": {
+    "title": "Request a personalized assessment",
+    "subtitle": "Receive a detailed comparison between your current scenario and the projected ROI with OKTAFORCE.",
+    "primary": "I want my assessment",
+    "secondary": "See detailed case studies"
+  }
+}

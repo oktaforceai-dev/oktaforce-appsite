@@ -1,0 +1,58 @@
+{
+  "branding": {
+    "tagline": "Intelligent security for communities"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "solutions": "Solutions",
+    "differentials": "Differentials",
+    "blog": "Blog",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "pricing": "Pricing"
+  },
+  "cta": {
+    "whatsapp": "Talk to a specialist",
+    "demo": "Request a demo",
+    "contact": "Get in touch",
+    "newsletter": "Join the newsletter",
+    "download": "Download resource"
+  },
+  "language": {
+    "label": "Change language",
+    "pt": "PT",
+    "en": "EN"
+  },
+  "themeToggle": {
+    "label": "Toggle color theme",
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode"
+  },
+  "footer": {
+    "title": "OKTAFORCE, zero blind spots",
+    "description": "Remote concierge powered by proprietary AI, 24/7 command center, redundant infrastructure and a dedicated local team.",
+    "cta": "Talk to an expert now",
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "followUs": "Follow our channels",
+    "legal": "© {year} OKTAFORCE. All rights reserved.",
+    "rights": ""
+  },
+  "form": {
+    "success": "We received your message. Our team will reach out soon.",
+    "error": "We could not submit right now. Please retry or contact us on WhatsApp.",
+    "required": "Required field",
+    "invalidEmail": "Provide a valid email",
+    "invalidPhone": "Provide a valid phone number"
+  },
+  "meta": {
+    "defaultTitle": "Remote concierge with artificial intelligence",
+    "defaultDescription": "Cut costs, remove human errors and raise protection at your property with the OKTAFORCE intelligent platform."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "cta": "Back to home"
+  }
+}

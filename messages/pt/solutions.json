@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Soluções OKTAFORCE",
+    "description": "Conheça os módulos de portaria remota, smart view, infraestrutura inteligente, recursos exclusivos e suporte premium da OKTAFORCE.",
+    "keywords": "soluções oktaforce, portaria remota, smart view, infraestrutura, suporte 24/7"
+  },
+  "hero": {
+    "title": "Portaria remota completa e escalável",
+    "subtitle": "Escolha os módulos que fazem sentido para o seu condomínio e conte com uma operação orquestrada por IA, protocolos humanizados e suporte premium.",
+    "cta": "Montar meu plano",
+    "tagline": "Arquitetura integrada"
+  },
+  "cta": {
+    "title": "Pronto para montar a configuração ideal?",
+    "subtitle": "Combine portaria remota, OKTAVISION e soluções de entregas inteligentes em um único plano sob medida.",
+    "primary": "Ver planos e preços",
+    "primaryHref": "/precos",
+    "secondary": "Falar com o time de soluções"
+  },
+  "sections": [
+    {
+      "key": "remote",
+      "title": "Portaria remota guiada por IA",
+      "headline": "Atendimento 24/7 com validação dupla e playbooks inteligentes",
+      "description": "Nossa central N+2 valida cada acesso com reconhecimento facial, biometria e autorização via aplicativo. Operadores certificados e IA proprietária trabalham em conjunto para eliminar brechas e manter moradores seguros.",
+      "bullets": [
+        "Autorização inteligente com biometria, reconhecimento facial e aplicativo do morador.",
+        "Triagem centralizada com verificação dupla (IA + operador certificado).",
+        "Registro de áudio, vídeo e eventos com histórico auditável em tempo real."
+      ]
+    },
+    {
+      "key": "oktavision",
+      "title": "OKTAVISION",
+      "headline": "Visão computacional que antecipa incidentes",
+      "description": "A plataforma analisa câmeras e sensores em milissegundos, identifica permanência indevida e comportamentos atípicos e dispara protocolos de resposta antes que o risco evolua.",
+      "bullets": [
+        "Detecção de permanência indevida, invasão e rotas suspeitas em tempo real.",
+        "Alertas automáticos que iniciam playbooks e acionam equipes táticas.",
+        "Dashboard com heatmaps, relatórios de risco e trilha de decisões."
+      ]
+    },
+    {
+      "key": "lockers",
+      "title": "Smart Locker & Smart Drop",
+      "headline": "Entrega inteligente para qualquer perfil de condomínio",
+      "description": "Do armário modular ao compartimento embutido, garantimos controle total de encomendas com notificações automáticas e rastreamento digital integrado ao app OKTAFORCE.",
+      "bullets": [
+        "Smart Locker modular com múltiplos tamanhos e rastreamento digital.",
+        "Smart Drop embutido e personalizável para grades e guaritas compactas.",
+        "Integração com o app OKTAFORCE, notificações automáticas e auditoria de entregas."
+      ]
+    }
+  ],
+  "support": {
+    "title": "Implantação orientada a resultados",
+    "items": [
+      {
+        "title": "Engenharia dedicada",
+        "description": "Projeto técnico, instalação turnkey e go-live com cronograma acompanhado pelo customer success."
+      },
+      {
+        "title": "Governança contínua",
+        "description": "Reuniões estratégicas, relatórios executivos e indicadores de SLA compartilhados com o conselho."
+      },
+      {
+        "title": "Contingência pronta",
+        "description": "Redundância N+2, plantão 24/7 e protocolos de resposta a incidentes com forças de apoio homologadas."
+      }
+    ]
+  },
+  "comparison": {
+    "title": "Comparativo rápido",
+    "features": [
+      {
+        "name": "IA proprietária com modelos treinados em base própria",
+        "oktaforce": "included",
+        "market": "partial"
+      },
+      {
+        "name": "Dashboard em tempo real com SLA e trilha de auditoria",
+        "oktaforce": "included",
+        "market": "missing"
+      },
+      {
+        "name": "Central redundante N+2 e backup em nuvem",
+        "oktaforce": "included",
+        "market": "partial"
+      },
+      {
+        "name": "Equipe local dedicada e customer success por condomínio",
+        "oktaforce": "included",
+        "market": "missing"
+      },
+      {
+        "name": "Integrações homologadas com ERPs e controle de acesso",
+        "oktaforce": "included",
+        "market": "partial"
+      }
+    ],
+    "legend": {
+      "included": "Disponível",
+      "partial": "Limitado",
+      "missing": "Não oferece"
+    },
+    "columns": {
+      "feature": "Recurso",
+      "oktaforce": "OKTAFORCE",
+      "market": "Mercado"
+    }
+  },
+  "savingsChart": {
+    "title": "Comparativo de custo anual",
+    "description": "Baseado em condomínio com duas portarias e três turnos. Valores médios estimados.",
+    "series": {
+      "traditional": "Portaria tradicional",
+      "oktaforce": "OKTAFORCE"
+    },
+    "axis": {
+      "currency": "em R$ mil"
+    },
+    "buckets": {
+      "payroll": "Folha e encargos",
+      "infrastructure": "Infraestrutura",
+      "risk": "Riscos e passivos"
+    }
+  }
+}

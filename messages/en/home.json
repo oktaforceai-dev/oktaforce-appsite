@@ -1,0 +1,179 @@
+{
+  "hero": {
+    "tagline": "Remote concierge powered by proprietary AI",
+    "title": "Proactive security that anticipates risks and cuts costs by up to 70%",
+    "subtitle": "OKTAFORCE combines a 24/7 command center, computer vision AI and a dedicated local team to eliminate human error and act before threats escalate.",
+    "caption": "Limited slots for live demos",
+    "primaryCta": "Talk to a specialist",
+    "secondaryCta": "Request a demo",
+    "stats": [
+      {
+        "value": "70%",
+        "label": "average reduction of concierge fixed costs"
+      },
+      {
+        "value": "78%",
+        "label": "of incidents solved on the first interaction"
+      },
+      {
+        "value": "24/7",
+        "label": "active monitoring with dual human + AI validation"
+      }
+    ]
+  },
+  "pains": {
+    "kicker": "Recurring pains",
+    "title": "Legacy concierge models are expensive and full of blind spots",
+    "subtitle": "Manual spreadsheets, unpredictable shifts and high turnover turn the lobby into a budget black hole. Meanwhile, visitors without validation and weak triage expose residents and assets.",
+    "items": {
+      "costs": {
+        "title": "Payroll that drains up to 70% of the condo budget",
+        "description": "Extra shifts, labor charges and night work increase monthly fees with no clear ROI. OKTAFORCE automates procedures and reallocates resources to innovation.",
+        "metric": "70% of the operational cost"
+      },
+      "humanError": {
+        "title": "Human errors and front-desk surrender",
+        "description": "Unstructured approaches and daily pressure create openings for intrusions or quick robberies. Our protocols are orchestrated by AI and certified operators.",
+        "metric": "Zero breaches among active customers"
+      },
+      "lackVisibility": {
+        "title": "No data to support decisions",
+        "description": "Reports arrive late and in different formats. The OKTAFORCE dashboard delivers real-time indicators, audit trails and alerts for every incident.",
+        "metric": "Refresh every 15 seconds"
+      },
+      "compliance": {
+        "title": "LGPD and privacy risks",
+        "description": "Visitor data gets scattered across spreadsheets and non-certified apps. We store everything in encrypted cloud infrastructure with custom retention policies.",
+        "metric": "Encrypted storage and audit trail"
+      },
+      "staffing": {
+        "title": "Unpredictable staffing and coverage gaps",
+        "description": "Shift swaps and absenteeism leave the property exposed. We run redundant command centers with certified operators and 24/7 protocols.",
+        "metric": "Guaranteed 24/7 coverage"
+      }
+    }
+  },
+  "benefits": {
+    "kicker": "Measurable outcomes",
+    "title": "Immediate impact for property managers, boards and residents",
+    "subtitle": "Designed for sophisticated communities that demand numbers, transparency and proof.",
+    "items": {
+      "savings": {
+        "title": "Measurable savings",
+        "description": "Reduce fixed costs, overtime and labor liabilities with a remote command center that scales with your property."
+      },
+      "security": {
+        "title": "AI-driven proactive security",
+        "description": "Intelligent recognition of faces, plates and suspicious patterns with coordinated response between operators and tactical partners."
+      },
+      "experience": {
+        "title": "Frictionless resident experience",
+        "description": "Resident app for pre-approved visitors, temporary QR codes, smart kiosks and multichannel communication."
+      },
+      "transparency": {
+        "title": "Radical transparency and governance",
+        "description": "Dashboards, recordings, SLA reports and audit logs ready for meetings, committees and compliance reviews."
+      }
+    }
+  },
+  "intelligence": {
+    "kicker": "Intelligent core",
+    "title": "OKTAFORCE proprietary AI runs in three layers",
+    "subtitle": "We merge sensors, video analytics and historical data to prevent incidents before they escalate.",
+    "layers": {
+      "sense": {
+        "title": "Continuous sensing",
+        "description": "Integrates cameras, access control, LPR and IoT devices to capture events in milliseconds."
+      },
+      "predict": {
+        "title": "Risk prediction",
+        "description": "Models trained with hundreds of thousands of occurrences detect anomalies and trigger protocols automatically."
+      },
+      "act": {
+        "title": "Coordinated action",
+        "description": "Certified operators validate AI alerts, interact with visitors and dispatch support partners within seconds."
+      }
+    },
+    "extras": [
+      "Auditable playbooks by property profile",
+      "Integration with property management platforms",
+      "Multi-channel alerts (app, email, WhatsApp, PBX)"
+    ]
+  },
+  "differentials": {
+    "kicker": "What sets us apart",
+    "title": "Robust infrastructure, specialized people and trustworthy data",
+    "items": {
+      "redundancy": {
+        "title": "N+2 resilient infrastructure",
+        "description": "Mirrored data centers in Brazil and abroad, dedicated links and automatic failover under 3 seconds."
+      },
+      "lgpd": {
+        "title": "Compliance and LGPD applied",
+        "description": "Processes reviewed by legal partners, encrypted storage and exhaustive logs for audits."
+      },
+      "dashboard": {
+        "title": "Executive dashboard and predictive reports",
+        "description": "SLA indicators, incident heatmap, unit ranking and one-click PDF or CSV export."
+      },
+      "service": {
+        "title": "Premium support 24/7",
+        "description": "Dedicated customer success per property, monthly on-site visits and a communication plan with the board."
+      }
+    }
+  },
+  "testimonials": {
+    "kicker": "Social proof",
+    "title": "Customers who already operate with OKTAFORCE",
+    "items": [
+      {
+        "quote": "We reduced concierge costs by 62% in the first quarter without losing residents' confidence. Board meetings are faster because we present clear metrics.",
+        "name": "Professional condo manager - gated community in Alphaville",
+        "role": "1,360 residential units"
+      },
+      {
+        "quote": "Integration with our access control and resident app eliminated queues. The OKTAFORCE team anticipates maintenance and keeps the board in the loop.",
+        "name": "Facility manager - corporate complex on Faria Lima",
+        "role": "5 office towers"
+      },
+      {
+        "quote": "LGPD compliance was a major concern. Now every interaction is registered with secure retention for audits when needed.",
+        "name": "Mixed-use condo board in Rio de Janeiro",
+        "role": "Residential and office areas"
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Total transparency before you sign",
+    "items": [
+      {
+        "question": "How long does implementation take?",
+        "answer": "After the assessment we deliver the rollout plan within 10 days. Activation happens between 30 and 45 days depending on the current infrastructure."
+      },
+      {
+        "question": "Do you integrate with existing systems?",
+        "answer": "Our technical squad connects the OKTAFORCE hub to access control, CCTV and condo ERPs using APIs or approved connectors."
+      },
+      {
+        "question": "Can we keep an on-site concierge?",
+        "answer": "When needed we activate a hybrid model with on-site agents during peak hours or works while the remote center remains the decision core."
+      },
+      {
+        "question": "Can I monitor KPIs in real time?",
+        "answer": "Yes. The dashboard shows SLA, incident breakdown, audit trails and recordings. You can configure alerts by email or WhatsApp."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Schedule a free OKTAFORCE assessment",
+    "subtitle": "We uncover savings, map risks and deliver a modernization roadmap in under seven days.",
+    "primary": "Talk on WhatsApp",
+    "secondary": "Request a tailored proposal"
+  },
+  "meta": {
+    "title": "Remote concierge with AI - OKTAFORCE",
+    "description": "Discover OKTAFORCE remote concierge with AI, 24/7 monitoring and executive dashboards for demanding properties.",
+    "keywords": "remote concierge, security, artificial intelligence, access control, oktaforce"
+  }
+}

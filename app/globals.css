@@ -1,0 +1,184 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-surface: #f7f8ff;
+  --color-surface-alt: #ffffff;
+  --color-foreground: #0f172a;
+  --color-muted: #475569;
+  --color-border: rgba(15, 23, 42, 0.12);
+  --grid-line: rgba(124, 58, 237, 0.08);
+  --max-content-width: 80rem;
+  /* Espaçamento vertical responsivo das seções */
+  --section-pad-min: 4rem;   /* 64px em telas pequenas */
+  --section-pad-fluid: 6vw;  /* cresce com a largura da viewport */
+  --section-pad-max: 6rem;   /* 96px limite superior */
+}
+
+:root.dark {
+  --color-surface: #080a12;
+  --color-surface-alt: #101323;
+  --color-foreground: #f8fafc;
+  --color-muted: #a0aec0;
+  --color-border: rgba(148, 163, 184, 0.18);
+  --grid-line: rgba(30, 41, 59, 0.2);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-surface font-sans text-foreground antialiased text-[18px] leading-[1.7];
+}
+
+a {
+  @apply transition-colors;
+}
+
+a:focus-visible,
+button:focus-visible {
+  @apply outline-none ring-2 ring-brand;
+}
+
+.bg-tech {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.bg-tech::before,
+.bg-tech::after {
+  content: '';
+  position: absolute;
+  inset: -10%;
+  pointer-events: none;
+  transition: background 0.3s ease;
+}
+
+.bg-tech::before {
+  background:
+    radial-gradient(70rem 40rem at 0% 10%, rgba(124, 58, 237, 0.25), transparent 65%),
+    radial-gradient(60rem 30rem at 100% 20%, rgba(31, 182, 255, 0.18), transparent 60%),
+    radial-gradient(80rem 40rem at 50% 100%, rgba(124, 58, 237, 0.15), transparent 70%),
+    repeating-linear-gradient(0deg, var(--grid-line) 0 1px, transparent 1px 120px),
+    repeating-linear-gradient(90deg, var(--grid-line) 0 1px, transparent 1px 120px);
+  filter: blur(0.2px);
+}
+
+.bg-tech::after {
+  --x: 15%;
+  --y: 25%;
+  background: radial-gradient(60rem 60rem at var(--x) var(--y), rgba(31, 182, 255, 0.18), transparent 55%);
+  animation: spotlight 14s ease-in-out infinite;
+}
+
+@keyframes spotlight {
+  0% {
+    --x: 15%;
+    --y: 25%;
+  }
+  33% {
+    --x: 75%;
+    --y: 30%;
+  }
+  66% {
+    --x: 35%;
+    --y: 85%;
+  }
+  100% {
+    --x: 15%;
+    --y: 25%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bg-tech::after {
+    animation: none;
+  }
+}
+
+.card-glass {
+  backdrop-filter: blur(16px);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.02)
+    )
+    var(--glass-background, rgba(124, 58, 237, 0.06));
+}
+
+.dark .card-glass {
+  background: linear-gradient(
+      rgba(15, 23, 42, 0.38),
+      rgba(15, 23, 42, 0.62)
+    )
+    var(--glass-background, rgba(124, 58, 237, 0.12));
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-[var(--max-content-width)] px-8 md:px-14 lg:px-20;
+}
+
+.section-padding {
+  @apply py-20 md:py-28;
+}
+
+.section-kicker {
+  @apply text-xs font-semibold uppercase tracking-[0.3em] text-brand;
+}
+
+.section-title {
+  @apply mt-3 font-display text-3xl font-semibold text-foreground md:text-4xl;
+}
+
+.section-subtitle {
+  @apply mt-4 text-base text-muted md:text-lg;
+}
+
+.prose-brand a {
+  @apply text-brand underline-offset-4 hover:underline;
+}
+
+.prose-brand strong {
+  @apply text-foreground;
+}
+
+.prose-brand ul {
+  @apply list-disc pl-6;
+}
+
+.prose-brand h2 {
+  @apply font-display text-2xl font-semibold;
+}
+
+.prose-brand h3 {
+  @apply font-display text-xl font-semibold;
+}
+
+.prose-brand p + p {
+  @apply mt-4;
+}
+
+@layer base {
+  section, .section {
+    /* Espaçamento vertical dinâmico (substitui media queries fixas) */
+    padding-block: clamp(var(--section-pad-min), mx-max(--section-pad-fluid), var(--section-pad-max));
+  }
+  
+  /* tipografia base (14–16px mobile → 17px desktop) */
+  html { font-size: 16px; }
+  @media (min-width: 1024px) {
+    html { font-size: 17px; }
+  }
+}
+
+.bg-tech::before,
+.bg-tech::after { z-index: 0; }
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+ ⨯ ./app/layout.tsx
+Error:   [31mx[0m Unexpected token `html`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Adalba Pro\Documentos\GitHub\oktaforce-coming-soon\app\layout.tsx[0m:24:1]
+ [2m21[0m |   children: React.ReactNode;
+ [2m22[0m | }) {
+ [2m23[0m |   return (
+ [2m24[0m |     <html lang="pt" className={${montserrat.variable} }>
+    : [35;1m     ^^^^[0m
+ [2m25[0m |       <body className="flex min-h-dvh flex-col antialiased">{children}</body>
+ [2m26[0m |     </html>
+ [2m27[0m |   );
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/layout.tsx
+ ⨯ ./app/layout.tsx
+Error:   [31mx[0m Unexpected token `html`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Adalba Pro\Documentos\GitHub\oktaforce-coming-soon\app\layout.tsx[0m:24:1]
+ [2m21[0m |   children: React.ReactNode;
+ [2m22[0m | }) {
+ [2m23[0m |   return (
+ [2m24[0m |     <html lang="pt" className={${montserrat.variable} }>
+    : [35;1m     ^^^^[0m
+ [2m25[0m |       <body className="flex min-h-dvh flex-col antialiased">{children}</body>
+ [2m26[0m |     </html>
+ [2m27[0m |   );
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/layout.tsx
+ ⨯ ./app/layout.tsx
+Error:   [31mx[0m Unexpected token `html`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Adalba Pro\Documentos\GitHub\oktaforce-coming-soon\app\layout.tsx[0m:24:1]
+ [2m21[0m |   children: React.ReactNode;
+ [2m22[0m | }) {
+ [2m23[0m |   return (
+ [2m24[0m |     <html lang="pt" className={${montserrat.variable} }>
+    : [35;1m     ^^^^[0m
+ [2m25[0m |       <body className="flex min-h-dvh flex-col antialiased">{children}</body>
+ [2m26[0m |     </html>
+ [2m27[0m |   );
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/layout.tsx
+^C^C

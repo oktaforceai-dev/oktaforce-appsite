@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 2893.5 2854.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 22.9;
+        stroke-width: .6px;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #231f20;
+      }
+
+      .cls-2 {
+        fill: #7f57a4;
+        stroke: #7f57a4;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #391b63;
+        stroke: #391b63;
+      }
+
+      .cls-5 {
+        fill: #693494;
+        stroke: #693494;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Camada_1">
+      <g id="Camada_1-2" data-name="Camada_1">
+        <g>
+          <polygon class="cls-3" points="19.4 839.1 867.5 0 2036.5 0 2867.7 839.8 2867.7 2022.3 2036.5 2854.9 861.4 2854.9 19.4 2019.8 19.4 839.1"/>
+          <polygon class="cls-2" points="1455.2 2602 861.4 2854.9 19.4 2019.8 1455.2 2602"/>
+          <polygon class="cls-2" points="2594.7 1431.8 2867.7 2022.3 2036.5 2854.9 2594.7 1431.8"/>
+          <polygon class="cls-2" points="2036.5 0 1422.2 258.5 2867.7 839.8 2036.5 0"/>
+          <polygon class="cls-2" points="19.4 839.1 867.5 0 293.1 1429.6 19.4 839.1"/>
+          <polygon class="cls-5" points="19.4 839.1 293.1 1429.6 675.9 1808.3 894.6 2180.5 19.4 2019.8 19.4 839.1"/>
+          <polygon class="cls-5" points="1455.2 2602 1800.2 2206 2184.9 1990.9 2036.5 2854.9 861.4 2854.9 1455.2 2602"/>
+          <polygon class="cls-5" points="2594.7 1431.8 2193.9 1053 1983 665 2867.7 839.8 2867.7 2022.3 2594.7 1431.8"/>
+          <polygon class="cls-5" points="708.5 826.1 867.5 0 2036.5 0 1422.2 258.5 1087.6 642.8 708.5 826.1"/>
+          <polygon class="cls-4" points="894.6 2180.5 675.9 1808.3 293.1 1429.6 867.5 0 708.5 826.1 1087.6 642.8 1422.2 258.5 2867.7 839.8 1983 665 2199 1062.4 2594.7 1431.8 2036.5 2854.9 2184.9 1990.9 1800.2 2206 1455.2 2602 19.4 2019.8 894.6 2180.5"/>
+          <path class="cls-1" d="M1443.5,2186.3c418,0,758.8-340.9,758.8-758.8s-340.9-758.8-758.8-758.8-758.8,340.9-758.8,758.8,340.9,758.8,758.8,758.8Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

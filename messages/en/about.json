@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "About us - OKTAFORCE",
+    "description": "Learn about OKTAFORCE, our mission, vision and values to reinvent remote concierge with artificial intelligence in Brazil.",
+    "keywords": "oktaforce, about us, mission, vision, values, remote concierge"
+  },
+  "hero": {
+    "tagline": "About us",
+    "title": "Global DNA, operation fully dedicated to Brazil",
+    "subtitle": "We combine international investment, proprietary technology and a local team that truly understands Brazilian condominiums.",
+    "cta": "Talk to our team"
+  },
+  "story": {
+    "title": "Built to raise the security standard",
+    "paragraphs": [
+      "OKTAFORCE was founded in 2021 by specialists in electronic security, data science and property management who were leading projects in North America and Brazil.",
+      "We identified a common pattern: sophisticated condominiums wanted to cut expenses without losing a strong sense of protection. The market was crowded with promises but lacked transparency. We decided to create a platform that merges proprietary AI, human-centric protocols and radical governance.",
+      "In 2023 we established our operations center in São Paulo with a Brazilian team, N+2 redundancy and strategic partnerships with security and technology firms. Since then we have grown alongside professional condo managers, administrators and investment groups that demand data, SLA and long-term partnership."
+    ]
+  },
+  "missionVision": {
+    "mission": "Deliver intelligent, sustainable and transparent security for condominiums ready to evolve beyond the traditional concierge model.",
+    "vision": "Become the benchmark for remote concierge and proactive risk management in Latin America by combining AI, specialized operations and seamless resident experience.",
+    "values": [
+      {
+        "title": "Continuous innovation",
+        "description": "We evolve constantly, applying technology and practical intelligence to unlock better outcomes."
+      },
+      {
+        "title": "Trust and transparency",
+        "description": "Every relationship is guided by ethics, clarity and accessible data for boards and residents."
+      },
+      {
+        "title": "Service excellence",
+        "description": "Quality is present in every detail, from incident handling to 24/7 monitoring."
+      },
+      {
+        "title": "Agility and efficiency",
+        "description": "Agile playbooks tailored to each property ensure the right response at the right time."
+      },
+      {
+        "title": "People first",
+        "description": "We recognise collaborators, residents and partners as essential parts of our ecosystem."
+      },
+      {
+        "title": "Sustainability and future",
+        "description": "We operate responsibly, respecting resources, communities and local regulations."
+      },
+      {
+        "title": "Security as a priority",
+        "description": "We protect people, assets and data with proprietary technology and full redundancy."
+      },
+      {
+        "title": "Long-term partnership",
+        "description": "We build lasting relationships with clear goals, measurable ROI and shared governance."
+      }
+    ],
+    "missionHeading": "Our mission",
+    "visionHeading": "Our vision",
+    "valuesHeading": "Values that guide us"
+  },
+  "timeline": {
+    "title": "Milestones",
+    "items": [
+      {
+        "year": "2021",
+        "title": "Research and prototyping",
+        "description": "Founding team validates the concept of proactive concierge with AI and governance experts."
+      },
+      {
+        "year": "2022",
+        "title": "Investment and AI lab",
+        "description": "We receive international funding and open a computer vision lab with a proprietary data lake."
+      },
+      {
+        "year": "2023",
+        "title": "Operations center in São Paulo",
+        "description": "We launch the N+2 command center, certify operators and onboard the first premium condominiums."
+      },
+      {
+        "year": "2024",
+        "title": "Expansion and partnerships",
+        "description": "Alliances with administrators, integrators and security consultants across SP, RJ, PR and DF."
+      }
+    ]
+  },
+  "team": {
+    "title": "Multidisciplinary team, shared outcomes",
+    "subtitle": "24/7 operation with dedicated tech squads, compliance specialists and customer success for every property.",
+    "pillars": [
+      {
+        "title": "Operations center",
+        "description": "Certified operators, weekly drills, incident simulations and continuous performance reviews."
+      },
+      {
+        "title": "Engineering & AI",
+        "description": "In-house developers, data scientists and infrastructure analysts managing the AI core, integrations and automations."
+      },
+      {
+        "title": "Customer success",
+        "description": "Dedicated consultants per condominium, governance meetings, ROI reports and human support for boards and residents."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to turn your property into a security benchmark?",
+    "subtitle": "Talk to our strategic team, schedule a visit to the command center and see the platform in action.",
+    "primary": "Schedule a visit",
+    "secondary": "Download the company overview"
+  },
+  "why": {
+    "title": "Why OKTAFORCE",
+    "items": [
+      {
+        "title": "Brazilian operations, global DNA",
+        "description": "N+2 command center in São Paulo, local specialists and international investment for scale and proximity."
+      },
+      {
+        "title": "Radical transparency",
+        "description": "Live SLA, recordings, indicators and audit trails available to property managers and boards."
+      },
+      {
+        "title": "Proprietary AI and resilient infrastructure",
+        "description": "Smart View, redundant links and N+2 contingency guarantee continuous availability."
+      },
+      {
+        "title": "ROI-driven partnership",
+        "description": "Dedicated customer success, governance meetings and evolution roadmaps for every condominium."
+      }
+    ]
+  }
+}

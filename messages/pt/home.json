@@ -1,0 +1,179 @@
+{
+  "hero": {
+    "tagline": "Portaria remota com IA proprietária",
+    "title": "Segurança proativa que antecipa riscos e reduz custos em até 70%",
+    "subtitle": "A OKTAFORCE combina central 24/7, IA de visão computacional e equipe local para eliminar falhas humanas e proteger o condomínio antes que o risco aconteça.",
+    "caption": "Agenda limitada para demonstrações ao vivo",
+    "primaryCta": "Falar com um especialista",
+    "secondaryCta": "Solicitar demonstração",
+    "stats": [
+      {
+        "value": "70%",
+        "label": "redução média dos custos fixos da portaria"
+      },
+      {
+        "value": "78%",
+        "label": "das ocorrências solucionadas no primeiro chamado"
+      },
+      {
+        "value": "24/7",
+        "label": "monitoramento ativo com dupla checagem humana + IA"
+      }
+    ]
+  },
+  "pains": {
+    "kicker": "Dores recorrentes",
+    "title": "As antigas portarias custam caro e deixam brechas perigosas",
+    "subtitle": "Planilhas manuais, escalas imprevisíveis e alto turnover transformam a portaria em um centro de gastos sem previsibilidade. Enquanto isso, visitantes sem validação e falhas na triagem expõem moradores e patrimônio.",
+    "items": {
+      "costs": {
+        "title": "Folha de pagamento que consome até 70% do orçamento",
+        "description": "Escalas extras, encargos e horas noturnas aumentam a taxa condominial sem retorno claro. A OKTAFORCE automatiza procedimentos e redistribui recursos para inovação.",
+        "metric": "70% do custo operacional"
+      },
+      "humanError": {
+        "title": "Falhas humanas e rendição da portaria física",
+        "description": "Abordagens sem protocolo e pressão no dia a dia deixam brechas para invasões ou sequestros relâmpago. Nossos protocolos são orquestrados por IA e operadores especializados.",
+        "metric": "Zero invasões registradas nos clientes ativos"
+      },
+      "lackVisibility": {
+        "title": "Sem dados para tomar decisão",
+        "description": "Relatórios chegam atrasados e em diferentes formatos. O dashboard da OKTAFORCE entrega indicadores em tempo real, trilhas de auditoria e alertas para cada incidente.",
+        "metric": "Atualização a cada 15 segundos"
+      },
+      "compliance": {
+        "title": "Risco jurídico e falta de conformidade com a LGPD",
+        "description": "Dados de visitantes ficam espalhados entre planilhas e aplicativos não homologados. Armazenamos tudo em nuvem segura com políticas de retenção configuráveis.",
+        "metric": "Armazenamento criptografado"
+      },
+      "staffing": {
+        "title": "Escalas imprevisíveis e cobertura limitada",
+        "description": "Trocas de turno e ausências deixam o condomínio vulnerável. Operamos com central redundante, equipe treinada e protocolos 24/7.",
+        "metric": "Cobertura integral garantida"
+      }
+    }
+  },
+  "benefits": {
+    "kicker": "Benefícios tangíveis",
+    "title": "Resultados imediatos para síndico, conselho e moradores",
+    "subtitle": "A plataforma foi criada para condomínios de alta exigência, onde prova social, números e transparência são imprescindíveis.",
+    "items": {
+      "savings": {
+        "title": "Economia mensurável",
+        "description": "Reduza despesas fixas, horas extras e passivos trabalhistas com uma central remota que escala conforme a necessidade do condomínio."
+      },
+      "security": {
+        "title": "Segurança proativa guiada por IA",
+        "description": "Reconhecimento inteligente de rostos, placas e padrões suspeitos com resposta coordenada entre operadores e parceiros táticos."
+      },
+      "experience": {
+        "title": "Experiência fluida para moradores e visitantes",
+        "description": "Aplicativo para pré-autorização de visitantes, QR Codes temporários, totens inteligentes e comunicação multicanal."
+      },
+      "transparency": {
+        "title": "Transparência radical e governança",
+        "description": "Dashboards, gravações, relatórios de SLA e auditoria completos para assembleias, auditorias e tomada de decisão."
+      }
+    }
+  },
+  "intelligence": {
+    "kicker": "Coração inteligente",
+    "title": "A IA proprietária da OKTAFORCE opera em três camadas",
+    "subtitle": "Integramos sensores, vídeo analítico e dados históricos para prevenir incidentes antes que se tornem ameaças.",
+    "layers": {
+      "sense": {
+        "title": "Sensoriamento contínuo",
+        "description": "Integração com câmeras, controles de acesso, LPR e IoT para capturar eventos em milissegundos."
+      },
+      "predict": {
+        "title": "Predição de riscos",
+        "description": "Modelos treinados com centenas de milhares de ocorrências identificam desvios e acionam protocolos automaticamente."
+      },
+      "act": {
+        "title": "Ação coordenada",
+        "description": "Operadores certificados confirmam a IA, interagem com o visitante e acionam forças de apoio em segundos."
+      }
+    },
+    "extras": [
+      "Playbooks auditáveis por tipo de condomínio",
+      "Integração com sistemas de gestão condominial",
+      "Alertas multicanal (app, e-mail, WhatsApp, PABX)"
+    ]
+  },
+  "differentials": {
+    "kicker": "Por que somos diferentes",
+    "title": "Infraestrutura robusta, equipe humana especializada e dados confiáveis",
+    "items": {
+      "redundancy": {
+        "title": "Infraestrutura redundante N+2",
+        "description": "Data centers espelhados no Brasil e no exterior, links dedicados e failover automático em menos de 3 segundos."
+      },
+      "lgpd": {
+        "title": "Governança e LGPD na prática",
+        "description": "Fluxos revisados por escritório jurídico parceiro, armazenamento criptografado e logs completos para auditorias."
+      },
+      "dashboard": {
+        "title": "Dashboard executivo e relatórios preditivos",
+        "description": "Indicadores de SLA, mapa de calor de ocorrências, ranking de unidades e download em PDF ou CSV em um clique."
+      },
+      "service": {
+        "title": "Suporte premium 24/7",
+        "description": "Customer success dedicado por condomínio, visitas presenciais mensais e plano de comunicação com o conselho."
+      }
+    }
+  },
+  "testimonials": {
+    "kicker": "Prova social",
+    "title": "Resultados compartilhados pelos nossos clientes",
+    "items": [
+      {
+        "quote": "Conseguimos reduzir 62% do custo de portaria no primeiro trimestre sem abrir mão da sensação de segurança. As assembleias ficaram mais eficientes porque apresentamos relatórios claros.",
+        "name": "Síndica profissional de condomínio clube em Alphaville",
+        "role": "1360 unidades residenciais"
+      },
+      {
+        "quote": "A integração com o controle de acesso e com o nosso aplicativo de moradores eliminou filas na guarita. A equipe da OKTAFORCE antecipa manutenções e mantém o conselho informado.",
+        "name": "Administrador de complexo corporativo na Faria Lima",
+        "role": "5 torres comerciais"
+      },
+      {
+        "quote": "Tínhamos preocupação com LGPD e retenção de dados. Hoje todas as interações ficam registradas com facilidade para consulta e auditoria.",
+        "name": "Conselho gestor de condomínio misto no Rio de Janeiro",
+        "role": "Área mista residencial e escritórios"
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "Perguntas frequentes",
+    "title": "Transparência antes da contratação",
+    "items": [
+      {
+        "question": "Qual é o prazo de implantação?",
+        "answer": "Após o diagnóstico, entregamos o plano de implantação em até 10 dias. A ativação ocorre entre 30 e 45 dias conforme o escopo tecnológico existente."
+      },
+      {
+        "question": "Como funciona a integração com sistemas atuais?",
+        "answer": "Nossa equipe técnica conecta o hub OKTAFORCE aos controles de acesso, CFTV e ERPs condominiais. Trabalhamos com APIs ou conectores homologados."
+      },
+      {
+        "question": "Vocês oferecem porteiro presencial?",
+        "answer": "Quando necessário, ativamos o plano híbrido com agentes presenciais em momentos de pico ou obras, mantendo a central remota como núcleo de decisão."
+      },
+      {
+        "question": "É possível acompanhar indicadores em tempo real?",
+        "answer": "Sim. O dashboard traz SLA de atendimento, incidentes por tipo, trilha de auditoria e gravações. Você define alertas por e-mail ou WhatsApp."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Agende um diagnóstico gratuito com a OKTAFORCE",
+    "subtitle": "Identificamos economias, mapeamos riscos e entregamos um plano de modernização em até 7 dias.",
+    "primary": "Falar pelo WhatsApp",
+    "secondary": "Quero receber uma proposta"
+  },
+  "meta": {
+    "title": "Portaria remota com IA - OKTAFORCE",
+    "description": "Conheça a solução de portaria remota OKTAFORCE com inteligência artificial, monitoramento 24/7 e dashboards para síndicos exigentes.",
+    "keywords": "portaria remota, segurança condominial, inteligência artificial, controle de acesso, oktaforce"
+  }
+}

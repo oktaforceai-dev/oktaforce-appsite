@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Blog OKTAFORCE",
+    "description": "Insights sobre segurança condominial, inteligência artificial e cases de portaria remota da OKTAFORCE.",
+    "keywords": "blog oktaforce, segurança condominial, inteligência artificial, portaria remota"
+  },
+  "hero": {
+    "title": "Conteúdo para síndicos e gestores exigentes",
+    "subtitle": "Tendências, cases e boas práticas para transformar a segurança do seu condomínio com tecnologia e dados.",
+    "searchPlaceholder": "Buscar por palavra-chave..."
+  },
+  "categories": [
+    "Tendências e tecnologia",
+    "Casos reais",
+    "Gestão condominial",
+    "LGPD e compliance"
+  ],
+  "filters": {
+    "all": "Todas as categorias"
+  },
+  "newsletter": {
+    "title": "Receba novidades e materiais exclusivos",
+    "description": "Assine a newsletter para ganhar acesso a checklists, estudos de caso e convites para eventos fechados.",
+    "placeholder": "Digite seu e-mail",
+    "cta": "Assinar newsletter",
+    "success": "Obrigado! Em breve você receberá nossos conteúdos.",
+    "error": "Não foi possível cadastrar agora. Tente novamente."
+  },
+  "empty": {
+    "title": "Nenhum artigo encontrado",
+    "subtitle": "Ajuste os filtros ou entre em contato para receber materiais personalizados."
+  },
+  "fallbackPosts": [
+    {
+      "slug": "visao-computacional-na-portaria-remota",
+      "title": "Como a visão computacional reduz falsos acessos em condomínios",
+      "excerpt": "Entenda como IA e protocolos humanizados evitam falhas na liberação de visitantes e entregadores.",
+      "thumbnail": "/img_camerasAPP.webp",
+      "tags": [
+        "Tendências e tecnologia"
+      ],
+      "publishedAt": "2024-05-12"
+    },
+    {
+      "slug": "case-condominio-clube-economia-62",
+      "title": "Case: condomínio clube reduz 62% do custo de portaria",
+      "excerpt": "Conheça o plano de implantação, os indicadores acompanhados e como o conselho aprovou a mudança.",
+      "thumbnail": "/img_monitoramenteEfetivo.webp",
+      "tags": [
+        "Casos reais"
+      ],
+      "publishedAt": "2024-03-28"
+    },
+    {
+      "slug": "governanca-lgpd-portaria-remota",
+      "title": "LGPD na portaria remota: checklist de governança",
+      "excerpt": "Checklist prático para síndicos garantirem segurança jurídica na gestão de dados de visitantes.",
+      "thumbnail": "/img_notificacaoPush.webp",
+      "tags": [
+        "LGPD e compliance"
+      ],
+      "publishedAt": "2024-02-14"
+    }
+  ],
+  "post": {
+    "back": "Voltar para o blog",
+    "publishedOn": "Publicado em {date}",
+    "share": "Compartilhar"
+  }
+}

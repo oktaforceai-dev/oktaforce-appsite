@@ -1,0 +1,58 @@
+{
+  "branding": {
+    "tagline": "Segurança inteligente para condomínios"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Quem Somos",
+    "solutions": "Soluções",
+    "differentials": "Diferenciais",
+    "blog": "Blog",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "pricing": "Preços"
+  },
+  "cta": {
+    "whatsapp": "Falar com especialista",
+    "demo": "Solicitar demonstração",
+    "contact": "Entrar em contato",
+    "newsletter": "Assinar newsletter",
+    "download": "Baixar material"
+  },
+  "language": {
+    "label": "Mudar idioma",
+    "pt": "PT",
+    "en": "EN"
+  },
+  "themeToggle": {
+    "label": "Alternar tema de cor",
+    "lightMode": "Ativar modo claro",
+    "darkMode": "Ativar modo escuro"
+  },
+  "footer": {
+    "title": "OKTAFORCE, segurança sem pontos cegos",
+    "description": "Portaria remota com IA proprietária, central 24/7, redundância de infraestrutura e equipe local dedicada.",
+    "cta": "Falar com um especialista agora",
+    "quickLinks": "Links rápidos",
+    "contact": "Contato",
+    "followUs": "Acompanhe nossos canais",
+    "legal": "© {year} OKTAFORCE. Todos os direitos reservados.",
+    "rights": ""
+  },
+  "form": {
+    "success": "Recebemos seus dados! Nosso time retornará em breve.",
+    "error": "Não foi possível enviar no momento. Tente novamente ou fale via WhatsApp.",
+    "required": "Campo obrigatório",
+    "invalidEmail": "Informe um e-mail válido",
+    "invalidPhone": "Informe um telefone válido"
+  },
+  "meta": {
+    "defaultTitle": "Portaria remota com inteligência artificial",
+    "defaultDescription": "Reduza custos, elimine riscos humanos e eleve a proteção do seu condomínio com a plataforma inteligente OKTAFORCE."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "A página que você procura não existe ou foi movida.",
+    "cta": "Voltar para a Inicio"
+  }
+}

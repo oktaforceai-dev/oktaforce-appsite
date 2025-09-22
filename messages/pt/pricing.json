@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Planos e preços – OKTAFORCE",
+    "description": "Conheça seis planos modulares de portaria remota com IA, atendimento humanizado e redundância total para condomínios residenciais e comerciais.",
+    "keywords": "planos portaria remota, preços portaria virtual, oktaforce, segurança condominial"
+  },
+  "hero": {
+    "tagline": "Planos sob medida",
+    "title": "Seis planos para levar o seu condomínio à nova era da segurança",
+    "description": "Combine o Smart View, nossa IA proprietária, com atendimento humano e infraestrutura redundante. Escolha a configuração ideal ou personalize módulos conforme a maturidade da sua operação.",
+    "primaryCta": "Falar com um especialista",
+    "secondaryCta": "Solicitar proposta personalizada",
+    "caption": "Agenda limitada para demonstrações ao vivo",
+    "metrics": [
+      {
+        "value": "70%",
+        "label": "redução média dos custos operacionais"
+      },
+      {
+        "value": "5 s",
+        "label": "tempo médio de resposta em chamadas prioritárias"
+      },
+      {
+        "value": "24/7",
+        "label": "monitoramento contínuo com operadores dedicados"
+      }
+    ]
+  },
+  "plans": {
+    "title": "Escolha o plano ideal para o seu condomínio",
+    "subtitle": "Todos os planos contam com o Smart View, redundância N+2 e suporte 24/7. A OKTAFORCE personaliza sensores, integrações e protocolos conforme as suas necessidades.",
+    "disclaimer": "Valores mensais estimados para o número de unidades indicado. Projetos com maior demanda ou cenários especiais recebem estudo de viabilidade personalizado.",
+    "list": [
+      {
+        "id": "essencia",
+        "badge": "Entrada inteligente",
+        "name": "Plano Essência",
+        "headline": "Autonomia com segurança e controle direto pelo morador",
+        "audience": "Para quem quer começar com autonomia e segurança.",
+        "priceLabel": "Plano mensal",
+        "price": "R$ 3.990",
+        "priceNote": "Valor correspondente a atendimento de até 120 unidades. Acima disso, elabore um estudo com nossa equipe.",
+        "description": "Ideal para condomínios que desejam reduzir custos sem abrir mão da segurança. O morador controla a liberação de acesso com monitoramento em tempo real pelo aplicativo OKTAFORCE.",
+        "featuresTitle": "Recursos inclusos",
+        "features": [
+          "Controle de acesso por reconhecimento facial, biometria e chave mobile.",
+          "Interfones dedicados e integração direta com o aplicativo do morador.",
+          "Câmeras FHD com gravação redundante em data center por 15 dias.",
+          "Aplicativo completo para autorizações, gestão de encomendas e áreas comuns.",
+          "Monitoramento preventivo e suporte técnico 24h com equipe OKTAFORCE.",
+          "Limite de até 4 portas de pedestres e 2 portões de veículos (expansões sob análise).",
+          "Sistema de incêndio integrado com destravamento automático nas rotas de fuga.",
+          "Nobreaks individuais em cada portão e mininobreaks nos acessos externos."
+        ],
+        "note": "Portas e portões adicionais podem ser contratados como add-on."
+      },
+      {
+        "id": "impacto",
+        "badge": "Mais contratado",
+        "name": "Plano Impacto",
+        "headline": "Atendimento remoto profissional com triagem centralizada",
+        "audience": "Para quem quer ir além do básico com atendimento profissional e controle centralizado.",
+        "priceLabel": "Plano mensal",
+        "price": "R$ 5.990",
+        "priceNote": "Valor correspondente a atendimento de até 80 unidades. Consulte condições para empreendimentos maiores.",
+        "description": "O visitante é atendido diretamente pela central OKTAFORCE. A equipe valida documentos, voz e vídeo antes de liberar o acesso, seguindo protocolos definidos com o síndico.",
+        "featuresTitle": "Recursos adicionais",
+        "features": [
+          "Atendimento remoto humanizado por operadores dedicados.",
+          "Triagem centralizada com validação em vídeo e áudio gravados.",
+          "Automação inteligente com IA para priorização e registro das ocorrências.",
+          "Suporte técnico com SLA de até 1h30 para riscos críticos.",
+          "Troca de peças sem custo adicional durante a vigência contratual.",
+          "Todos os recursos do Plano Essência."
+        ]
+      },
+      {
+        "id": "supremo",
+        "badge": "Segurança máxima",
+        "name": "Plano Supremo",
+        "headline": "Validações duplas e rastreabilidade total dos acessos",
+        "audience": "Para quem exige o máximo em segurança, tecnologia e controle total.",
+        "priceLabel": "Plano mensal",
+        "price": "R$ 6.990",
+        "priceNote": "Valor correspondente a atendimento de até 80 unidades. Acima disso, nossa engenharia realiza estudo técnico.",
+        "description": "Inclui dupla validação de veículos e automação dos blocos térreos. Cada acesso é monitorado por IA, gravações redundantes e trilhas de auditoria completas.",
+        "featuresTitle": "Recursos inclusos",
+        "features": [
+          "Dupla validação de veículos com portão interno ou controle de elevador.",
+          "Fechamento automatizado dos blocos na parte térrea.",
+          "Smart Drop integrado para recebimento seguro de encomendas.",
+          "Monitoramento perimetral com sensores IVA e cercas elétricas integradas.",
+          "Dashboards com trilhas de auditoria para cada liberação.",
+          "Todos os recursos do Plano Impacto."
+        ]
+      },
+      {
+        "id": "elite",
+        "badge": "Tecnologia avançada",
+        "name": "Plano Elite",
+        "headline": "IA aplicada ao dia a dia do condomínio",
+        "audience": "Para quem quer tudo e mais um pouco.",
+        "priceLabel": "Plano mensal",
+        "price": "R$ 7.990",
+        "priceNote": "Valor correspondente a atendimento de até 80 unidades. Personalizamos módulos para empreendimentos premium.",
+        "description": "Integra Smart Locker, OktaVision e automações analíticas para elevar a experiência dos moradores e a eficiência da operação.",
+        "featuresTitle": "Recursos adicionais",
+        "features": [
+          "Smart Locker com múltiplos compartimentos e rastreamento digital.",
+          "OktaVision: poste de monitoramento com câmeras analíticas e IA proprietária.",
+          "Integração com Correios e transportadoras para logística de entregas.",
+          "Painel de gestão com visibilidade total dos acessos e eventos.",
+          "Automação de rondas virtuais e alertas proativos.",
+          "Todos os recursos do Plano Supremo."
+        ]
+      },
+      {
+        "id": "absoluto",
+        "badge": "Força híbrida",
+        "name": "Plano Absoluto",
+        "headline": "Tecnologia de ponta com reforço humano dedicado",
+        "audience": "Para quem exige o máximo em segurança, tecnologia e controle total.",
+        "priceLabel": "Plano mensal",
+        "price": "R$ 17.990",
+        "priceNote": "Valor correspondente a atendimento de até 194 unidades. Consulte estudo para operações com maior fluxo.",
+        "description": "Combina operadores remotos e equipe presencial para cenários que demandam contato físico em horários críticos sem abrir mão da automação.",
+        "featuresTitle": "Recursos inclusos",
+        "features": [
+          "Dois colaboradores presenciais alocados pelo time OKTAFORCE.",
+          "Escala 6x1 (44h semanais) ou 12x36 com cobertura diária de 12h.",
+          "Suporte local em horários de alta demanda ou contingência.",
+          "OktaVision e monitoramento inteligente integrados à equipe presencial.",
+          "Planos de resposta a incidentes com suporte consultivo.",
+          "Todos os recursos do Plano Supremo."
+        ]
+      },
+      {
+        "id": "presenca",
+        "badge": "Operação completa",
+        "name": "Plano Presença",
+        "headline": "Portaria física com inteligência da remota",
+        "audience": "Para quem quer tudo e mais um pouco.",
+        "priceLabel": "Plano mensal",
+        "price": "R$ 25.990",
+        "priceNote": "Valor correspondente a atendimento de até 240 unidades. Personalizamos estrutura para condomínios de grande porte.",
+        "description": "Une equipe física dedicada, sistemas inteligentes e monitoramento remoto complementar para garantir atendimento presencial 24/7 com padrões OKTAFORCE.",
+        "featuresTitle": "Recursos adicionais",
+        "features": [
+          "Equipe de portaria alocada 100% presencialmente no condomínio.",
+          "Escala 12x36 com cobertura 24/7 e redundância operacional.",
+          "Atendimento direto a moradores, visitantes e prestadores com apoio tecnológico.",
+          "Controle físico de acessos integrado aos sistemas inteligentes.",
+          "Monitoramento remoto complementar com gravação em data center.",
+          "Gestão integrada via app e painel administrativo.",
+          "Todos os recursos do Plano Absoluto."
+        ]
+      }
+    ],
+    "cardCta": "Conversar com a OKTAFORCE",
+    "secondaryCta": "Solicitar proposta do {plan}"
+  },
+  "benefits": {
+    "title": "Mais do que planos: parceria estratégica",
+    "items": [
+      {
+        "title": "Smart View em tempo real",
+        "description": "Nossa matriz de IA aprende a rotina do condomínio, identifica comportamentos suspeitos e aciona playbooks antes que o risco se materialize."
+      },
+      {
+        "title": "Arquitetura resiliente",
+        "description": "Central redundante N+2, links de dados independentes e backup em nuvem garantem continuidade mesmo em falhas de energia ou internet."
+      },
+      {
+        "title": "Equipe humanizada",
+        "description": "Operadores e técnicos certificados no Brasil, com SLA de resposta de até 5 segundos para 78% das chamadas e atendimento 24/7."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para definir o plano ideal?",
+    "description": "Converse com nossos especialistas, receba um diagnóstico gratuito e descubra como adaptar cada módulo às necessidades do seu condomínio.",
+    "primaryCta": "Montar meu plano",
+    "secondaryCta": "Agendar demonstração"
+  }
+}

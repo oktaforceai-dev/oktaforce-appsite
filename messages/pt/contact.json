@@ -1,0 +1,42 @@
+﻿{
+  "meta": {
+    "title": "Fale com a OKTAFORCE",
+    "description": "Entre em contato com a OKTAFORCE para solicitar diagnóstico, proposta ou demonstração da plataforma de portaria remota.",
+    "keywords": "contato oktaforce, diagnóstico portaria remota, proposta oktaforce"
+  },
+  "hero": {
+    "title": "Vamos construir a portaria remota ideal para o seu condomínio",
+    "subtitle": "Preencha o formulário ou fale conosco pelo WhatsApp. Retornamos em até 1 dia útil com um diagnóstico inicial."
+  },
+  "info": {
+    "title": "Canais diretos",
+    "items": [
+      { "label": "Telefone", "value": "+55 (11) 4000-1234", "type": "phone" },
+      { "label": "E-mail", "value": "contato@oktaforce.com.br", "type": "email" },
+      { "label": "Endereço", "value": "Av. Brigadeiro Faria Lima, 2369 - Jardim Paulistano, São Paulo/SP", "type": "address" }
+    ]
+  },
+  "whatsapp": {
+    "cta": "Falar pelo WhatsApp",
+    "helper": "Atendimento 24/7 para emergências e suporte tático"
+  },
+  "form": {
+    "title": "Envie suas informações",
+    "subtitle": "Conte-nos sobre o seu condomínio e receba um plano personalizado.",
+    "fields": {
+      "name": { "label": "Nome completo", "placeholder": "Seu nome" },
+      "email": { "label": "E-mail", "placeholder": "seuemail@exemplo.com" },
+      "phone": { "label": "Telefone", "placeholder": "+55 (11) 99999-0000" },
+      "condominium": { "label": "Nome do condomínio", "placeholder": "Condomínio" },
+      "units": { "label": "Número de unidades", "placeholder": "Ex.: 240" },
+      "message": { "label": "Mensagem", "placeholder": "Descreva o cenário atual e seus objetivos" }
+    },
+    "submit": "Enviar mensagem",
+    "success": "Recebemos seus dados! Nosso time retornará em breve.",
+    "error": "Não foi possível enviar agora. Tente novamente ou fale pelo WhatsApp."
+  },
+  "map": {
+    "title": "Central OKTAFORCE",
+    "description": "Nossa central de operações fica em São Paulo e recebe visitas agendadas."
+  }
+}

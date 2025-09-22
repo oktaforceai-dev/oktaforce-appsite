@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "OKTAFORCE Blog",
+    "description": "Insights on property security, artificial intelligence and remote concierge case studies from OKTAFORCE.",
+    "keywords": "oktaforce blog, property security, artificial intelligence, remote concierge"
+  },
+  "hero": {
+    "title": "Content for demanding condo managers",
+    "subtitle": "Trends, case studies and best practices to modernize your property's security with technology and data.",
+    "searchPlaceholder": "Search by keyword..."
+  },
+  "categories": [
+    "Trends & technology",
+    "Case studies",
+    "Property management",
+    "LGPD & compliance"
+  ],
+  "filters": {
+    "all": "All categories"
+  },
+  "newsletter": {
+    "title": "Get exclusive updates and resources",
+    "description": "Subscribe to receive checklists, case studies and invitations to private events.",
+    "placeholder": "Enter your email",
+    "cta": "Subscribe",
+    "success": "Thank you! You will receive our content soon.",
+    "error": "We couldn't subscribe you now. Please try again."
+  },
+  "empty": {
+    "title": "No articles found",
+    "subtitle": "Adjust the filters or contact us to receive tailored content."
+  },
+  "fallbackPosts": [
+    {
+      "slug": "computer-vision-for-secure-lobbies",
+      "title": "How computer vision prevents unauthorized access",
+      "excerpt": "Learn how AI plus human validation reduces errors when approving guests and deliveries.",
+      "thumbnail": "/img_camerasAPP.webp",
+      "tags": [
+        "Trends & technology"
+      ],
+      "publishedAt": "2024-05-12"
+    },
+    {
+      "slug": "condo-club-case-62-percent-savings",
+      "title": "Case study: condo club saves 62% on concierge operations",
+      "excerpt": "Implementation roadmap, KPIs tracked and how the board approved the migration.",
+      "thumbnail": "/img_monitoramenteEfetivo.webp",
+      "tags": [
+        "Case studies"
+      ],
+      "publishedAt": "2024-03-28"
+    },
+    {
+      "slug": "lgpd-governance-remote-concierge",
+      "title": "LGPD governance checklist for remote concierge",
+      "excerpt": "A practical checklist to keep visitor data compliant and secure.",
+      "thumbnail": "/img_notificacaoPush.webp",
+      "tags": [
+        "LGPD & compliance"
+      ],
+      "publishedAt": "2024-02-14"
+    }
+  ],
+  "post": {
+    "back": "Back to blog",
+    "publishedOn": "Published on {date}",
+    "share": "Share"
+  }
+}

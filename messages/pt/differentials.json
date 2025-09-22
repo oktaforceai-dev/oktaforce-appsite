@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Diferenciais OKTAFORCE",
+    "description": "Compare a OKTAFORCE com o mercado: IA proprietária, dashboards em tempo real, atendimento premium e economia comprovada.",
+    "keywords": "diferenciais oktaforce, comparativo portaria remota, ia, dashboards, suporte premium"
+  },
+  "hero": {
+    "title": "Por que condomínios de alta exigência escolhem a OKTAFORCE",
+    "subtitle": "Unimos IA proprietária, indicadores transparentes e uma operação humana especializada para entregar resultados mensuráveis."
+  },
+  "valueGrid": {
+    "items": [
+      {
+        "title": "Economia comprovada",
+        "description": "Projetos com redução média de 62% na folha e ROI apresentado antes da assinatura do contrato."
+      },
+      {
+        "title": "Segurança proativa",
+        "description": "IA identifica riscos em milissegundos, operadores confirmam e acionam protocolo sem atrasos."
+      },
+      {
+        "title": "Dashboards em tempo real",
+        "description": "Indicadores claros para síndicos e conselhos, com exportação em PDF e CSV."
+      },
+      {
+        "title": "Atendimento premium",
+        "description": "Customer success dedicado, visitas presenciais e canais diretos com a central 24/7."
+      }
+    ]
+  },
+  "metrics": {
+    "title": "Indicadores dos clientes OKTAFORCE",
+    "items": [
+      {
+        "value": "78%",
+        "label": "das ocorrências solucionadas no primeiro chamado"
+      },
+      {
+        "value": "15s",
+        "label": "SLA de atualização dos dashboards"
+      },
+      {
+        "value": "0",
+        "label": "incidentes de invasão após implantação"
+      }
+    ]
+  },
+  "proof": {
+    "title": "Transparência em cada etapa",
+    "items": [
+      "Relatórios executivos mensais para assembleias",
+      "Portal de auditoria com logs, gravações e evidências",
+      "Playbooks personalizados por tipo de condomínio",
+      "Monitoramento conjunto com integradores e consultores"
+    ]
+  },
+  "cta": {
+    "title": "Solicite um diagnóstico personalizado",
+    "subtitle": "Receba um comparativo detalhado com o cenário atual do seu condomínio e a projeção de ROI com a OKTAFORCE.",
+    "primary": "Quero meu diagnóstico",
+    "secondary": "Ver cases detalhados"
+  }
+}

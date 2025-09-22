@@ -1,0 +1,14 @@
+
+> oktaforce-coming-soon@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.3s
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 961ms (181 modules)
+ ○ Compiling /[locale] ...
+ GET / 500 in 9742ms

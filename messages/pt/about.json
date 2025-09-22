@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "title": "Quem somos - OKTAFORCE",
+    "description": "Conheça a história da OKTAFORCE, nossa missão, visão e valores para transformar a portaria remota com inteligência artificial no Brasil.",
+    "keywords": "oktaforce, quem somos, missão, visão, valores, portaria remota"
+  },
+  "hero": {
+    "tagline": "Quem somos",
+    "title": "DNA global, operação 100% dedicada ao Brasil",
+    "subtitle": "Unimos investimento internacional, tecnologia proprietária e uma equipe local que conhece os desafios do mercado condominial brasileiro.",
+    "cta": "Falar com o time"
+  },
+  "story": {
+    "title": "Construída para elevar o nível de segurança condominial",
+    "paragraphs": [
+      "A OKTAFORCE nasceu em 2021 como uma iniciativa de especialistas em segurança eletrônica, ciência de dados e gestão condominial que atuavam em projetos na América do Norte e no Brasil.",
+      "Identificamos um ponto comum: condomínios sofisticados buscavam reduzir custos sem comprometer a percepção de segurança. Havia excesso de promessas e pouca transparência em soluções de portaria remota. Decidimos então criar uma plataforma que unisse IA proprietária, protocolos humanizados e governança radical.",
+      "Em 2023, estabelecemos a central de operações em São Paulo com equipe brasileira, redundância N+2 e acordos estratégicos com empresas de vigilância e tecnologia. Desde então, crescemos ao lado de síndicos profissionais, administradoras e grupos investidores que exigem dados, SLA e parceria de longo prazo."
+    ]
+  },
+  "missionVision": {
+    "mission": "Garantir segurança inteligente, sustentável e transparente para condomínios que precisam evoluir além do modelo tradicional de portaria.",
+    "vision": "Ser a referência em portaria remota e gestão proativa de riscos na América Latina, combinando IA, operação especializada e experiência do usuário.",
+    "values": [
+      {
+        "title": "Inovação contínua",
+        "description": "Evoluímos sempre, aplicando tecnologia e inteligência prática para entregar resultados melhores."
+      },
+      {
+        "title": "Confiança e transparência",
+        "description": "Baseamos cada relação em ética, clareza e dados acessíveis para o conselho e para os moradores."
+      },
+      {
+        "title": "Excelência em serviço",
+        "description": "Buscamos qualidade em cada detalhe, do atendimento ao monitoramento 24/7."
+      },
+      {
+        "title": "Agilidade e eficiência",
+        "description": "Protocolos ágeis e playbooks personalizados garantem respostas rápidas para qualquer cenário."
+      },
+      {
+        "title": "Valorização das pessoas",
+        "description": "Reconhecemos colaboradores, clientes e parceiros como parte essencial do nosso ecossistema."
+      },
+      {
+        "title": "Sustentabilidade e futuro",
+        "description": "Atuamos com responsabilidade, respeitando recursos, comunidades e legislações locais."
+      },
+      {
+        "title": "Segurança como prioridade",
+        "description": "Protegemos vidas, patrimônios e dados com tecnologia proprietária e redundância completa."
+      },
+      {
+        "title": "Parceria duradoura",
+        "description": "Construímos relações de longo prazo, com metas claras e resultados mensuráveis."
+      }
+    ],
+    "missionHeading": "Nossa missão",
+    "visionHeading": "Nossa visão",
+    "valuesHeading": "Valores que nos guiam"
+  },
+  "timeline": {
+    "title": "Marcos da nossa jornada",
+    "items": [
+      {
+        "year": "2021",
+        "title": "Pesquisa e prototipagem",
+        "description": "Time fundador reúne especialistas em segurança, IA e governança condominial para validar o conceito de portaria proativa."
+      },
+      {
+        "year": "2022",
+        "title": "Investimento e laboratório de IA",
+        "description": "Recebemos aporte internacional e inauguramos laboratório de visão computacional com base de dados proprietária."
+      },
+      {
+        "year": "2023",
+        "title": "Central de operações em São Paulo",
+        "description": "Implementamos a central N+2, certificamos operadores e conectamos os primeiros condomínios premium."
+      },
+      {
+        "year": "2024",
+        "title": "Expansão e parcerias",
+        "description": "Firmamos alianças com administradoras, integradores e consultores de segurança em SP, RJ, PR e DF."
+      }
+    ]
+  },
+  "team": {
+    "title": "Equipe multidisciplinar, resultados compartilhados",
+    "subtitle": "Operação 24/7 com squad tecnológico dedicado, especialistas em compliance e customer success para cada condomínio.",
+    "pillars": [
+      {
+        "title": "Central de operações",
+        "description": "Operadores certificados, treinamentos semanais, drills de resposta a incidentes e avaliação constante de performance."
+      },
+      {
+        "title": "Engenharia e IA",
+        "description": "Time próprio de desenvolvedores, cientistas de dados e analistas de infraestrutura cuidando do core de IA, integrações e automações."
+      },
+      {
+        "title": "Sucesso do cliente",
+        "description": "Consultores dedicados por condomínio, reuniões de governança, relatórios de ROI e suporte humanizado para síndicos e conselhos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Vamos transformar o seu condomínio em um case de segurança?",
+    "subtitle": "Converse com nosso time estratégico, agende uma visita à central e veja a plataforma em funcionamento.",
+    "primary": "Agendar visita",
+    "secondary": "Baixar apresentação institucional"
+  },
+  "why": {
+    "title": "Por que a OKTAFORCE",
+    "items": [
+      {
+        "title": "Operação brasileira com DNA global",
+        "description": "Central N+2 em São Paulo, equipe local e investimentos internacionais garantem escala e proximidade."
+      },
+      {
+        "title": "Transparência radical",
+        "description": "SLA, gravações, indicadores e auditoria em tempo real para síndicos e conselhos."
+      },
+      {
+        "title": "IA proprietária e infraestrutura resiliente",
+        "description": "Smart View, redundância de links e contingência N+2 asseguram disponibilidade contínua."
+      },
+      {
+        "title": "Parceria orientada a ROI",
+        "description": "Customer success dedicado, reuniões de governança e planos de evolução para cada condomínio."
+      }
+    ]
+  }
+}
