@@ -26,34 +26,35 @@ export function SolutionsComparison() {
   return (
     <section className="section-padding">
       <div className="section-container max-w-5xl">
-        <div className="w-full overflow-hidden rounded-3xl bg-[#10151f] px-6 pb-8 pt-7 shadow-[0_30px_80px_rgba(10,12,20,0.55)] ring-1 ring-white/10 md:px-9 md:pb-11 md:pt-9">
+        <div className="w-full overflow-hidden rounded-3xl bg-surface-alt px-6 pb-8 pt-7 shadow-2xl ring-1 ring-border/60 dark:bg-[#10151f] dark:shadow-[0_30px_80px_rgba(10,12,20,0.55)] dark:ring-white/10 md:px-9 md:pb-11 md:pt-9">
           <div className="mb-8">
-            <h2 className="text-3xl font-semibold tracking-tight text-white md:text-4xl">{t('title')}</h2>
-            {subtitle ? <p className="mt-1 text-base text-zinc-400">{subtitle}</p> : null}
+            <h2 className="text-3xl font-semibold tracking-tight text-foreground md:text-4xl">{t('title')}</h2>
+            {subtitle ? <p className="mt-1 text-base text-muted">{subtitle}</p> : null}
           </div>
 
-          <div className="hidden w-full overflow-hidden rounded-3xl border border-white/10 bg-[#0d131d] md:block">
-            <table className="w-full border-collapse text-left" aria-label={tableLabel}>
-              <thead className="bg-gradient-to-r from-[#111a29] via-[#111a29] to-[#0d131d] text-sm uppercase tracking-[0.08em] text-zinc-200">
+          <div className="hidden w-full overflow-hidden rounded-3xl border border-border/80 bg-white shadow-sm dark:border-white/10 dark:bg-[#0d131d] md:block">
+            <table className="w-full border-collapse text-left text-foreground" aria-label={tableLabel}>
+              <thead className="bg-gradient-to-r from-slate-100 via-slate-100 to-slate-200 text-sm uppercase tracking-[0.08em] text-muted dark:from-[#111a29] dark:via-[#111a29] dark:to-[#0d131d] dark:text-zinc-200">
                 <tr>
-                  <th scope="col" className="px-10 py-5 font-semibold text-zinc-100">{columns.feature}</th>
-                  <th scope="col" className="px-10 py-5 text-center font-semibold text-zinc-100">{columns.oktaforce}</th>
-                  <th scope="col" className="px-10 py-5 text-center font-semibold text-zinc-100">{columns.market}</th>
+                  <th scope="col" className="px-10 py-5 font-semibold text-foreground dark:text-zinc-100">{columns.feature}</th>
+                  <th scope="col" className="px-10 py-5 text-center font-semibold text-foreground dark:text-zinc-100">{columns.oktaforce}</th>
+                  <th scope="col" className="px-10 py-5 text-center font-semibold text-foreground dark:text-zinc-100">{columns.market}</th>
                 </tr>
               </thead>
-              <tbody className="text-base text-zinc-100">
+              <tbody className="text-base text-foreground dark:text-zinc-100">
                 {features.map((feature, idx) => {
                   const Icon = FEATURE_ICONS[idx] ?? BrainCircuit;
+                  const rowClass = idx % 2 ? 'bg-slate-50 dark:bg-[#101823]' : 'bg-white dark:bg-transparent';
                   return (
-                    <tr key={feature.name} className={idx % 2 ? 'bg-[#101823]' : undefined}>
+                    <tr key={feature.name} className={rowClass}>
                       <td className="px-10 py-6">
                         <div className="flex items-start gap-5">
-                          <span className="mt-1 flex size-[3.5rem] items-center justify-center rounded-2xl bg-[#131b28] text-white/80 ring-1 ring-white/10">
-                            <Icon className="size-8" aria-hidden />
+                          <span className="mt-1 flex size-[3.75rem] items-center justify-center rounded-2xl bg-slate-100 text-muted ring-1 ring-border/60 dark:bg-[#131b28] dark:text-white/80 dark:ring-white/10">
+                            <Icon className="size-9" aria-hidden />
                             <span className="sr-only">{feature.name}</span>
                           </span>
-                          <div className="leading-tight">
-                            <div className="font-semibold tracking-tight text-zinc-100">{feature.name}</div>
+                          <div className="leading-tight text-foreground dark:text-zinc-100">
+                            <div className="font-semibold tracking-tight">{feature.name}</div>
                           </div>
                         </div>
                       </td>
@@ -74,25 +75,25 @@ export function SolutionsComparison() {
             {features.map((feature, idx) => {
               const Icon = FEATURE_ICONS[idx] ?? BrainCircuit;
               return (
-                <div key={feature.name} className="rounded-3xl border border-white/10 bg-[#0d131d] p-5">
+                <div key={feature.name} className="rounded-3xl border border-border/80 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-[#0d131d]">
                   <div className="flex items-start gap-4">
-                    <span className="mt-0.5 flex size-12 items-center justify-center rounded-2xl bg-[#131b28] text-white/80 ring-1 ring-white/10">
-                      <Icon className="size-7" aria-hidden />
+                    <span className="mt-0.5 flex size-12 items-center justify-center rounded-2xl bg-slate-100 text-muted ring-1 ring-border/60 dark:bg-[#131b28] dark:text-white/80 dark:ring-white/10">
+                      <Icon className="size-8" aria-hidden />
                       <span className="sr-only">{feature.name}</span>
                     </span>
-                    <div className="flex-1">
-                      <div className="font-semibold tracking-tight text-zinc-100">{feature.name}</div>
+                    <div className="flex-1 text-foreground dark:text-zinc-100">
+                      <div className="font-semibold tracking-tight">{feature.name}</div>
                     </div>
                   </div>
                   <div className="mt-5 grid gap-3">
-                    <div className="rounded-2xl bg-[#291d5a] p-4 text-center ring-1 ring-white/10">
-                      <div className="text-xs font-semibold uppercase tracking-[0.08em] text-white/70">{columns.oktaforce}</div>
+                    <div className="rounded-2xl bg-[#edeaff] p-4 text-center ring-1 ring-white/20 dark:bg-[#291d5a] dark:ring-white/10">
+                      <div className="text-xs font-semibold uppercase tracking-[0.08em] text-[#5943d9] dark:text-white/70">{columns.oktaforce}</div>
                       <div className="mt-2 flex justify-center">
                         <OktaBadge label={legend.included} />
                       </div>
                     </div>
-                    <div className="rounded-2xl bg-[#161b24] p-4 text-center ring-1 ring-white/10">
-                      <div className="text-xs font-semibold uppercase tracking-[0.08em] text-zinc-400">{columns.market}</div>
+                    <div className="rounded-2xl bg-slate-100 p-4 text-center ring-1 ring-border/60 dark:bg-[#161b24] dark:ring-white/10">
+                      <div className="text-xs font-semibold uppercase tracking-[0.08em] text-muted dark:text-zinc-400">{columns.market}</div>
                       <div className="mt-2 flex justify-center">
                         <MarketBadge status={feature.market} label={legend[feature.market]} />
                       </div>
@@ -103,7 +104,7 @@ export function SolutionsComparison() {
             })}
           </div>
 
-          <div className="mt-9 flex flex-wrap items-center gap-6 text-sm text-zinc-400">
+          <div className="mt-9 flex flex-wrap items-center gap-6 text-sm text-muted dark:text-zinc-400">
             <span className="inline-flex items-center gap-2">
               <CheckCircle2 className="size-4 text-[#8a7bff]" aria-hidden /> ✓ = {legend.included}
             </span>
