@@ -59,12 +59,12 @@
   },
   "home": {
     "hero": {
-      "tagline": "Remote concierge powered by proprietary AI",
-      "title": "Proactive security that anticipates risks and cuts costs by up to 70%",
-      "subtitle": "OKTAFORCE combines a 24/7 command center, computer vision AI and a dedicated local team to eliminate human error and act before threats escalate.",
-      "caption": "Limited slots for live demos",
+      "tagline": "REMOTE CONCIERGE POWERED BY PROPRIETARY AI",
+      "title": "Proactive security that anticipates risks and reduces costs by up to 70%",
+      "subtitle": "OKTAFORCE combines a 24/7 command center, computer-vision AI and a local team to eliminate human errors and protect your property before risks occur.",
       "primaryCta": "Talk to a specialist",
       "secondaryCta": "Request a demo",
+      "caption": "LIMITED SLOTS FOR LIVE DEMOS",
       "stats": [
         {
           "value": "70%",
@@ -371,13 +371,13 @@
   "solutions": {
     "meta": {
       "title": "OKTAFORCE Solutions",
-      "description": "Discover OKTAFORCE remote concierge modules, smart view AI, resilient infrastructure, exclusive resident tools and premium support.",
+      "description": "Modern, flexible, efficient access control—powered by tailored solutions, advanced technology, and support that actually works.",
       "keywords": "oktaforce solutions, remote concierge, smart view, infrastructure, premium support"
     },
     "hero": {
-      "title": "A complete and scalable remote concierge stack",
-      "subtitle": "Combine the modules that make sense for your property and rely on AI orchestration, human-centered protocols and premium support.",
-      "cta": "Build my solution",
+      "title": "Custom security and management solutions",
+      "subtitle": "Modern, flexible, efficient access control—powered by tailored solutions, advanced technology, and support that actually works.",
+      "cta": "Explore our plans",
       "tagline": "Integrated security"
     },
     "cta": {
@@ -390,35 +390,38 @@
     "sections": [
       {
         "key": "remote",
-        "title": "Remote concierge powered by AI",
-        "headline": "24/7 operations with dual validation and smart playbooks",
-        "description": "Our N+2 command center validates every access through facial recognition, biometrics and the resident app. Certified operators and proprietary AI work together to remove blind spots and keep the community safe.",
+        "title": "Remote Concierge with Integrated AI",
+        "headline": "Continuous monitoring with dual verification and real-time response.",
+        "description": "Each entry is verified by AI and trained operators, reducing human error. Facial recognition, biometrics, and an exclusive app ensure secure authentication.",
         "bullets": [
-          "Smart authorisation with biometrics, facial recognition and resident app workflows.",
-          "Centralised triage with dual validation (AI + certified operator).",
-          "Complete audio, video and event logs available for real-time audits."
+          "Centralized screening with intelligent protocols for residents, visitors, and service providers.",
+          "All access events are recorded with audio, video, and auditable logs.",
+          "N+2 infrastructure with high availability and full redundancy.",
+          "Continuous, tailored, and unobtrusive security—just the way your condominium needs."
         ]
       },
       {
         "key": "oktavision",
-        "title": "OKTAVISION",
-        "headline": "Computer vision that anticipates incidents",
-        "description": "The platform analyses cameras and sensors in milliseconds, detects unusual behaviour and triggers coordinated response protocols before risks escalate.",
+        "title": "Proactive, Preventive Surveillance",
+        "headline": "Real-time behavioral analytics powered by advanced computer vision.",
+        "description": "Flags unusual motion, suspicious routes, and abnormal loitering—automated protocols fire before a threat unfolds.",
         "bullets": [
-          "Real-time detection of loitering, perimeter breaches and unusual routes.",
-          "Automated alerts that start playbooks and dispatch tactical teams.",
-          "Dashboard with heatmaps, risk reports and full decision trail."
+          "Heatmaps, alerts, and an auditable decision trail in a strategic command dashboard.",
+          "End-to-end integration with sensors, alarms, and AI-powered remote guarding.",
+          "Built for critical areas, exposed perimeters, and high-traffic zones.",
+          "More than monitoring—anticipate and act with precision."
         ]
       },
       {
         "key": "lockers",
-        "title": "Smart Locker & Smart Drop",
-        "headline": "Smart deliveries for every condominium profile",
-        "description": "From modular lockers to discreet built-in compartments, we deliver full control over parcels with automatic notifications and digital tracking integrated with the OKTAFORCE app.",
+        "title": "Simplified Logistics",
+        "headline": "Packages under control with solutions for every type of condo.",
+        "description": "Modular lockers with multiple compartments and digital tracking. Discreet, built-in Smart Drop, ideal for gates and compact areas.",
         "bullets": [
-          "Modular Smart Locker with multiple sizes and digital tracking.",
-          "Customisable Smart Drop for gates and compact lobbies.",
-          "Integration with the OKTAFORCE app, notifications and delivery audit trail."
+          "Automatic notifications in the OKTAFORCE app the moment a delivery arrives.",
+          "Full audit: every pickup leaves a visible, secure trail.",
+          "No lines, no lost packages, no intervention from the building manager or doorman.",
+          "More efficiency, less conflict—delivery the way it should be."
         ]
       }
     ],

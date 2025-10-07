@@ -1,179 +1,167 @@
 {
   "hero": {
-    "tagline": "Portaria remota com IA proprietária",
-    "title": "Segurança proativa que antecipa riscos e reduz custos em até 70%",
-    "subtitle": "A OKTAFORCE combina central 24/7, IA de visão computacional e equipe local para eliminar falhas humanas e proteger o condomínio antes que o risco aconteça.",
-    "caption": "Agenda limitada para demonstrações ao vivo",
-    "primaryCta": "Falar com um especialista",
-    "secondaryCta": "Solicitar demonstração",
-    "stats": [
-      {
-        "value": "70%",
-        "label": "redução média dos custos fixos da portaria"
-      },
-      {
-        "value": "78%",
-        "label": "das ocorrências solucionadas no primeiro chamado"
-      },
-      {
-        "value": "24/7",
-        "label": "monitoramento ativo com dupla checagem humana + IA"
-      }
-    ]
+    "content": {
+      "title": "Segurança Inteligente e Economia Real para o seu Condomínio",
+      "subtitle": "Elimine falhas humanas, reduza custos em até 70% e tenha controle total com nossa Portaria Remota.",
+      "description": "Síndicos e administradores já sabem: a portaria tradicional é cara, vulnerável e ineficiente. Nossa solução substitui o modelo ultrapassado por um sistema inteligente de monitoramento remoto 24/7, apoiado por Inteligência Artificial e controle de acesso avançado. Mais segurança, menos custos e uma gestão totalmente auditável.",
+      "primaryCta": "Quero minha demonstração agora",
+      "secondaryCta": "Falar com um especialista",
+      "caption": "Agenda limitada para demonstrações ao vivo",
+      "imageAlt": "Condomínio seguro com portaria remota inteligente",
+      "highlight": [
+        {"label": "Redução de custos", "value": "70%"},
+        {"label": "Chamadas atendidas em 5s", "value": "78%"},
+        {"label": "Monitoramento ativo", "value": "24/7"}
+      ]
+    }
   },
   "pains": {
-    "kicker": "Dores recorrentes",
-    "title": "As antigas portarias custam caro e deixam brechas perigosas",
-    "subtitle": "Planilhas manuais, escalas imprevisíveis e alto turnover transformam a portaria em um centro de gastos sem previsibilidade. Enquanto isso, visitantes sem validação e falhas na triagem expõem moradores e patrimônio.",
+    "kicker": "",
+    "title": "Problemas Reais que Todo Condomínio Enfrenta",
+    "subtitle": "Identificamos as dores mais críticas da portaria tradicional para mostrar como a portaria remota transforma o dia a dia do condomínio.",
     "items": {
       "costs": {
-        "title": "Folha de pagamento que consome até 70% do orçamento",
-        "description": "Escalas extras, encargos e horas noturnas aumentam a taxa condominial sem retorno claro. A OKTAFORCE automatiza procedimentos e redistribui recursos para inovação.",
-        "metric": "70% do custo operacional"
+        "title": "Custos elevadíssimos",
+        "description": "Até 60% do orçamento mensal pode ser consumido pela portaria tradicional."
       },
-      "humanError": {
-        "title": "Falhas humanas e rendição da portaria física",
-        "description": "Abordagens sem protocolo e pressão no dia a dia deixam brechas para invasões ou sequestros relâmpago. Nossos protocolos são orquestrados por IA e operadores especializados.",
-        "metric": "Zero invasões registradas nos clientes ativos"
+      "humanRisk": {
+        "title": "Risco humano constante",
+        "description": "Porteiros são vulneráveis à coação e rendição em situações de risco."
       },
-      "lackVisibility": {
-        "title": "Sem dados para tomar decisão",
-        "description": "Relatórios chegam atrasados e em diferentes formatos. O dashboard da OKTAFORCE entrega indicadores em tempo real, trilhas de auditoria e alertas para cada incidente.",
-        "metric": "Atualização a cada 15 segundos"
+      "lackControl": {
+        "title": "Falta de controle e transparência",
+        "description": "Sem registros detalhados, síndicos ficam expostos em auditorias."
       },
-      "compliance": {
-        "title": "Risco jurídico e falta de conformidade com a LGPD",
-        "description": "Dados de visitantes ficam espalhados entre planilhas e aplicativos não homologados. Armazenamos tudo em nuvem segura com políticas de retenção configuráveis.",
-        "metric": "Armazenamento criptografado"
-      },
-      "staffing": {
-        "title": "Escalas imprevisíveis e cobertura limitada",
-        "description": "Trocas de turno e ausências deixam o condomínio vulnerável. Operamos com central redundante, equipe treinada e protocolos 24/7.",
-        "metric": "Cobertura integral garantida"
+      "inefficiency": {
+        "title": "Ineficiência no atendimento",
+        "description": "Demora em liberar visitantes e receber encomendas prejudica a experiência dos moradores."
+      }
+    },
+    "comparison": {
+      "kicker": "Comparativo visual",
+      "subtitle": "Veja como a portaria remota entrega economia e eficiência desde o primeiro mês.",
+      "images": {
+        "traditional": {
+          "src": "/comparativo2.webp",
+          "alt": "Gráfico da portaria tradicional",
+          "label": "Portaria tradicional"
+        },
+        "remote": {
+          "src": "/comparativo1.webp",
+          "alt": "Gráfico da portaria remota",
+          "label": "Portaria remota"
+        }
       }
     }
   },
   "benefits": {
-    "kicker": "Benefícios tangíveis",
-    "title": "Resultados imediatos para síndico, conselho e moradores",
-    "subtitle": "A plataforma foi criada para condomínios de alta exigência, onde prova social, números e transparência são imprescindíveis.",
+    "kicker": "",
+    "title": "Benefícios Tangíveis para Síndicos, Administradores e Moradores",
+    "subtitle": "O pacote completo de segurança, economia e experiência que transforma o condomínio desde o primeiro dia.",
     "items": {
       "savings": {
-        "title": "Economia mensurável",
-        "description": "Reduza despesas fixas, horas extras e passivos trabalhistas com uma central remota que escala conforme a necessidade do condomínio."
+        "title": "Economia real",
+        "description": "Redução de custos de até 70% com a substituição da estrutura presencial por monitoramento remoto inteligente."
       },
-      "security": {
-        "title": "Segurança proativa guiada por IA",
-        "description": "Reconhecimento inteligente de rostos, placas e padrões suspeitos com resposta coordenada entre operadores e parceiros táticos."
+      "zeroSurrender": {
+        "title": "Zero rendição",
+        "description": "Sem operadores no local, o risco de coação desaparece e o condomínio mantém proteção contínua."
       },
-      "experience": {
-        "title": "Experiência fluida para moradores e visitantes",
-        "description": "Aplicativo para pré-autorização de visitantes, QR Codes temporários, totens inteligentes e comunicação multicanal."
+      "autonomy": {
+        "title": "Autonomia total",
+        "description": "Aplicativo exclusivo para moradores com liberação remota de acessos, QR Codes temporários e credenciais digitais."
       },
       "transparency": {
-        "title": "Transparência radical e governança",
-        "description": "Dashboards, gravações, relatórios de SLA e auditoria completos para assembleias, auditorias e tomada de decisão."
+        "title": "Transparência",
+        "description": "Registros com foto, vídeo e áudio de todas as interações, prontos para auditoria e assembleias."
+      },
+      "reliability": {
+        "title": "Confiabilidade 24/7",
+        "description": "Monitoramento contínuo, backup de energia e internet redundante para manter a operação sempre ativa."
+      },
+      "locker": {
+        "title": "Conveniência i-Locker",
+        "description": "Recebimento seguro de encomendas com lockers inteligentes integrados à central remota."
       }
     }
   },
   "intelligence": {
-    "kicker": "Coração inteligente",
-    "title": "A IA proprietária da OKTAFORCE opera em três camadas",
-    "subtitle": "Integramos sensores, vídeo analítico e dados históricos para prevenir incidentes antes que se tornem ameaças.",
-    "layers": {
-      "sense": {
-        "title": "Sensoriamento contínuo",
-        "description": "Integração com câmeras, controles de acesso, LPR e IoT para capturar eventos em milissegundos."
-      },
-      "predict": {
-        "title": "Predição de riscos",
-        "description": "Modelos treinados com centenas de milhares de ocorrências identificam desvios e acionam protocolos automaticamente."
-      },
-      "act": {
-        "title": "Ação coordenada",
-        "description": "Operadores certificados confirmam a IA, interagem com o visitante e acionam forças de apoio em segundos."
-      }
-    },
-    "extras": [
-      "Playbooks auditáveis por tipo de condomínio",
-      "Integração com sistemas de gestão condominial",
-      "Alertas multicanal (app, e-mail, WhatsApp, PABX)"
-    ]
-  },
-  "differentials": {
-    "kicker": "Por que somos diferentes",
-    "title": "Infraestrutura robusta, equipe humana especializada e dados confiáveis",
-    "items": {
-      "redundancy": {
-        "title": "Infraestrutura redundante N+2",
-        "description": "Data centers espelhados no Brasil e no exterior, links dedicados e failover automático em menos de 3 segundos."
-      },
-      "lgpd": {
-        "title": "Governança e LGPD na prática",
-        "description": "Fluxos revisados por escritório jurídico parceiro, armazenamento criptografado e logs completos para auditorias."
-      },
-      "dashboard": {
-        "title": "Dashboard executivo e relatórios preditivos",
-        "description": "Indicadores de SLA, mapa de calor de ocorrências, ranking de unidades e download em PDF ou CSV em um clique."
-      },
-      "service": {
-        "title": "Suporte premium 24/7",
-        "description": "Customer success dedicado por condomínio, visitas presenciais mensais e plano de comunicação com o conselho."
-      }
+    "kicker": "Matriz Inteligente",
+    "title": "Nosso diferencial é a Matriz de Inteligência Artificial Proativa",
+    "subtitle": "O coração da operação reúne dados, sensores e IA proprietária para antecipar riscos e garantir resposta imediata.",
+    "highlights": [
+      {"text": "Detecta padrões suspeitos em tempo real."},
+      {"text": "Aprende com a rotina do condomínio para prever riscos."},
+      {"text": "Age antes que a ameaça se torne real."}
+    ],
+    "image": {
+      "src": "/tecnologia.webp",
+      "alt": "Ilustração do coração tecnológico da IA"
     }
   },
-  "testimonials": {
-    "kicker": "Prova social",
-    "title": "Resultados compartilhados pelos nossos clientes",
-    "items": [
-      {
-        "quote": "Conseguimos reduzir 62% do custo de portaria no primeiro trimestre sem abrir mão da sensação de segurança. As assembleias ficaram mais eficientes porque apresentamos relatórios claros.",
-        "name": "Síndica profissional de condomínio clube em Alphaville",
-        "role": "1360 unidades residenciais"
+  "differentials": {
+    "kicker": "",
+    "title": "",
+    "subtitle": "Tecnologia proprietária, equipe altamente treinada e operações orientadas por dados para entregar segurança máxima.",
+    "items": {
+      "technology": {
+        "title": "Tecnologia Proprietária e Global",
+        "description": "IA avançada, biometria multifator, reconhecimento facial, leitura de placas e QR Codes dinâmicos."
       },
-      {
-        "quote": "A integração com o controle de acesso e com o nosso aplicativo de moradores eliminou filas na guarita. A equipe da OKTAFORCE antecipa manutenções e mantém o conselho informado.",
-        "name": "Administrador de complexo corporativo na Faria Lima",
-        "role": "5 torres comerciais"
+      "proactiveSecurity": {
+        "title": "Segurança Proativa com IA",
+        "description": "Atuamos antes da ameaça com monitoramento preditivo e protocolos de resposta imediata."
       },
-      {
-        "quote": "Tínhamos preocupação com LGPD e retenção de dados. Hoje todas as interações ficam registradas com facilidade para consulta e auditoria.",
-        "name": "Conselho gestor de condomínio misto no Rio de Janeiro",
-        "role": "Área mista residencial e escritórios"
+      "agileService": {
+        "title": "Atendimento Ágil (78% das chamadas em 5s)",
+        "description": "Central 24/7 com operadores especialistas garantindo respostas em até 5 segundos."
+      },
+      "dashboard": {
+        "title": "Gestão Completa com Dashboard",
+        "description": "Indicadores, relatórios personalizáveis e auditoria total para síndicos e administradores."
+      },
+      "technicalSupport": {
+        "title": "Suporte Técnico 24/7 com SLA de 1h",
+        "description": "Equipe local pronta para atuar em campo com prazos garantidos e acompanhamento contínuo."
       }
-    ]
+    },
+    "image": {
+      "src": "/portaria-remota-monitoramento.webp",
+      "alt": "Equipe monitorando o condomínio a partir da central remota"
+    }
   },
   "faq": {
-    "kicker": "Perguntas frequentes",
-    "title": "Transparência antes da contratação",
+    "kicker": "",
+    "title": "Perguntas Frequentes",
     "items": [
       {
-        "question": "Qual é o prazo de implantação?",
-        "answer": "Após o diagnóstico, entregamos o plano de implantação em até 10 dias. A ativação ocorre entre 30 e 45 dias conforme o escopo tecnológico existente."
+        "question": "O que é portaria remota e como funciona?",
+        "answer": "Substituímos o porteiro físico por monitoramento remoto com câmeras, biometria e uma central 24/7 que valida acessos em tempo real."
       },
       {
-        "question": "Como funciona a integração com sistemas atuais?",
-        "answer": "Nossa equipe técnica conecta o hub OKTAFORCE aos controles de acesso, CFTV e ERPs condominiais. Trabalhamos com APIs ou conectores homologados."
+        "question": "É realmente seguro sem porteiros no local?",
+        "answer": "Sim. Eliminamos o risco de rendição humana, contamos com redundância tecnológica e todos os acessos ficam registrados com foto, vídeo e áudio."
       },
       {
-        "question": "Vocês oferecem porteiro presencial?",
-        "answer": "Quando necessário, ativamos o plano híbrido com agentes presenciais em momentos de pico ou obras, mantendo a central remota como núcleo de decisão."
+        "question": "E se faltar energia ou internet?",
+        "answer": "Mantemos redundância de internet dedicada e backup de energia com nobreaks e geradores para garantir operação contínua."
       },
       {
-        "question": "É possível acompanhar indicadores em tempo real?",
-        "answer": "Sim. O dashboard traz SLA de atendimento, incidentes por tipo, trilha de auditoria e gravações. Você define alertas por e-mail ou WhatsApp."
+        "question": "Como os moradores controlam quem entra?",
+        "answer": "Os moradores têm um aplicativo exclusivo para liberar acessos com QR Code, reconhecimento facial ou biometria digital, tudo em tempo real."
+      },
+      {
+        "question": "Qual é o benefício imediato para o condomínio?",
+        "answer": "Economia de até 70% no custo da portaria, aliada a uma camada extra de segurança com tecnologia de ponta e monitoramento proativo."
       }
     ]
   },
   "cta": {
-    "title": "Agende um diagnóstico gratuito com a OKTAFORCE",
-    "subtitle": "Identificamos economias, mapeamos riscos e entregamos um plano de modernização em até 7 dias.",
-    "primary": "Falar pelo WhatsApp",
-    "secondary": "Quero receber uma proposta"
-  },
-  "meta": {
-    "title": "Portaria remota com IA - OKTAFORCE",
-    "description": "Conheça a solução de portaria remota OKTAFORCE com inteligência artificial, monitoramento 24/7 e dashboards para síndicos exigentes.",
-    "keywords": "portaria remota, segurança condominial, inteligência artificial, controle de acesso, oktaforce"
+    "content": {
+      "line1": "Sua segurança não pode esperar.",
+      "line2": "Seu condomínio pode economizar até 70% agora mesmo.",
+      "line3": "Clique no botão abaixo e solicite uma demonstração gratuita da nossa Portaria Remota Inteligente.",
+      "primaryCta": "Quero minha demonstração agora"
+    }
   }
 }

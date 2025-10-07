@@ -1,15 +1,12 @@
+// middleware.ts
 import createMiddleware from 'next-intl/middleware';
+import {routing} from './i18n/routing';
 
-export default createMiddleware({
-  locales: ['pt', 'en'],
-  defaultLocale: 'pt',
-  localePrefix: 'as-needed',
-  // Não usar cookie de idioma; PT será padrão fora de /en
-  localeCookie: false,
-  // Sem auto-detecção de navegador
-  localeDetection: false
-});
+export default createMiddleware(routing);
 
 export const config = {
-  matcher: ['/((?!api|_next|.*\\..*).*)']
+  matcher: [
+    // tudo menos /api, _next, _vercel e QUALQUER coisa com ponto (arquivos)
+    '/((?!api|_next|_vercel|.*\\..*).*)'
+  ]
 };

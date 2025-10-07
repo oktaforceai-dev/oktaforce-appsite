@@ -2,7 +2,6 @@
 import {useLocale, useTranslations} from 'next-intl';
 import { Link } from '@/i18n/routing';
 import {LanguageSwitcher} from '@/components/ui/LanguageSwitcher';
-import LocaleToggle from '@/components/ui/LocaleToggle';
 import ThemeToggle from '@/components/ui/ThemeToggle';
 import {useState} from 'react';
 import Image from 'next/image';
@@ -19,7 +18,7 @@ export default function SiteHeader() {
     { href: '/pricing',    id: 'pricing' },
     { href: '/about',      id: 'about' },
     { href: '/contact',    id: 'contact' },
-    { href: '/blog',       id: 'blog' }
+//    { href: '/blog',       id: 'blog' }
   ];
 
   return (
@@ -49,7 +48,7 @@ export default function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <div className="hidden sm:block">
-            <LocaleToggle />
+            <LanguageSwitcher />
           </div>
           <ThemeToggle />
           {/* Mobile menu button */}
@@ -90,7 +89,7 @@ export default function SiteHeader() {
                 </Link>
               ))}
               <div className="mt-2">
-                <LocaleToggle />
+                <LanguageSwitcher />
               </div>
             </nav>
           </div>

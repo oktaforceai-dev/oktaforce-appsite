@@ -59,12 +59,12 @@
   },
   "home": {
     "hero": {
-      "tagline": "Portaria remota com IA proprietária",
+      "tagline": "PORTARIA REMOTA COM IA PROPRIETÁRIA",
       "title": "Segurança proativa que antecipa riscos e reduz custos em até 70%",
       "subtitle": "A OKTAFORCE combina central 24/7, IA de visão computacional e equipe local para eliminar falhas humanas e proteger o condomínio antes que o risco aconteça.",
-      "caption": "Agenda limitada para demonstrações ao vivo",
       "primaryCta": "Falar com um especialista",
       "secondaryCta": "Solicitar demonstração",
+      "caption": "AGENDA LIMITADA PARA DEMONSTRAÇÕES AO VIVO",
       "stats": [
         {
           "value": "70%",
@@ -113,7 +113,7 @@
       }
     },
     "benefits": {
-      "kicker": "Benefícios tangíveis",
+      "kicker": "",
       "title": "Resultados imediatos para síndico, conselho e moradores",
       "subtitle": "A plataforma foi criada para condomínios de alta exigência, onde prova social, números e transparência são imprescindíveis.",
       "items": {
@@ -375,9 +375,9 @@
       "keywords": "soluções oktaforce, portaria remota, smart view, infraestrutura, suporte 24/7"
     },
     "hero": {
-      "title": "Portaria remota completa e escalável",
-      "subtitle": "Escolha os módulos que fazem sentido para o seu condomínio e conte com uma operação orquestrada por IA, protocolos humanizados e suporte premium.",
-      "cta": "Montar meu plano",
+      "title": "Soluções sob medida em segurança e gestão",
+      "subtitle": "Controle de acesso moderno, flexível e eficiente. Com soluções personalizadas, tecnologia avançada e suporte que realmente funciona.",
+      "cta": "Veja os nossos planos",
       "tagline": "Arquitetura integrada"
     },
     "cta": {
@@ -390,35 +390,38 @@
     "sections": [
       {
         "key": "remote",
-        "title": "Portaria remota guiada por IA",
-        "headline": "Atendimento 24/7 com validação dupla e playbooks inteligentes",
-        "description": "Nossa central N+2 valida cada acesso com reconhecimento facial, biometria e autorização via aplicativo. Operadores certificados e IA proprietária trabalham em conjunto para eliminar brechas e manter moradores seguros.",
+        "title": "Portaria Remota com IA Integrada",
+        "headline": "Monitoramento contínuo com dupla validação e resposta em tempo real.",
+        "description": "Cada entrada é verificada por IA e operadores treinados, reduzindo falhas humanas. Reconhecimento facial, biometria e app exclusivo garantem autenticação segura.",
         "bullets": [
-          "Autorização inteligente com biometria, reconhecimento facial e aplicativo do morador.",
-          "Triagem centralizada com verificação dupla (IA + operador certificado).",
-          "Registro de áudio, vídeo e eventos com histórico auditável em tempo real."
+          "Triagem centralizada com protocolos inteligentes para moradores, visitantes e prestadores.",
+          "Todos os acessos ficam registrados em áudio, vídeo e logs auditáveis.",
+          "Infraestrutura N+2 com alta disponibilidade e redundância total.",
+          "Segurança contínua, personalizada e invisível — do jeito que o seu condomínio precisa."
         ]
       },
       {
         "key": "oktavision",
-        "title": "OKTAVISION",
-        "headline": "Visão computacional que antecipa incidentes",
-        "description": "A plataforma analisa câmeras e sensores em milissegundos, identifica permanência indevida e comportamentos atípicos e dispara protocolos de resposta antes que o risco evolua.",
+        "title": "Vigilância Ativa e Preventiva",
+        "headline": "Análise comportamental em tempo real com visão computacional avançada.",
+        "description": "Detecta movimentos incomuns, rotas suspeitas e permanência fora do padrão. Protocolos automáticos são ativados antes que a ameaça se concretize.",
         "bullets": [
-          "Detecção de permanência indevida, invasão e rotas suspeitas em tempo real.",
-          "Alertas automáticos que iniciam playbooks e acionam equipes táticas.",
-          "Dashboard com heatmaps, relatórios de risco e trilha de decisões."
+          "Heatmaps, alertas e trilha de decisões em um painel de controle estratégico.",
+          "Integração total com sensores, alarmes e portaria remota.",
+          "Ideal para áreas críticas, perímetros vulneráveis e zonas de alto fluxo.",
+          "Não é só monitorar. É antecipar e agir com precisão."
         ]
       },
       {
         "key": "lockers",
-        "title": "Smart Locker & Smart Drop",
-        "headline": "Entrega inteligente para qualquer perfil de condomínio",
-        "description": "Do armário modular ao compartimento embutido, garantimos controle total de encomendas com notificações automáticas e rastreamento digital integrado ao app OKTAFORCE.",
+        "title": "Logística Descomplicada",
+        "headline": "Encomendas sob controle com soluções para todos os tipos de condomínio.",
+        "description": "Lockers modulares com múltiplos compartimentos e rastreamento digital. Smart Drop discreto e embutido, ideal para grades e áreas compactas.",
         "bullets": [
-          "Smart Locker modular com múltiplos tamanhos e rastreamento digital.",
-          "Smart Drop embutido e personalizável para grades e guaritas compactas.",
-          "Integração com o app OKTAFORCE, notificações automáticas e auditoria de entregas."
+          "Avisos automáticos no app OKTAFORCE assim que a entrega chega.",
+          "Auditoria completa: cada retirada deixa um rastro visível e seguro.",
+          "Sem filas, sem extravios, sem intervenção do síndico ou porteiro.",
+          "Mais eficiência, menos conflito — a entrega como deveria ser."
         ]
       }
     ],

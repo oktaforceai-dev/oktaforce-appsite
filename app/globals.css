@@ -45,17 +45,18 @@ button:focus-visible {
 
 .bg-tech {
   position: relative;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden; /* ensure pseudo-elements are clipped by the section */
 }
 
 .bg-tech::before,
 .bg-tech::after {
   content: '';
   position: absolute;
-  inset: -10%;
+  /* slightly extend the gradients but keep them inside the section */
+  inset: -8%;
   pointer-events: none;
   transition: background 0.3s ease;
+  z-index: 0;
 }
 
 .bg-tech::before {
@@ -176,6 +177,40 @@ button:focus-visible {
 
 .bg-tech::before,
 .bg-tech::after { z-index: 0; }
+
+/* Animated octagon group used in IntelligenceSection */
+.octagon-group {
+  transform-origin: 50% 50%;
+  animation: octagon-rotate 18s linear infinite;
+}
+
+@keyframes octagon-rotate {
+  0% { transform: rotate(0deg) scale(1); opacity: 0.9; }
+  50% { transform: rotate(180deg) scale(1.02); opacity: 0.7; }
+  100% { transform: rotate(360deg) scale(1); opacity: 0.9; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .octagon-group { animation: none; }
+}
+
+/* Theme-aware color for IntelligenceSection octagon background */
+.intelligence-octagon {
+  color: rgba(255,255,255,0.1); /* default: white at 10% */
+}
+
+:root {
+  /* light mode octagon color: soft dark at 10% */
+  --intelligence-octagon-light: rgba(15,23,42,0.1);
+}
+
+:root.dark {
+  /* dark mode octagon color: white at 10% */
+  --intelligence-octagon-dark: rgba(255,255,255,0.1);
+}
+
+.intelligence-octagon { color: var(--intelligence-octagon-light); }
+.dark .intelligence-octagon { color: var(--intelligence-octagon-dark); }
 
 
 

@@ -38,7 +38,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
 
   return (
     <html lang={locale} className={`${montserrat.variable} ${roboto.variable}`}>
-      <body className="bg-tech flex min-h-dvh flex-col antialiased">
+      <body className="flex min-h-dvh flex-col antialiased">
         <AppProviders>{children}</AppProviders>
       </body>
     </html>

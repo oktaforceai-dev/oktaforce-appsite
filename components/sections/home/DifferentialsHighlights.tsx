@@ -1,54 +1,54 @@
 'use client';
 
+import {Cpu, ShieldCheck, Headphones, ChartBarStacked, Clock4} from 'lucide-react';
 import Image from 'next/image';
-import {BarChart2, FileLock2, Headphones, Server} from 'lucide-react';
 import {useTranslations} from 'next-intl';
 import {SectionHeading} from '@/components/ui/SectionHeading';
 
-const DIFFERENTIALS = [
-  {key: 'redundancy', icon: Server},
-  {key: 'lgpd', icon: FileLock2},
-  {key: 'dashboard', icon: BarChart2},
-  {key: 'service', icon: Headphones}
+const DIFFERENTIAL_ITEMS = [
+  {key: 'technology', icon: Cpu},
+  {key: 'proactiveSecurity', icon: ShieldCheck},
+  {key: 'agileService', icon: Headphones},
+  {key: 'dashboard', icon: ChartBarStacked},
+  {key: 'technicalSupport', icon: Clock4}
 ] as const;
-
-const BG_IMAGE = '/img_monitoramentoEfetivo.webp';
 
 export function DifferentialsHighlights() {
   const t = useTranslations('home.differentials');
+  const image = t.raw('image') as {src: string; alt: string};
 
   return (
-    <section className="relative overflow-hidden p-0">
-      <div className="absolute inset-0">
-        <Image
-          src={BG_IMAGE}
-          alt="Background"
-          fill
-          priority={false}
-          className="object-cover object-top opacity-20"
-        />
-      </div>
+    <section className="section-padding">
+      <div className="section-container grid gap-12 lg:grid-cols-[1fr,0.9fr] lg:items-center">
+        <div>
+          <SectionHeading kicker={t('kicker')} title={t('title')} subtitle={t('subtitle')} />
 
-      <div className="relative py-0">
-        <div className="section-container py-8 md:py-12">
-          <SectionHeading kicker={t('kicker')} title={t('title')} />
-          <div className="mt-8 grid gap-6 md:grid-cols-2 md:gap-8">
-            {DIFFERENTIALS.map(({key, icon: Icon}) => (
-              <article
-                key={key}
-                className="rounded-1xl border border-transparent bg-surface/90 p-6 shadow-sm backdrop-blur transition hover:-translate-y-1 hover:border-brand/40"
-              >
-                <div className="flex items-start gap-4">
+          <ul className="mt-8 grid gap-4">
+            {DIFFERENTIAL_ITEMS.map(({key, icon: Icon}) => {
+              const item = t.raw(`items.${key}`) as {title: string; description: string};
+              return (
+                <li
+                  key={key}
+                  className="flex items-start gap-5 rounded-2xl border border-transparent bg-surface-alt/70 p-6 shadow-sm transition hover:-translate-y-1 hover:border-brand/40"
+                >
                   <span className="flex size-12 items-center justify-center rounded-xl bg-brand/10 text-brand">
                     <Icon className="size-6" aria-hidden />
                   </span>
-                  <div className="space-y-2">
-                    <h3 className="font-display text-lg font-semibold text-foreground">{t(`items.${key}.title`)}</h3>
-                    <p className="text-sm text-foreground/70">{t(`items.${key}.description`)}</p>
+                  <div className="space-y-1.5">
+                    <h3 className="font-display text-lg font-semibold text-foreground">{item.title}</h3>
+                    <p className="text-sm text-foreground/70">{item.description}</p>
                   </div>
-                </div>
-              </article>
-            ))}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+
+        <div className="relative mx-auto w-full max-w-[420px] overflow-hidden rounded-3xl border border-brand/20 bg-brand/5 p-4 shadow-lg">
+          <div className="relative w-full overflow-hidden rounded-3xl">
+            <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl">
+              <Image src={image.src} alt={image.alt} fill className="object-contain object-center" />
+            </div>
           </div>
         </div>
       </div>

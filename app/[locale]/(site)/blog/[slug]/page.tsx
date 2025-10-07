@@ -52,7 +52,7 @@ export default async function BlogPostPage({params}: {params: Promise<{locale: s
   return (
     <article className="section-padding">
       <div className="mx-auto max-w-3xl space-y-6">
-        <Link href={backHref} className="text-sm text-brand underline-offset-4 hover:underline">
+        <Link href={{ pathname: '/blog' }} className="text-sm text-brand underline-offset-4 hover:underline">
           {t("back")}
         </Link>
         <header className="space-y-3">

@@ -21,8 +21,8 @@ export default async function SiteFooter() {
     {id: 'about', href: '/about'},
     {id: 'solutions', href: '/solutions'},
     {id: 'pricing', href: '/pricing'},
-    {id: 'differentials', href: '/differentials'},
-    {id: 'blog', href: '/blog'},
+//    {id: 'differentials', href: '/differentials'},
+//    {id: 'blog', href: '/blog'},
     {id: 'contact', href: '/contact'}
   ] as const;
 
@@ -76,7 +76,7 @@ export default async function SiteFooter() {
           >
             <Mail className="size-4" aria-hidden /> {CONTACT_EMAIL}
           </a>
-          <div className="pt-2">
+            {/*<div className="pt-2">
             <h5 className="text-xs font-semibold uppercase tracking-wide text-foreground/60">{t("followUs")}</h5>
             <div className="mt-2 flex gap-3">
               <SocialIcon href={SOCIAL_LINKS.instagram} label="Instagram">
@@ -89,7 +89,7 @@ export default async function SiteFooter() {
                 <Youtube className="size-4" />
               </SocialIcon>
             </div>
-          </div>
+          </div>  */}
         </div>
       </div>
       <div className="border-t border-transparent bg-surface py-6">

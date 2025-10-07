@@ -1,5 +1,4 @@
-﻿// messages/pt.ts
-import common from './pt/common.json';
+﻿import common from './pt/common.json';
 import home from './pt/home.json';
 import about from './pt/about.json';
 import solutions from './pt/solutions.json';
