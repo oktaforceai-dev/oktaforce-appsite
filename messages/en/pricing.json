@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Plans & pricing – OKTAFORCE",
+    "title": "Plans & pricing - OKTAFORCE",
     "description": "Explore six modular plans that combine proprietary AI, human specialists and redundant infrastructure for residential and commercial properties.",
     "keywords": "remote concierge plans, oktaforce pricing, condominium security, smart concierge"
   },
   "hero": {
     "tagline": "Tailored plans",
     "title": "Six ways to bring your property into the new security era",
-    "description": "Blend Smart View — our proprietary AI — with trained operators and redundant infrastructure. Choose a ready-to-run configuration or customise modules for your operations team.",
+    "description": "Blend Smart View, our proprietary AI, with trained operators and redundant infrastructure. Choose a ready-to-run configuration or customize modules for your operations team.",
     "primaryCta": "Talk to a specialist",
     "secondaryCta": "Request a tailored proposal",
     "caption": "Limited slots for live demos",
@@ -29,12 +29,12 @@
   "plans": {
     "title": "Find the plan that fits your property",
     "subtitle": "Every plan includes Smart View, N+2 redundancy and 24/7 support. OKTAFORCE fine-tunes sensors, integrations and protocols to match your governance.",
-    "disclaimer": "Monthly prices refer to the indicated number of units. Larger footprints receive a customised feasibility study.",
+    "disclaimer": "Monthly prices refer to the indicated number of units. Larger footprints receive a customized feasibility study.",
     "list": [
       {
         "id": "essencia",
         "badge": "Smart entry",
-        "name": "Essência Plan",
+        "name": "Essencia Plan",
         "headline": "Autonomy and security in the residents' hands",
         "audience": "Built for properties starting their remote concierge journey with full control.",
         "priceLabel": "Monthly plan",
@@ -45,7 +45,7 @@
         "features": [
           "Facial recognition, biometrics and mobile keys for access control.",
           "Dedicated intercoms fully integrated with the resident app.",
-          "FHD cameras with redundant recording at our data centre for 15 days.",
+          "FHD cameras with redundant recording at our data center for 15 days.",
           "Complete app for visitor approval, parcel management and shared areas.",
           "Preventive monitoring and 24/7 technical support from the OKTAFORCE team.",
           "Supports up to 4 pedestrian doors and 2 vehicle gates (expansions evaluated on demand).",
@@ -58,20 +58,20 @@
         "id": "impacto",
         "badge": "Most popular",
         "name": "Impacto Plan",
-        "headline": "Professional remote concierge with centralised triage",
+        "headline": "Professional remote concierge with centralized triage",
         "audience": "Ideal for properties that prefer OKTAFORCE operators validating every access.",
         "priceLabel": "Monthly plan",
         "price": "R$ 5.990",
         "priceNote": "Covers up to 80 units. Larger operations receive a tailored proposal.",
-        "description": "Visitors contact our command centre. The team validates ID, voice and video recordings before granting access according to shared protocols.",
+        "description": "Visitors contact our command center. The team validates ID, voice and video recordings before granting access according to shared protocols.",
         "featuresTitle": "Additional features",
         "features": [
-          "Humanised remote service provided by dedicated operators.",
-          "Centralised triage with recorded video and audio validation.",
-          "AI workflow automation to prioritise events and keep audit records.",
+          "Humanized remote service provided by dedicated operators.",
+          "Centralized triage with recorded video and audio validation.",
+          "AI workflow automation to prioritize events and keep audit records.",
           "Technical support SLA of up to 1h30 for critical risks.",
           "Hardware replacement without extra cost during the contract term.",
-          "All features from the Essência Plan."
+          "All features from the Essencia Plan."
         ]
       },
       {
@@ -127,7 +127,7 @@
         "featuresTitle": "Included features",
         "features": [
           "Two on-site collaborators allocated by the OKTAFORCE team.",
-          "6x1 shifts (44h/week) or 12x36 daily 12-hour shifts.",
+          "6x1 shifts (44h per week) or 12x36 daily 12-hour shifts.",
           "Local support during peak demand or contingency periods.",
           "OktaVision and smart monitoring fully integrated with the on-site crew.",
           "Incident response playbooks with consultative support.",
@@ -137,7 +137,7 @@
       {
         "id": "presenca",
         "badge": "Full operation",
-        "name": "Presença Plan",
+        "name": "Presenca Plan",
         "headline": "Physical concierge powered by remote intelligence",
         "audience": "For developments that want full-time staff supported by OKTAFORCE technology.",
         "priceLabel": "Monthly plan",
@@ -150,7 +150,7 @@
           "12x36 shifts with 24/7 availability and operational redundancy.",
           "Direct service to residents, visitors and suppliers supported by smart tools.",
           "Physical access control fully integrated with intelligent systems.",
-          "Complementary remote monitoring with data centre recording.",
+          "Complementary remote monitoring with data center recording.",
           "Integrated management via app and administrative dashboard.",
           "All features from the Absoluto Plan."
         ]
@@ -164,11 +164,11 @@
     "items": [
       {
         "title": "Smart View in real time",
-        "description": "Our AI learns residents' routines, flags suspicious behaviour and triggers playbooks before risks escalate."
+        "description": "Our AI learns residents' routines, flags suspicious behavior and triggers playbooks before risks escalate."
       },
       {
         "title": "Resilient architecture",
-        "description": "N+2 redundant command centre, independent data links and cloud backups keep operations running even during outages."
+        "description": "N+2 redundant command center, independent data links and cloud backups keep operations running even during outages."
       },
       {
         "title": "Human specialists",
@@ -178,7 +178,7 @@
   },
   "cta": {
     "title": "Ready to tailor your plan?",
-    "description": "Schedule a free assessment and discover how to configure each module to protect your community and optimise budgets.",
+    "description": "Schedule a free assessment and discover how to configure each module to protect your community and optimize budgets.",
     "primaryCta": "Build my plan",
     "secondaryCta": "Book a demo"
   }

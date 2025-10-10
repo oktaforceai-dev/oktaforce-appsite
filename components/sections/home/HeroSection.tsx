@@ -24,62 +24,63 @@ export default function HeroSection() {
 
   return (
     <section className="relative overflow-hidden bg-tech">
-      <div className="relative w-full" style={{aspectRatio: '16/9'}}>
+      <div className="relative w-full aspect-[5/7] lg:aspect-[16/9]">
         <Image
           src={HERO_IMAGE}
           alt={hero.imageAlt}
           fill
           priority
-          className="object-cover object-center brightness-75 z-0"
+          className="z-0 object-cover object-center brightness-[1.15] transition-[filter] duration-500 dark:brightness-75"
         />
-  <div className="absolute inset-0 z-20 bg-gradient-to-br from-black/70 via-black/60 to-black/40" />
-        <div className="absolute inset-0 flex items-center z-30">
-          <div className="container mx-auto px-4 pb-24 md:px-6 md:pb-32">
-            <div className="lg:grid lg:grid-cols-[1fr,320px] lg:items-center lg:gap-8">
-              {/* Left: main hero content */}
-              <div className="max-w-3xl space-y-6 text-white">
-                <h1 className="font-display text-4xl font-semibold leading-tight md:text-5xl">{hero.title}</h1>
-                <h2 className="text-xl font-semibold md:text-2xl">{hero.subtitle}</h2>
-                <p className="text-base text-white/90 md:text-lg">{hero.description}</p>
-                <div className="flex flex-col gap-3 pt-2 sm:flex-row">
+        <div className="absolute inset-0 z-20 bg-gradient-to-br from-white/70 via-white/45 to-white/15 transition-colors duration-500 dark:from-black/70 dark:via-black/60 dark:to-black/40" />
+        <div className="absolute inset-0 z-30 flex">
+          <div className="container mx-auto flex h-full flex-col justify-start px-4 pt-8 pb-12 md:px-6 lg:grid lg:grid-cols-[1.1fr,0.9fr] lg:items-center lg:gap-8 lg:px-6 lg:pt-0 lg:pb-32">
+            <div className="flex flex-1 flex-col justify-start space-y-6 text-balance text-foreground transition-colors duration-500 dark:text-white">
+              <div className="max-w-3xl space-y-6 text-balance text-foreground transition-colors duration-500 dark:text-white">
+                <h1 className="font-display text-4xl font-semibold leading-tight text-foreground transition-colors duration-500 dark:text-white md:text-5xl">
+                  {hero.title}
+                </h1>
+                <h2 className="text-xl font-semibold text-foreground/80 transition-colors duration-500 dark:text-white/90 lg:text-2xl">
+                  {hero.subtitle}
+                </h2>
+                <p className="hidden rounded-2xl border border-foreground/10 bg-white/60 px-6 py-5 text-base text-foreground/75 backdrop-blur-md transition-all duration-500 dark:border-white/10 dark:bg-black/40 dark:text-white/80 lg:block lg:max-w-2xl">
+                  {hero.description}
+                </p>
+                <div className="flex flex-col gap-3 pt-4 sm:flex-row lg:pt-2">
                   <ButtonLink href={CTA_LINK} external size="lg" className="w-full sm:w-auto">
                     {hero.primaryCta}
                   </ButtonLink>
                   <Link
                     href="/contact"
                     locale={locale}
-                    className="inline-flex min-h-[44px] items-center justify-center rounded-xl border border-transparent px-6 py-3 text-base font-semibold text-white hover:border-brand hover:text-brand focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
+                    className="hidden min-h-[44px] items-center justify-center rounded-xl border border-transparent px-6 py-3 text-base font-semibold text-foreground transition-colors duration-300 hover:border-brand hover:text-brand focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand dark:text-white lg:inline-flex"
                   >
                     {hero.secondaryCta}
                   </Link>
                 </div>
-                <p className="text-xs font-semibold uppercase tracking-[0.35em] text-white/80">{hero.caption}</p>
+                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-foreground/60 transition-colors duration-500 dark:text-white/75">
+                  {hero.caption}
+                </p>
               </div>
-
-              {/* Right: highlights stack on lg, grid on smaller screens (kept under content) */}
-              {hero.highlight?.length ? (
-                <div className="mt-8 lg:mt-0">
-                  <div className="hidden lg:flex lg:flex-col lg:items-end lg:gap-6 lg:justify-center lg:h-full">
-                    {hero.highlight.map((item) => (
-                      <div key={item.label} className="rounded-xl border border-white/10 bg-black/30 p-6 text-center w-[320px] flex flex-col items-center justify-center">
-                        <p className="text-3xl font-semibold text-white">{item.value}</p>
-                        <p className="text-xs uppercase tracking-[0.25em] mt-1">{item.label}</p>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* fallback / mobile: show as grid under content */}
-                  <div className="mt-6 grid gap-4 text-white/80 sm:grid-cols-3 lg:hidden">
-                    {hero.highlight.map((item) => (
-                      <div key={item.label} className="rounded-xl border border-white/10 bg-black/30 p-4 text-center">
-                        <p className="text-3xl font-semibold text-white">{item.value}</p>
-                        <p className="text-xs uppercase tracking-[0.25em]">{item.label}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ) : null}
             </div>
+
+            {hero.highlight?.length ? (
+              <div className="mt-10 hidden h-full flex-col justify-center gap-5 lg:flex">
+                {hero.highlight.map((item) => (
+                  <div
+                    key={item.label}
+                    className="rounded-2xl border border-foreground/10 bg-white/70 p-5 text-left transition-colors duration-500 dark:border-white/10 dark:bg-black/35"
+                  >
+                    <p className="text-2xl font-semibold text-foreground transition-colors duration-500 dark:text-white">
+                      {item.value}
+                    </p>
+                    <p className="mt-1 text-xs uppercase tracking-[0.3em] text-foreground/70 transition-colors duration-500 dark:text-white/80">
+                      {item.label}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            ) : null}
           </div>
         </div>
       </div>

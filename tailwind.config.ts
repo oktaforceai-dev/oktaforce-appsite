@@ -31,6 +31,9 @@ const config: Config = {
         }
       },
       boxShadow: {
+        sm: '0 14px 35px -18px var(--shadow-soft)',
+        md: '0 18px 45px -20px var(--shadow-soft), 0 12px 32px -18px var(--shadow-strong)',
+        lg: '0 32px 70px -28px var(--shadow-strong)',
         brand: '0 18px 40px -20px rgba(124,58,237,0.45)'
       },
       backgroundImage: {

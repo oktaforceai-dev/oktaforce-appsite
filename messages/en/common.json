@@ -31,12 +31,12 @@
   },
   "footer": {
     "title": "OKTAFORCE, zero blind spots",
-    "description": "Remote concierge powered by proprietary AI, 24/7 command center, redundant infrastructure and a dedicated local team.",
+    "description": "Remote concierge powered by proprietary AI, a 24/7 command center, redundant infrastructure and a dedicated local team.",
     "cta": "Talk to an expert now",
     "quickLinks": "Quick links",
     "contact": "Contact",
     "followUs": "Follow our channels",
-    "legal": "© {year} OKTAFORCE. All rights reserved.",
+    "legal": "Copyright {year} OKTAFORCE. All rights reserved.",
     "rights": ""
   },
   "form": {

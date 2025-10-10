@@ -16,9 +16,9 @@ export function DifferentialsHero() {
           alt="Differentials background"
           fill
           priority
-          className="object-cover object-top"
+          className="object-cover object-top brightness-[1.15] transition-[filter] duration-500 dark:brightness-90"
         />
-        <div className="absolute inset-0 bg-black/30" />
+        <div className="absolute inset-0 bg-white/65 transition-colors duration-500 dark:bg-black/40" />
         <div className="absolute inset-0">
           <div className="relative py-16 md:py-24 text-center">
             <div className="mx-auto max-w-4xl">

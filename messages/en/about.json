@@ -6,7 +6,7 @@
   },
   "hero": {
     "tagline": "About us",
-    "title": "Global DNA, operation fully dedicated to Brazil",
+    "title": "Global DNA, operations focused on Brazil",
     "subtitle": "We combine international investment, proprietary technology and a local team that truly understands Brazilian condominiums.",
     "cta": "Talk to our team"
   },
@@ -14,8 +14,8 @@
     "title": "Built to raise the security standard",
     "paragraphs": [
       "OKTAFORCE was founded in 2021 by specialists in electronic security, data science and property management who were leading projects in North America and Brazil.",
-      "We identified a common pattern: sophisticated condominiums wanted to cut expenses without losing a strong sense of protection. The market was crowded with promises but lacked transparency. We decided to create a platform that merges proprietary AI, human-centric protocols and radical governance.",
-      "In 2023 we established our operations center in São Paulo with a Brazilian team, N+2 redundancy and strategic partnerships with security and technology firms. Since then we have grown alongside professional condo managers, administrators and investment groups that demand data, SLA and long-term partnership."
+      "We spotted a common pattern: sophisticated condominiums wanted to cut expenses without losing protection. The market was crowded with promises but lacked transparency, so we created a platform that merges proprietary AI, human-centric protocols and radical governance.",
+      "In 2023 we opened our operations center in Sao Paulo with a Brazilian team, N+2 redundancy and strategic partnerships with security and technology firms. Since then we have grown alongside professional condo managers, administrators and investment groups that demand data, SLA and long-term partnership."
     ]
   },
   "missionVision": {
@@ -40,7 +40,7 @@
       },
       {
         "title": "People first",
-        "description": "We recognise collaborators, residents and partners as essential parts of our ecosystem."
+        "description": "We recognize collaborators, residents and partners as essential parts of our ecosystem."
       },
       {
         "title": "Sustainability and future",
@@ -74,7 +74,7 @@
       },
       {
         "year": "2023",
-        "title": "Operations center in São Paulo",
+        "title": "Operations center in Sao Paulo",
         "description": "We launch the N+2 command center, certify operators and onboard the first premium condominiums."
       },
       {
@@ -113,7 +113,7 @@
     "items": [
       {
         "title": "Brazilian operations, global DNA",
-        "description": "N+2 command center in São Paulo, local specialists and international investment for scale and proximity."
+        "description": "N+2 command center in Sao Paulo, local specialists and international investment for scale and proximity."
       },
       {
         "title": "Radical transparency",

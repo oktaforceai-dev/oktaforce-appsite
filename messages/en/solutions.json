@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "OKTAFORCE Solutions",
-    "description": "Discover OKTAFORCE remote concierge modules, smart view AI, resilient infrastructure, exclusive resident tools and premium support.",
+    "description": "Discover OKTAFORCE remote concierge modules, Smart View AI, resilient infrastructure, exclusive resident tools and premium support.",
     "keywords": "oktaforce solutions, remote concierge, smart view, infrastructure, premium support"
   },
   "hero": {
     "title": "Custom security and management solutions",
-    "subtitle": "Modern, flexible, efficient access control—powered by tailored solutions, advanced technology, and support that actually works.",
+    "subtitle": "Modern, flexible, efficient access control backed by tailored solutions, advanced technology and reliable support.",
     "cta": "Explore our plans",
     "tagline": "Integrated security"
   },
@@ -14,44 +14,44 @@
     "title": "Ready to build the ideal configuration?",
     "subtitle": "Combine remote concierge, OKTAVISION and smart delivery modules in one tailored plan.",
     "primary": "View plans and pricing",
-    "primaryHref": "/en/pricing",
+    "primaryHref": "/pricing",
     "secondary": "Talk to the solutions team"
   },
   "sections": [
     {
       "key": "remote",
-      "title": "Remote Concierge with Integrated AI",
+      "title": "Remote concierge with integrated AI",
       "headline": "Continuous monitoring with dual verification and real-time response.",
-      "description": "Each entry is verified by AI and trained operators, reducing human error. Facial recognition, biometrics, and an exclusive app ensure secure authentication.",
+      "description": "Each entry is verified by AI and trained operators, reducing human error. Facial recognition, biometrics and an exclusive app ensure secure authentication.",
       "bullets": [
-          "Centralized screening with intelligent protocols for residents, visitors, and service providers.",
-          "All access events are recorded with audio, video, and auditable logs.",
-          "N+2 infrastructure with high availability and full redundancy.",
-          "Continuous, tailored, and unobtrusive security—just the way your condominium needs."
+        "Centralized screening with intelligent protocols for residents, visitors and service providers.",
+        "All access events are recorded with audio, video and auditable logs.",
+        "N+2 infrastructure with high availability and full redundancy.",
+        "Continuous, tailored and unobtrusive protection that matches the needs of your condominium."
       ]
     },
     {
       "key": "oktavision",
-      "title": "Proactive, Preventive Surveillance",
+      "title": "Proactive, preventive surveillance",
       "headline": "Real-time behavioral analytics powered by advanced computer vision.",
-      "description": "Flags unusual motion, suspicious routes, and abnormal loitering—automated protocols fire before a threat unfolds.",
+      "description": "Flags unusual motion, suspicious routes and abnormal loitering so automated protocols fire before a threat unfolds.",
       "bullets": [
-       "Heatmaps, alerts, and an auditable decision trail in a strategic command dashboard.",
-       "End-to-end integration with sensors, alarms, and AI-powered remote guarding.",
-       "Built for critical areas, exposed perimeters, and high-traffic zones.",
-       "More than monitoring—anticipate and act with precision."
+        "Heatmaps, alerts and an auditable decision trail in a strategic command dashboard.",
+        "End-to-end integration with sensors, alarms and AI-powered remote guarding.",
+        "Built for critical areas, exposed perimeters and high-traffic zones.",
+        "More than monitoring: anticipate and act with precision."
       ]
     },
     {
       "key": "lockers",
-      "title": "Simplified Logistics",
+      "title": "Simplified logistics",
       "headline": "Packages under control with solutions for every type of condo.",
-      "description": "Modular lockers with multiple compartments and digital tracking. Discreet, built-in Smart Drop, ideal for gates and compact areas.",
+      "description": "Modular lockers with multiple compartments and digital tracking. Discreet, built-in Smart Drop ideal for gates and compact areas.",
       "bullets": [
         "Automatic notifications in the OKTAFORCE app the moment a delivery arrives.",
         "Full audit: every pickup leaves a visible, secure trail.",
         "No lines, no lost packages, no intervention from the building manager or doorman.",
-        "More efficiency, less conflict—delivery the way it should be."
+        "More efficiency, less conflict: delivery the way it should be."
       ]
     }
   ],
@@ -123,9 +123,9 @@
       "currency": "in BRL thousands"
     },
     "buckets": {
-      "payroll": "Payroll & labor",
+      "payroll": "Payroll and labor",
       "infrastructure": "Infrastructure",
-      "risk": "Risk & liabilities"
+      "risk": "Risk and liabilities"
     }
   }
 }

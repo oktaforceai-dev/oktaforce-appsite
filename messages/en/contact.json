@@ -1,4 +1,4 @@
-﻿{
+{
   "meta": {
     "title": "Contact OKTAFORCE",
     "description": "Contact OKTAFORCE to request an assessment, proposal or platform demo.",
@@ -13,7 +13,7 @@
     "items": [
       { "label": "Phone", "value": "+55 (11) 4000-1234", "type": "phone" },
       { "label": "Email", "value": "contato@oktaforce.com.br", "type": "email" },
-      { "label": "Address", "value": "Av. Brigadeiro Faria Lima, 2369 - Jardim Paulistano, São Paulo/SP", "type": "address" }
+      { "label": "Address", "value": "Av. Brigadeiro Faria Lima, 2369 - Jardim Paulistano, Sao Paulo/SP", "type": "address" }
     ]
   },
   "whatsapp": {
@@ -37,6 +37,6 @@
   },
   "map": {
     "title": "OKTAFORCE operations center",
-    "description": "Our command center is located in São Paulo and welcomes scheduled visits."
+    "description": "Our command center is located in Sao Paulo and welcomes scheduled visits."
   }
 }

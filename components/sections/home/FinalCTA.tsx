@@ -10,18 +10,16 @@ export function FinalCTA() {
   const content = t.raw('content') as {line1: string; line2: string; line3: string; primaryCta: string};
 
   return (
-    <section className="section-padding relative overflow-hidden">
-      {/* full-bleed image that spans the viewport width without cropping */}
-      <div className="absolute left-1/2 top-0 -z-20 pointer-events-none w-screen -translate-x-1/2 overflow-hidden">
+    <section className="section-padding relative left-1/2 w-screen -translate-x-1/2 transform-gpu overflow-hidden">
+      <div className="absolute inset-0 -z-20 pointer-events-none">
         <img
           src="/back-view-deliverer-cta.webp"
           alt=""
-          className="w-full h-auto object-contain"
-          style={{opacity: 0.15}}
+          className="h-full w-full object-cover"
+          style={{opacity: 0.45}}
           aria-hidden
         />
       </div>
-      {/* overlay covering the whole section for legibility */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-black/40 via-black/20 to-transparent" />
       <div className="section-container relative">
         <div className="card-glass rounded-2xl p-10 text-center shadow-brand">

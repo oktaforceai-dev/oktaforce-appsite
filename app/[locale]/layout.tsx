@@ -1,5 +1,6 @@
 ﻿// app/[locale]/layout.tsx
 import {NextIntlClientProvider} from 'next-intl';
+import {setRequestLocale} from 'next-intl/server';
 import SiteHeader from '@/components/layout/SiteHeader';
 import SiteFooter from '@/components/layout/SiteFooter';
 
@@ -17,13 +18,14 @@ export default async function LocaleLayout({
   params: {locale: string};
 }) {
   const {locale} = params;
+  setRequestLocale(locale);
   const messages = (await import(`@/messages/${locale}.ts`)).default;
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <SiteHeader />
       <main className="flex-1">{children}</main>
-      <SiteFooter />
+      <SiteFooter locale={locale} />
     </NextIntlClientProvider>
   );
 }

@@ -1,5 +1,5 @@
 import {Mail, MapPin, Phone, Instagram, Linkedin, Youtube} from "lucide-react";
-import {getLocale, getTranslations} from "next-intl/server";
+import {getTranslations} from "next-intl/server";
 import {Link} from "@/i18n/routing";
 import {ButtonLink} from "@/components/ui/ButtonLink";
 import {
@@ -10,10 +10,13 @@ import {
   WHATSAPP_LINK
 } from "@/lib/siteConfig";
 
-export default async function SiteFooter() {
-  const locale = await getLocale();
-  const t = await getTranslations("common.footer");
-  const navigationT = await getTranslations("common.navigation");
+type SiteFooterProps = {
+  locale: string;
+};
+
+export default async function SiteFooter({locale}: SiteFooterProps) {
+  const t = await getTranslations({locale, namespace: "common.footer"});
+  const navigationT = await getTranslations({locale, namespace: "common.navigation"});
   const rightsText = t("rights");
 
   const items = [
@@ -115,4 +118,3 @@ function SocialIcon({href, label, children}: {href: string; label: string; child
     </a>
   );
 }
-

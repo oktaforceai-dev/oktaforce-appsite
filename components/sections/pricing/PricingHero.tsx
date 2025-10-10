@@ -18,16 +18,16 @@ export function PricingHero() {
   const metrics = t.raw('metrics') as Metric[] | undefined;
 
   return (
-    <section className="relative overflow-hidden p-0">
-      <div className="relative w-full" style={{aspectRatio: '21/9'}}>
+    <section className="relative overflow-hidden p-0 bg-tech">
+      <div className="relative w-full aspect-[5/7] lg:aspect-[21/9]">
         <Image
           src={HERO_BACKGROUND}
           alt={t('title')}
           fill
           priority
-          className="object-cover object-top opacity-[.07] dark:opacity-100"
+          className="object-cover object-top opacity-40 transition-opacity duration-500 dark:opacity-100"
         />
-        <div className="absolute inset-0 bg-transparent dark:bg-black/60" />
+        <div className="absolute inset-0 bg-white/30 transition-colors duration-500 dark:bg-transparent" />
         <div className="absolute inset-0">
           <div className="container mx-auto flex h-full flex-col items-center justify-end gap-8 px-8 py-12 text-center">
             <div className="max-w-3xl space-y-6">
@@ -37,7 +37,7 @@ export function PricingHero() {
               <h1 className="font-display text-4xl font-semibold leading-tight text-foreground md:text-5xl">
                 {t('title')}
               </h1>
-              <p className="text-base text-foreground/80 md:text-lg">{t('description')}</p>
+              <p className="hidden text-base text-foreground/80 sm:block sm:text-sm md:text-lg">{t('description')}</p>
               <div className="flex flex-col items-center justify-center gap-3 pt-4 sm:flex-row">
                 <ButtonLink
                   href="/contact"
@@ -53,6 +53,8 @@ export function PricingHero() {
                   size="lg"
                   eventName="cta_demo_requested"
                   eventData={{page: 'pricing', locale, placement: 'hero'}}
+                  className="pointer-events-none opacity-50 sm:pointer-events-auto sm:opacity-100"
+                  aria-disabled={true}
                 >
                   {t('secondaryCta')}
                 </ButtonLink>
