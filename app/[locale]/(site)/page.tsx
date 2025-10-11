@@ -17,8 +17,8 @@ export default function HomePage() {
         <section className="section"><BenefitsGrid /></section>
         <section className="section"><IntelligenceSection /></section>
         <section className="section"><DifferentialsHighlights /></section>
+        <section className="section"><FinalCTA /></section>        
         <section className="section"><FAQSection /></section>
-        <section className="section"><FinalCTA /></section>
       </main>
     </>
   );

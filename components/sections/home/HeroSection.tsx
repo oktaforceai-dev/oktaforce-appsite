@@ -34,7 +34,7 @@ export default function HeroSection() {
         />
         <div className="absolute inset-0 z-20 bg-gradient-to-br from-white/70 via-white/45 to-white/15 transition-colors duration-500 dark:from-black/70 dark:via-black/60 dark:to-black/40" />
         <div className="absolute inset-0 z-30 flex">
-          <div className="container mx-auto flex h-full flex-col justify-start px-4 pt-8 pb-12 md:px-6 lg:grid lg:grid-cols-[1.1fr,0.9fr] lg:items-center lg:gap-8 lg:px-6 lg:pt-0 lg:pb-32">
+          <div className="container mx-auto flex h-full flex-col justify-start px-4 pt-24 pb-12 md:px-6 md:pt-12 lg:grid lg:grid-cols-[1.1fr,0.9fr] lg:items-center lg:gap-8 lg:px-6 lg:pt-0 lg:pb-32">
             <div className="flex flex-1 flex-col justify-start space-y-6 text-balance text-foreground transition-colors duration-500 dark:text-white">
               <div className="max-w-3xl space-y-6 text-balance text-foreground transition-colors duration-500 dark:text-white">
                 <h1 className="font-display text-4xl font-semibold leading-tight text-foreground transition-colors duration-500 dark:text-white md:text-5xl">
