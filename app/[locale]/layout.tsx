@@ -8,14 +8,18 @@ export function generateStaticParams() {
   return [{locale: 'pt'}, {locale: 'en'}];
 }
 
+type LocaleParams = {locale: string};
+type LocaleLayoutProps = {
+  children: React.ReactNode;
+  params?: Promise<LocaleParams>;
+};
+
 export default async function LocaleLayout({
   children,
   params
-}: {
-  children: React.ReactNode;
-  params: {locale: string};
-}) {
-  const {locale} = params;
+}: LocaleLayoutProps) {
+  const resolvedParams = (await params) ?? {locale: 'pt'};
+  const {locale} = resolvedParams;
   setRequestLocale(locale);
   const messages = (await import(`@/messages/${locale}.ts`)).default;
 

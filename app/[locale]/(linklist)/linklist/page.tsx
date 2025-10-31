@@ -10,10 +10,12 @@ import {
   Phone
 } from 'lucide-react';
 
-type PageProps = {
-  params: {
-    locale: string;
-  };
+type LocaleParam = {
+  locale: string;
+};
+
+type LinkListPageProps = {
+  params?: Promise<LocaleParam>;
 };
 
 const LINK_ITEMS = [
@@ -34,12 +36,16 @@ const LINK_ITEMS = [
   {
     id: 'email',
     href: 'mailto:contato@oktaforce.com.br',
-    icon: Mail
+    icon: Mail,
+    target: '_self' as const,
+    rel: ''
   },
   {
     id: 'phone',
     href: 'tel:+551132741040',
-    icon: Phone
+    icon: Phone,
+    target: '_self' as const,
+    rel: ''
   },
   {
     id: 'whatsapp',
@@ -50,9 +56,10 @@ const LINK_ITEMS = [
   }
 ] as const;
 
-export default async function LinkListPage({ params }: { params: { locale: string } }) {
-  const t = await getTranslations({locale: params.locale, namespace: 'linklist.meta'});
-  const canonicalPath = params.locale === 'en' ? '/en/learn-more' : '/saibamais';
+export async function generateMetadata({params}: LinkListPageProps): Promise<Metadata> {
+  const resolvedParams = (await params) ?? {locale: 'pt'};
+  const t = await getTranslations({locale: resolvedParams.locale, namespace: 'linklist.meta'});
+  const canonicalPath = resolvedParams.locale === 'en' ? '/en/learn-more' : '/saibamais';
 
   return {
     title: t('title'),
@@ -71,8 +78,9 @@ export default async function LinkListPage({ params }: { params: { locale: strin
   };
 }
 
-export default async function LinkListPage({params}: PageProps) {
-  const t = await getTranslations({locale: params.locale, namespace: 'linklist'});
+export default async function LinkListPage({params}: LinkListPageProps) {
+  const resolvedParams = (await params) ?? {locale: 'pt'};
+  const t = await getTranslations({locale: resolvedParams.locale, namespace: 'linklist'});
 
   return (
     <div className="relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-surface px-6 py-12 text-foreground">
