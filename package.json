@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/post-export.js",
     "build:clean": "rm -rf .next && next build",
     "start": "NODE_ENV=production node server.js",
     "lint": "next lint",
