@@ -12,8 +12,6 @@ export const metadata: Metadata = {
   description: "Artigos, notícias e dicas sobre segurança condominial, portaria remota e tecnologia.",
 };
 
-export const dynamic = 'force-dynamic';
-
 export default async function BlogPage({ params }: PageProps) {
   const { locale } = await params;
   const posts = await listBlogPosts(locale);

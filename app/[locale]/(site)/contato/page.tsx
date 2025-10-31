@@ -3,8 +3,6 @@ import { ContactInfo } from "@/components/sections/contact/ContactInfo";
 import { ContactForm } from "@/components/sections/contact/ContactForm";
 import { ContactMap } from "@/components/sections/contact/ContactMap";
 
-export const dynamic = 'force-dynamic';
-
 export default function ContactPage() {
   return (
     <>

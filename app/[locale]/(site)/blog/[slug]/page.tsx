@@ -3,8 +3,20 @@ import Image from "next/image";
 import {notFound} from "next/navigation";
 import {getTranslations} from "next-intl/server";
 import Link from "next/link";
-import {getBlogPostBySlug} from "@/lib/blog";
+import {getBlogPostBySlug, listBlogPosts} from "@/lib/blog";
 import {getPathname} from "@/i18n/routing";
+
+export async function generateStaticParams() {
+  const locales = ['pt', 'en'] as const;
+  const params = await Promise.all(
+    locales.map(async (locale) => {
+      const posts = await listBlogPosts(locale, {limit: 50});
+      return posts.map((post) => ({locale, slug: post.slug}));
+    })
+  );
+
+  return params.flat();
+}
 
 export async function generateMetadata({params}: {params: Promise<{locale: string; slug: string}>}): Promise<Metadata> {
   const {locale, slug} = await params;
@@ -28,8 +40,6 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     }
   };
 }
-
-export const dynamic = 'force-dynamic';
 
 export default async function BlogPostPage({params}: {params: Promise<{locale: string; slug: string}>}) {
   const {locale, slug} = await params;

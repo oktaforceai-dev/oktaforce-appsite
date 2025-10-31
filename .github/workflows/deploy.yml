@@ -19,7 +19,7 @@ jobs:
         run: npm ci
 
       - name: Build (Next export -> /out)
-        run: npm run build
+        run: NEXT_OUTPUT_EXPORT=true npm run build
 
       - name: Debug local /out
         run: |

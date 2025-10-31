@@ -3,8 +3,6 @@ import { PlansGrid } from "@/components/sections/pricing/PlansGrid";
 import { PricingCTA } from "@/components/sections/pricing/PricingCTA";
 import { PricingHero } from "@/components/sections/pricing/PricingHero";
 
-export const dynamic = 'force-dynamic';
-
 export default function PricingPage() {
   return (
     <>

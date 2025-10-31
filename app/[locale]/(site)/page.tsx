@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-
 import HeroSection from '@/components/sections/home/HeroSection';
 import { PainPoints } from '@/components/sections/home/PainPoints';
 import { BenefitsGrid } from '@/components/sections/home/BenefitsGrid';

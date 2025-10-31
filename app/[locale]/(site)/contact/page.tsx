@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 
-export const dynamic = 'force-dynamic';
-
 export const metadata: Metadata = {
   title: "Contato | OktaForce",
   description: "Entre em contato com a OktaForce para saber mais sobre nossas soluções de segurança e monitoramento inteligente.",

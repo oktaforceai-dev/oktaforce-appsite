@@ -1,5 +1,3 @@
-export const dynamic = 'force-dynamic';
-
 import SolutionsHero from '@/components/sections/solutions/SolutionsHero';
 import { SolutionModules } from '@/components/sections/solutions/SolutionModules';
 import { SolutionsComparison } from '@/components/sections/solutions/ComparisonSection';

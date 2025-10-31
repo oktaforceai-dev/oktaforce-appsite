@@ -15,8 +15,6 @@ import type { Metadata } from "next";
 //   };
 // }
 
-export const dynamic = 'force-dynamic';
-
 export default function DifferentialsPage() {
   return (
     <main className="container mx-auto px-4 py-12">

@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import type {Metadata} from 'next';
+import {notFound} from 'next/navigation';
 import {getTranslations} from 'next-intl/server';
 import {
   ArrowUpRight,
@@ -10,12 +11,20 @@ import {
   Phone
 } from 'lucide-react';
 
-type LocaleParam = {
-  locale: string;
+const LOCALE_SLUG = {
+  pt: 'saibamais',
+  en: 'learn-more'
+} as const;
+
+type SupportedLocale = keyof typeof LOCALE_SLUG;
+
+type PageParams = {
+  locale: SupportedLocale;
+  slug: string;
 };
 
 type LinkListPageProps = {
-  params?: Promise<LocaleParam>;
+  params: Promise<PageParams>;
 };
 
 const LINK_ITEMS = [
@@ -56,10 +65,23 @@ const LINK_ITEMS = [
   }
 ] as const;
 
+export async function generateStaticParams() {
+  return (Object.entries(LOCALE_SLUG) as Array<[SupportedLocale, string]>).map(([locale, slug]) => ({
+    locale,
+    slug
+  }));
+}
+
 export async function generateMetadata({params}: LinkListPageProps): Promise<Metadata> {
-  const resolvedParams = (await params) ?? {locale: 'pt'};
-  const t = await getTranslations({locale: resolvedParams.locale, namespace: 'linklist.meta'});
-  const canonicalPath = resolvedParams.locale === 'en' ? '/en/learn-more' : '/saibamais';
+  const {locale, slug} = await params;
+  const expectedSlug = LOCALE_SLUG[locale];
+
+  if (slug !== expectedSlug) {
+    notFound();
+  }
+
+  const t = await getTranslations({locale, namespace: 'linklist.meta'});
+  const canonicalPath = locale === 'en' ? '/en/learn-more' : '/saibamais';
 
   return {
     title: t('title'),
@@ -79,8 +101,14 @@ export async function generateMetadata({params}: LinkListPageProps): Promise<Met
 }
 
 export default async function LinkListPage({params}: LinkListPageProps) {
-  const resolvedParams = (await params) ?? {locale: 'pt'};
-  const t = await getTranslations({locale: resolvedParams.locale, namespace: 'linklist'});
+  const {locale, slug} = await params;
+  const expectedSlug = LOCALE_SLUG[locale];
+
+  if (slug !== expectedSlug) {
+    notFound();
+  }
+
+  const t = await getTranslations({locale, namespace: 'linklist'});
 
   return (
     <div className="relative flex min-h-dvh flex-col items-center justify-center overflow-hidden bg-surface px-6 py-12 text-foreground">
