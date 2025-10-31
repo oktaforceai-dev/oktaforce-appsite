@@ -1,15 +1,12 @@
 'use client';
 
 import Image from 'next/image';
-import {useLocale, useTranslations} from 'next-intl';
-import {ButtonLink} from '@/components/ui/ButtonLink';
-import {Link} from '@/i18n/routing';
+import {useTranslations} from 'next-intl';
 
 const HERO_BACKGROUND = '/img_chaveMobile.webp';
 
 export default function SolutionsHero() {
   const t = useTranslations('solutions.hero');
-  const locale = useLocale();
 
   return (
     <section className="relative overflow-hidden p-0 bg-tech">
@@ -27,14 +24,6 @@ export default function SolutionsHero() {
             <div className="w-full text-center space-y-4">
               <h1 className="font-display text-4xl font-semibold text-foreground md:text-5xl">{t('title')}</h1>
               <p className="text-base text-foreground/85 md:text-lg">{t('subtitle')}</p>
-              <div className="mt-4 flex items-center justify-center gap-3">
-                <Link
-                  href="/pricing"
-                  className="inline-flex min-h-[44px] items-center justify-center rounded-xl border border-transparent text-foreground hover:border-brand hover:text-brand px-6 py-3 text-base font-semibold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
-                >
-                  {t('cta')}
-                </Link>
-              </div>
             </div>
           </div>
         </div>

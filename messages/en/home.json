@@ -1,177 +1,167 @@
 {
   "hero": {
     "content": {
-      "title": "Smart security and real savings for your property",
-      "subtitle": "Eliminate human failure, cut costs by up to 70% and keep total control with our Remote Concierge.",
-      "description": "Property managers already know: traditional concierge services are expensive, vulnerable and inefficient. Our solution replaces outdated operations with an intelligent 24/7 remote monitoring system powered by artificial intelligence and advanced access control.",
-      "primaryCta": "Get my demo now",
-      "secondaryCta": "Talk to a specialist",
-      "caption": "Limited availability for live demos",
-      "imageAlt": "Secure condominium operated with remote concierge",
+      "title": "OKTAFORCE ecosystem: security, efficiency and intelligence for condominiums",
+      "subtitle": "A single operational flow brings together remote concierge, proprietary AI, predictive maintenance and facilities management.",
+      "description": "OKTAFORCE Brazil is a technological force in condominium security. We combine remote concierge, analytical monitoring, intelligent maintenance and human excellence to turn your property's routine into efficiency, protection and peace of mind.",
+      "primaryCta": "Talk to OKTAFORCE",
+      "secondaryCta": "Explore our solutions",
+      "caption": "OKTAFORCE Identity, Guidelines and Strategy",
+      "imageAlt": "OKTAFORCE digital ecosystem in action",
       "highlight": [
-        {"label": "Cost reduction", "value": "70%"},
-        {"label": "Calls answered in 5s", "value": "78%"},
-        {"label": "Active monitoring", "value": "24/7"}
+        {"label": "Maximum SLA for critical risks", "value": "1h30"},
+        {"label": "Calls answered within 7 seconds", "value": "80%"},
+        {"label": "Hybrid monitoring with AI and dedicated teams", "value": "24/7"}
       ]
     }
   },
   "pains": {
-    "kicker": "",
-    "title": "Real problems every property faces",
-    "subtitle": "We surface the most critical pains of the traditional concierge to show how remote operations reshape daily routines.",
+    "kicker": "Market challenges",
+    "title": "Where traditional concierge fails, OKTAFORCE delivers results",
+    "subtitle": "Outdated models add costs, bureaucracy and blind spots. Our ecosystem is designed to anticipate risks and simplify life for property managers and residents.",
     "items": {
       "costs": {
-        "title": "Escalating costs",
-        "description": "Up to 60% of the monthly budget can be drained by the legacy concierge setup.",
-        "icon": "/icons/custos.png"
+        "title": "Unpredictable costs and inflated fees",
+        "description": "We cut operating expenses by integrating remote concierge, maintenance and facilities into scalable modules with financial predictability."
       },
       "humanRisk": {
-        "title": "Human risk",
-        "description": "On-site staff can be coerced or overrun in risk situations.",
-        "icon": "/icons/risco-humano.png"
+        "title": "Constant exposure to human error",
+        "description": "Artificial intelligence, automated playbooks and a 24/7 command center eliminate vulnerabilities caused by on-site shifts and unstructured procedures."
       },
       "lackControl": {
-        "title": "Lack of control and transparency",
-        "description": "Without detailed records, managers are exposed during audits and disputes.",
-        "icon": "/icons/falta-controle.png"
+        "title": "Fragmented data and low visibility",
+        "description": "The OKTAFORCE Super App records every access, alert and delivery in real time, ensuring a full audit trail for governance."
       },
       "inefficiency": {
-        "title": "Inefficient service",
-        "description": "Slow visitor approval and parcel handling hurt residents' experience.",
-        "icon": "/icons/ineficiencia.png"
+        "title": "A stalled experience for managers and residents",
+        "description": "We digitize approvals, bookings, communications and parcel logistics to free up time and raise resident satisfaction."
       }
     },
     "comparison": {
-      "kicker": "Visual comparison",
-      "subtitle": "See how remote concierge delivers efficiency and savings from day one.",
+      "kicker": "Everything connected. Everything under control.",
+      "subtitle": "Compare the traditional routine with the integrated operation of the OKTAFORCE Digital Ecosystem.",
       "images": {
         "traditional": {
           "src": "/comparativo2.webp",
-          "alt": "Traditional concierge cost comparison",
-          "label": "Traditional concierge"
+          "alt": "Fragmented routine of the traditional concierge",
+          "label": "Traditional model"
         },
         "remote": {
           "src": "/comparativo1.webp",
-          "alt": "Remote concierge cost comparison",
-          "label": "Remote concierge"
+          "alt": "Integrated routine with the OKTAFORCE ecosystem",
+          "label": "OKTAFORCE in action"
         }
       }
     }
   },
   "benefits": {
-    "kicker": "",
-    "title": "Tangible benefits for managers, boards and residents",
-    "subtitle": "A complete security and experience layer that transforms the condominium from day one.",
+    "kicker": "OKTAFORCE ecosystem",
+    "title": "Benefits that sustain the new condominium operation",
+    "subtitle": "Immediate outcomes for professional property managers, administrators and residents.",
     "items": {
       "savings": {
-        "title": "Real savings",
-        "description": "Cut up to 70% of costs by replacing on-site teams with intelligent 24/7 remote operations.",
-        "icon": "/icons/economia.png"
+        "title": "Proven financial efficiency",
+        "description": "Modular plans lower operating costs without giving up security, delivering sustained savings month after month."
       },
       "zeroSurrender": {
-        "title": "Zero surrender",
-        "description": "With no operator on site, the risk of coercion disappears while protection remains uninterrupted.",
-        "icon": "/icons/zero-rendicao.png"
+        "title": "Security without surrender",
+        "description": "A redundant remote command center, automated playbooks and on-site contingency ensure immediate response in any scenario."
       },
       "autonomy": {
-        "title": "Full autonomy",
-        "description": "Exclusive resident app with remote access approvals, temporary QR codes and digital credentials.",
-        "icon": "/icons/autonomia.png"
+        "title": "Digital autonomy for residents",
+        "description": "The Super App centralizes access control, bookings, panic button and communication between residents, managers and administrators."
       },
       "transparency": {
-        "title": "Transparency",
-        "description": "Every interaction is recorded with photo, video and audio, ready for audits and meetings.",
-        "icon": "/icons/transparencia.png"
+        "title": "Transparency and governance",
+        "description": "Real-time dashboards, auditable reports and complete event history enable assertive decisions by the condo board."
       },
       "reliability": {
-        "title": "24/7 reliability",
-        "description": "Continuous monitoring backed by redundant power and connectivity.",
-        "icon": "/icons/confiabilidade.png"
+        "title": "24/7 ultra-fast support",
+        "description": "SLA of up to 1h30 for critical risks and 80% of calls answered within 7 seconds by certified specialists."
       },
       "locker": {
-        "title": "i-Locker convenience",
-        "description": "Secure parcel delivery with smart lockers connected to the remote hub.",
-        "icon": "/icons/conveniencia.png"
+        "title": "Intelligent parcel logistics",
+        "description": "Smart Locker and Smart Drop integrated with the Super App for secure, trackable deliveries without manual intervention."
       }
     }
   },
   "intelligence": {
-    "kicker": "Intelligent core",
-    "title": "Our edge is the proactive AI intelligence matrix",
-    "subtitle": "Data, sensors and proprietary AI work together to anticipate risks and trigger instant responses.",
+    "kicker": "OKTAFORCE Digital Ecosystem",
+    "title": "Everything connected. Everything under control.",
+    "subtitle": "Remote concierge, proprietary AI, communications and intelligent maintenance work together to protect and streamline condominium life.",
     "highlights": [
-      {"text": "Detects suspicious patterns in real time."},
-      {"text": "Learns the property routine to predict risks."},
-      {"text": "Acts before the threat escalates."}
+      {"text": "Access control via biometrics, QR code and facial recognition inside the Super App."},
+      {"text": "Analytical intelligence that monitors, predicts and triggers automatic alerts."},
+      {"text": "Complete history of interactions, deliveries and incidents available in real time."}
     ],
     "image": {
       "src": "/tecnologia.webp",
-      "alt": "Technological heart illustrating proactive intelligence"
+      "alt": "Visualization of the OKTAFORCE digital ecosystem"
     }
   },
   "differentials": {
-    "kicker": "",
-    "title": "",
-    "subtitle": "Proprietary technology, specialized teams and data-driven operations to deliver maximum protection.",
+    "kicker": "Competitive differentials",
+    "title": "The new generation of remote concierge in Brazil",
+    "subtitle": "Proprietary technology, hybrid operations and human excellence redefining condominium security.",
     "items": {
       "technology": {
-        "title": "Proprietary, global-grade technology",
-        "description": "Advanced AI, multi-factor biometrics, facial recognition, license plate scans and dynamic QR codes."
+        "title": "Proprietary software with optimized AI",
+        "description": "Platform developed by OKTAFORCE with full redundancy, trained models and true integration with any existing concierge."
       },
       "proactiveSecurity": {
-        "title": "Proactive AI security",
-        "description": "We intervene before threats with predictive monitoring and immediate playbooks."
+        "title": "Hybrid and intelligent operation",
+        "description": "Remote concierge with automated playbooks and plans that include on-site contingency for strategic situations."
       },
       "agileService": {
-        "title": "Agile response (78% of calls in 5s)",
-        "description": "24/7 command center with specialists responding in under five seconds."
+        "title": "Ultra-fast support",
+        "description": "SLA of up to 1h30 for critical risks and 80% of calls answered within 7 seconds by our 24/7 command center."
       },
       "dashboard": {
-        "title": "Complete dashboard",
-        "description": "KPIs, customizable reports and full audits for managers and boards."
+        "title": "Integrated data in the Super App",
+        "description": "Access control, parcels, communications and event history in a single dashboard for managers and administrators."
       },
       "technicalSupport": {
-        "title": "24/7 technical support with 1h SLA",
-        "description": "Local team ready to intervene on-site with guaranteed response times."
+        "title": "Human support and intelligent maintenance",
+        "description": "No-cost parts replacement, OKTAPREV predictive maintenance and teams in continuous training."
       }
     },
     "image": {
       "src": "/portaria-remota-monitoramento.webp",
-      "alt": "Monitoring team operating the remote concierge hub"
+      "alt": "OKTAFORCE team monitoring condominiums in a hybrid operation"
     }
   },
   "faq": {
-    "kicker": "FAQ",
-    "title": "Frequently asked questions",
+    "kicker": "Frequently asked questions",
+    "title": "Understand how we evolve condominium security",
     "items": [
       {
-        "question": "What is remote concierge and how does it work?",
-        "answer": "We replace the on-site concierge with remote monitoring using cameras, biometrics and a 24/7 command center."
+        "question": "Who is OKTAFORCE Brazil?",
+        "answer": "We are a technology-driven force dedicated to condominium security. We integrate remote concierge, artificial intelligence, intelligent maintenance and human excellence to deliver efficiency, protection and peace of mind every day."
       },
       {
-        "question": "Is it really safe without on-site personnel?",
-        "answer": "Yes. We remove the risk of human coercion and keep every access fully recorded with photo, video and audio."
+        "question": "How does the digital ecosystem work in practice?",
+        "answer": "The Super App connects residents, property managers and administrators to a 24/7 command center with proprietary AI. Access control, deliveries, bookings and communication happen in a single flow with full redundancy and automated playbooks."
       },
       {
-        "question": "What happens during outages?",
-        "answer": "We maintain redundant internet links and backup power with UPS and generators."
+        "question": "What ensures continuous security?",
+        "answer": "Ultra-fast service, SLA of up to 1h30 for critical risks, no-cost parts replacement and hybrid operation with on-site contingency keep the system running even in extreme scenarios."
       },
       {
-        "question": "How do residents control access?",
-        "answer": "Residents use our exclusive app with remote approvals via QR code, facial recognition or biometrics."
+        "question": "Does the operation include maintenance and facilities?",
+        "answer": "Yes. With OKTAPREV we monitor gates, CCTV, alarms and access control 24/7. OKTAFORCE Facilities integrates cleaning, janitorial services, reception and operational support to keep the property running with excellence."
       },
       {
-        "question": "What is the immediate benefit for the property?",
-        "answer": "Up to 70% cost savings tied to a cutting-edge, proactive security infrastructure."
+        "question": "How do we start a project with OKTAFORCE?",
+        "answer": "We conduct a consultative assessment, design a tailored plan and manage the rollout with close support for the property manager and the administrator."
       }
     ]
   },
   "cta": {
     "content": {
-      "line1": "Your security can't wait.",
-      "line2": "Your property can save up to 70% right now.",
-      "line3": "Click the button below and request a free demo of our Intelligent Remote Concierge.",
-      "primaryCta": "Get my demo now"
+      "line1": "Ready to experience the new standard in condominium security?",
+      "line2": "Integrate remote concierge, AI, intelligent maintenance and human service in a single ecosystem.",
+      "line3": "Talk to OKTAFORCE and receive a plan aligned with your property's guidelines.",
+      "primaryCta": "Talk to OKTAFORCE"
     }
   }
 }

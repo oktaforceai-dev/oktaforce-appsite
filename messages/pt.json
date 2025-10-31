@@ -1,21 +1,21 @@
 {
   "common": {
     "branding": {
-      "tagline": "Segurança inteligente para condomínios"
+      "tagline": "Eficiência, proteção e tranquilidade para condomínios"
     },
     "navigation": {
-      "home": "Inicio",
+      "home": "Início",
       "about": "Quem Somos",
       "solutions": "Soluções",
       "differentials": "Diferenciais",
       "blog": "Blog",
       "contact": "Contato",
       "openMenu": "Abrir menu",
-      "pricing": "Preços"
+      "pricing": "Planos"
     },
     "cta": {
-      "whatsapp": "Falar com especialista",
-      "demo": "Solicitar demonstração",
+      "whatsapp": "Falar com a OKTAFORCE",
+      "demo": "Solicitar diagnóstico",
       "contact": "Entrar em contato",
       "newsletter": "Assinar newsletter",
       "download": "Baixar material"
@@ -31,9 +31,9 @@
       "darkMode": "Ativar modo escuro"
     },
     "footer": {
-      "title": "OKTAFORCE, segurança sem pontos cegos",
-      "description": "Portaria remota com IA proprietária, central 24/7, redundância de infraestrutura e equipe local dedicada.",
-      "cta": "Falar com um especialista agora",
+      "title": "OKTAFORCE, tudo conectado sob controle",
+      "description": "Portaria remota, inteligência artificial, manutenção e facilities integrados em um único ecossistema.",
+      "cta": "Falar com a OKTAFORCE",
       "quickLinks": "Links rápidos",
       "contact": "Contato",
       "followUs": "Acompanhe nossos canais",
@@ -48,13 +48,13 @@
       "invalidPhone": "Informe um telefone válido"
     },
     "meta": {
-      "defaultTitle": "Portaria remota com inteligência artificial",
-      "defaultDescription": "Reduza custos, elimine riscos humanos e eleve a proteção do seu condomínio com a plataforma inteligente OKTAFORCE."
+      "defaultTitle": "OKTAFORCE – Ecossistema inteligente para condomínios",
+      "defaultDescription": "Portaria remota, IA proprietária, manutenção inteligente e atendimento humano para transformar a segurança condominial."
     },
     "notFound": {
       "title": "Página não encontrada",
       "description": "A página que você procura não existe ou foi movida.",
-      "cta": "Voltar para a Inicio"
+      "cta": "Voltar para o Início"
     }
   },
   "home": {
@@ -647,7 +647,7 @@
       "items": [
         {
           "label": "Telefone",
-          "value": "+55 (11) 4000-1234",
+          "value": "(11) 3274-1040",
           "type": "phone"
         },
         {

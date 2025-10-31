@@ -1,102 +1,103 @@
 {
   "meta": {
-    "title": "OKTAFORCE Solutions",
-    "description": "Discover OKTAFORCE remote concierge modules, Smart View AI, resilient infrastructure, exclusive resident tools and premium support.",
-    "keywords": "oktaforce solutions, remote concierge, smart view, infrastructure, premium support"
+    "title": "Integrated OKTAFORCE solutions",
+    "description": "Discover how OKTAFORCE combines remote concierge, analytical monitoring, intelligent maintenance and facilities to deliver complete condominium security.",
+    "keywords": "oktaforce, integrated solutions, remote concierge, artificial intelligence, intelligent maintenance"
   },
   "hero": {
-    "title": "Custom security and management solutions",
-    "subtitle": "Modern, flexible, efficient access control backed by tailored solutions, advanced technology and reliable support.",
-    "cta": "Explore our plans",
-    "tagline": "Integrated security"
+    "tagline": "Everything connected. Everything under control.",
+    "title": "Integrated solutions for intelligent condominium security",
+    "subtitle": "Remote concierge, analytical AI, predictive maintenance and facilities working together to transform your property's operations.",
+    "cta": "Talk to OKTAFORCE"
   },
   "cta": {
-    "title": "Ready to build the ideal configuration?",
-    "subtitle": "Combine remote concierge, OKTAVISION and smart delivery modules in one tailored plan.",
-    "primary": "View plans and pricing",
-    "primaryHref": "/pricing",
-    "secondary": "Talk to the solutions team"
+    "title": "Ready to build the ideal ecosystem?",
+    "subtitle": "Combine our modules to balance security, technology and investment.",
+    "primary": "Talk to OKTAFORCE",
+    "primaryHref": "/contact",
+    "secondary": "Book a tailored assessment"
   },
   "sections": [
     {
       "key": "remote",
-      "title": "Remote concierge with integrated AI",
-      "headline": "Continuous monitoring with dual verification and real-time response.",
-      "description": "Each entry is verified by AI and trained operators, reducing human error. Facial recognition, biometrics and an exclusive app ensure secure authentication.",
+      "title": "OKTAFORCE Remote Concierge",
+      "headline": "Autonomy, intelligence and human service in the same flow.",
+      "description": "The Essential, Impact, Supreme, Elite, Absolute and Presence plans balance technology, redundancy and on-site support for every condominium profile.",
       "bullets": [
-        "Centralized screening with intelligent protocols for residents, visitors and service providers.",
-        "All access events are recorded with audio, video and auditable logs.",
-        "N+2 infrastructure with high availability and full redundancy.",
-        "Continuous, tailored and unobtrusive protection that matches the needs of your condominium."
+        "Access control with facial recognition, biometrics and mobile credentials in the Super App.",
+        "24/7 command center with human validation and proprietary artificial intelligence.",
+        "Hybrid operation with on-site contingency whenever the project requires it.",
+        "Modular playbooks delivering security, autonomy and financial predictability."
       ]
     },
     {
       "key": "oktavision",
-      "title": "Proactive, preventive surveillance",
-      "headline": "Real-time behavioral analytics powered by advanced computer vision.",
-      "description": "Flags unusual motion, suspicious routes and abnormal loitering so automated protocols fire before a threat unfolds.",
+      "title": "Analytical Monitoring - OKTAVISION",
+      "headline": "Active surveillance that anticipates and reacts in real time.",
+      "description": "OKTAVISION is the property's digital eye, equipped with analytical cameras, active infrared sensors and full connectivity redundancy.",
       "bullets": [
-        "Heatmaps, alerts and an auditable decision trail in a strategic command dashboard.",
-        "End-to-end integration with sensors, alarms and AI-powered remote guarding.",
-        "Built for critical areas, exposed perimeters and high-traffic zones.",
-        "More than monitoring: anticipate and act with precision."
+        "Continuous behavioral analysis with automated alerts and intelligent reports.",
+        "Integration with alarms, electric fences and remote concierge for coordinated response.",
+        "Heatmaps, strategic dashboards and auditable history inside the Super App.",
+        "Dual access validation and complete perimeter monitoring in real time."
       ]
     },
     {
       "key": "lockers",
-      "title": "Simplified logistics",
-      "headline": "Packages under control with solutions for every type of condo.",
-      "description": "Modular lockers with multiple compartments and digital tracking. Discreet, built-in Smart Drop ideal for gates and compact areas.",
+      "title": "Intelligent logistics - Smart Locker & Smart Drop",
+      "headline": "Secure, trackable and frictionless deliveries.",
+      "description": "Technology that simplifies daily routines with intelligent lockers connected to the OKTAFORCE ecosystem.",
       "bullets": [
-        "Automatic notifications in the OKTAFORCE app the moment a delivery arrives.",
-        "Full audit: every pickup leaves a visible, secure trail.",
-        "No lines, no lost packages, no intervention from the building manager or doorman.",
-        "More efficiency, less conflict: delivery the way it should be."
+        "Digital parcel management through the Super App for residents and managers.",
+        "Automatic notifications, QR codes and full pickup tracking.",
+        "Integration with postal services and carriers for seamless logistics.",
+        "Modular installation adaptable to residential or corporate condominiums."
       ]
     }
   ],
   "support": {
-    "title": "Implementation built around ROI",
+    "title": "Complementary solutions that guarantee continuity",
     "items": [
       {
-        "title": "Dedicated engineering",
-        "description": "Technical design, turnkey installation and go-live executed alongside our customer success team."
+        "title": "OKTAPREV - Intelligent building maintenance",
+        "description": "24/7 technical support for gates, CCTV, alarms and access control with predictive maintenance to anticipate failures and reduce costs."
       },
       {
-        "title": "Continuous governance",
-        "description": "Strategic reviews, executive reports and SLA dashboards shared with property managers and boards."
+        "title": "OKTAMONI - Alarm and monitoring 24/7",
+        "description": "Integrated protection between human operators and AI, ensuring real-time security without pauses or blind spots."
       },
       {
-        "title": "Contingency ready",
-        "description": "N+2 redundancy, 24/7 on-call support and incident response protocols with certified partners."
+        "title": "OKTAFORCE Facilities",
+        "description": "On-site concierge, cleaning, janitorial services, reception and operational support connected to our command center for integrated, trackable management."
       }
     ]
   },
   "comparison": {
-    "title": "Fast comparison",
+    "title": "Quick comparison",
+    "subtitle": "What makes OKTAFORCE a benchmark in remote concierge and digital facilities.",
     "features": [
       {
-        "name": "Proprietary AI models trained on exclusive datasets",
+        "name": "SLA of up to 1h30 for critical risks",
         "oktaforce": "included",
         "market": "partial"
       },
       {
-        "name": "Real-time dashboard with SLA and audit trail",
+        "name": "80% of calls answered within 7 seconds",
         "oktaforce": "included",
         "market": "missing"
       },
       {
-        "name": "N+2 redundant command center with cloud backup",
+        "name": "No-cost parts replacement",
+        "oktaforce": "included",
+        "market": "missing"
+      },
+      {
+        "name": "Hybrid operation: remote + on-site contingency",
         "oktaforce": "included",
         "market": "partial"
       },
       {
-        "name": "Local team and dedicated customer success per property",
-        "oktaforce": "included",
-        "market": "missing"
-      },
-      {
-        "name": "Certified integrations with ERPs and access control",
+        "name": "Proprietary software with AI and full redundancy",
         "oktaforce": "included",
         "market": "partial"
       }
@@ -107,14 +108,14 @@
       "missing": "Not offered"
     },
     "columns": {
-      "feature": "Feature",
+      "feature": "Differential",
       "oktaforce": "OKTAFORCE",
       "market": "Market"
     }
   },
   "savingsChart": {
-    "title": "Annual cost comparison",
-    "description": "Based on a property with two lobbies and three shifts. Figures are estimated averages.",
+    "title": "Operational efficiency across the year",
+    "description": "Comparative baseline between a traditional concierge and the OKTAFORCE ecosystem operating in hybrid mode.",
     "series": {
       "traditional": "Traditional concierge",
       "oktaforce": "OKTAFORCE"
@@ -123,8 +124,8 @@
       "currency": "in BRL thousands"
     },
     "buckets": {
-      "payroll": "Payroll and labor",
-      "infrastructure": "Infrastructure",
+      "payroll": "Payroll and charges",
+      "infrastructure": "Infrastructure and maintenance",
       "risk": "Risk and liabilities"
     }
   }

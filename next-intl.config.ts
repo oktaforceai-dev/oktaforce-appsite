@@ -12,6 +12,7 @@ const routing = defineRouting({
     '/solutions':     {pt: '/solucoes',     en: '/solutions'},
     '/pricing':       {pt: '/precos',       en: '/pricing'},
     '/contact':       {pt: '/contato',      en: '/contact'},
+    '/linklist':      {pt: '/saiba-mais',   en: '/learn-more'},
     '/blog':          {pt: '/blog',         en: '/blog'},
     '/differentials': {pt: '/diferenciais', en: '/differentials'}
   }

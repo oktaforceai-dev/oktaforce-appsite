@@ -6,6 +6,7 @@ import differentials from './pt/differentials.json';
 import blog from './pt/blog.json';
 import contact from './pt/contact.json';
 import pricing from './pt/pricing.json';
+import linklist from './pt/linklist.json';
 
 export default {
   common,
@@ -15,5 +16,6 @@ export default {
   differentials,
   blog,
   contact,
-  pricing
+  pricing,
+  linklist
 } as const;

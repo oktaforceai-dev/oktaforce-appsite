@@ -27,10 +27,9 @@ export default function SiteHeader() {
   const headerToneClass = isScrolled ? 'bg-surface/95' : 'bg-surface/70';
   const mobilePanelOffsetClass = isScrolled ? 'mt-16' : 'mt-20';
 
-  const items: {href: '/' | '/solutions' | '/pricing' | '/about' | '/contact' | '/blog'; id: 'home'|'solutions'|'pricing'|'about'|'contact'|'blog'}[] = [
+  const items: {href: '/' | '/solutions' | '/about' | '/contact' | '/blog'; id: 'home'|'solutions'|'about'|'contact'|'blog'}[] = [
     { href: '/',           id: 'home' },
     { href: '/solutions',  id: 'solutions' },
-    { href: '/pricing',    id: 'pricing' },
     { href: '/about',      id: 'about' },
     { href: '/contact',    id: 'contact' },
 //    { href: '/blog',       id: 'blog' }

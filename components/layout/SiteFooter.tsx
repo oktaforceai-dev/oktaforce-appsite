@@ -23,7 +23,6 @@ export default async function SiteFooter({locale}: SiteFooterProps) {
     {id: 'home', href: '/'},
     {id: 'about', href: '/about'},
     {id: 'solutions', href: '/solutions'},
-    {id: 'pricing', href: '/pricing'},
 //    {id: 'differentials', href: '/differentials'},
 //    {id: 'blog', href: '/blog'},
     {id: 'contact', href: '/contact'}

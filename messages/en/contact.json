@@ -1,42 +1,42 @@
 {
   "meta": {
-    "title": "Contact OKTAFORCE",
-    "description": "Contact OKTAFORCE to request an assessment, proposal or platform demo.",
-    "keywords": "contact oktaforce, remote concierge assessment, oktaforce proposal"
+    "title": "Talk to OKTAFORCE",
+    "description": "Speak with OKTAFORCE specialists and discover how our integrated ecosystem of remote concierge, AI and facilities can transform your condominium.",
+    "keywords": "oktaforce contact, condominium assessment, remote concierge, facilities"
   },
   "hero": {
-    "title": "Let's design the ideal remote concierge for your property",
-    "subtitle": "Fill out the form or talk to us on WhatsApp. We reply within one business day with an initial assessment."
+    "title": "Let's connect your property to the OKTAFORCE ecosystem",
+    "subtitle": "Fill out the form or reach us through the direct channels. We reply within one business day with a personalized initial assessment."
   },
   "info": {
     "title": "Direct channels",
     "items": [
-      { "label": "Phone", "value": "+55 (11) 4000-1234", "type": "phone" },
+      { "label": "Phone", "value": "(11) 3274-1040", "type": "phone" },
       { "label": "Email", "value": "contato@oktaforce.com.br", "type": "email" },
       { "label": "Address", "value": "Av. Brigadeiro Faria Lima, 2369 - Jardim Paulistano, Sao Paulo/SP", "type": "address" }
     ]
   },
   "whatsapp": {
     "cta": "Chat on WhatsApp",
-    "helper": "24/7 emergency and tactical support"
+    "helper": "24/7 support from our monitoring center and technical team"
   },
   "form": {
-    "title": "Send your information",
-    "subtitle": "Tell us about your property and receive a tailored plan.",
+    "title": "Send us your information",
+    "subtitle": "Tell us about your condominium scenario and receive a plan aligned with OKTAFORCE's latest guidelines.",
     "fields": {
       "name": { "label": "Full name", "placeholder": "Your name" },
       "email": { "label": "Email", "placeholder": "you@example.com" },
       "phone": { "label": "Phone", "placeholder": "+55 (11) 99999-0000" },
-      "condominium": { "label": "Property name", "placeholder": "Property" },
+      "condominium": { "label": "Condominium name", "placeholder": "Condominium" },
       "units": { "label": "Number of units", "placeholder": "e.g. 240" },
-      "message": { "label": "Message", "placeholder": "Describe your current scenario and goals" }
+      "message": { "label": "Message", "placeholder": "Tell us what you want to improve with OKTAFORCE" }
     },
     "submit": "Send message",
-    "success": "Thanks! Our team will contact you shortly.",
-    "error": "We couldn't send it now. Please try again or reach us on WhatsApp."
+    "success": "We've received your details! Our team will get back to you shortly.",
+    "error": "We couldn't send it right now. Try again or message us on WhatsApp."
   },
   "map": {
     "title": "OKTAFORCE operations center",
-    "description": "Our command center is located in Sao Paulo and welcomes scheduled visits."
+    "description": "We operate from Sao Paulo for the whole of Brazil, with scheduled visits to present our hybrid, redundant infrastructure."
   }
 }

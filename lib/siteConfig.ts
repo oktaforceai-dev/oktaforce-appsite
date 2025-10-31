@@ -6,7 +6,7 @@ export const WHATSAPP_MESSAGE = encodeURIComponent(
 export const WHATSAPP_LINK = `https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20a%20portaria%20remota%20da%20OKTAFORCE.`;
 
 export const CONTACT_EMAIL = 'contato@oktaforce.com.br';
-export const CONTACT_PHONE = '+55 (11) 4000-1234';
+export const CONTACT_PHONE = '(11) 3274-1040';
 export const CONTACT_ADDRESS = 'Av. Brigadeiro Faria Lima, 2369, cj. 1102 - Jardim Paulistano, São Paulo/SP';
 
 export const SOCIAL_LINKS = {
