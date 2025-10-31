@@ -50,7 +50,7 @@ const LINK_ITEMS = [
   }
 ] as const;
 
-export async function generateMetadata({params}: PageProps): Promise<Metadata> {
+export default async function LinkListPage({ params }: { params: { locale: string } }) {
   const t = await getTranslations({locale: params.locale, namespace: 'linklist.meta'});
   const canonicalPath = params.locale === 'en' ? '/en/learn-more' : '/saibamais';
 
