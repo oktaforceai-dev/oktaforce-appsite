@@ -1,16 +1,12 @@
 ﻿// app/layout.tsx
 import type {Metadata} from 'next';
 import './globals.css';
+import {NextIntlClientProvider} from 'next-intl';
 import {montserrat, roboto} from '@/app/fonts';
 import {OG_IMAGE, SITE_URL} from '@/lib/siteConfig';
 import AppProviders from '@/app/providers';
-import {getLocale} from 'next-intl/server'; // 👈
-
-function normalizeLocale(input: string): 'pt' | 'en' {
-  const v = (input || '').toLowerCase();
-  if (v.startsWith('en')) return 'en';
-  return 'pt';
-}
+import {DEFAULT_LOCALE} from '@/src/lib/routes';
+import {loadMessages} from '@/src/i18n/request';
 
 const defaultDescription =
   'Portaria remota com IA proprietária, monitoramento 24/7, redundância N+2 e equipe local dedicada.';
@@ -32,14 +28,22 @@ export const metadata: Metadata = {
   icons: { icon: '/logo.svg' }
 };
 
-export default async function RootLayout({children}: {children: React.ReactNode}) {
-  const raw = await getLocale();
-  const locale = normalizeLocale(raw);
+export const dynamic = 'force-static';
+
+export default async function RootLayout({
+  children
+}: {
+  children: React.ReactNode;
+}) {
+  const locale = DEFAULT_LOCALE;
+  const messages = await loadMessages(locale);
 
   return (
     <html lang={locale} className={`${montserrat.variable} ${roboto.variable}`}>
       <body className="flex min-h-dvh flex-col antialiased">
-        <AppProviders>{children}</AppProviders>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <AppProviders>{children}</AppProviders>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

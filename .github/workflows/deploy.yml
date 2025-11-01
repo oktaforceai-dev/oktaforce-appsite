@@ -9,35 +9,27 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: "18"
 
-      - name: Install deps
+      - name: Instalar dependências
         run: npm ci
 
       - name: Build (Next export -> /out)
-        run: NEXT_OUTPUT_EXPORT=true npm run build
+        run: NEXT_OUTPUT_EXPORT=true pnpm build
 
-      - name: Debug local /out
+      - name: Debug /out
         run: |
-          echo "=== OUT CONTENT ==="
-          ls -la out
-          find out -maxdepth 2 -type d -print
+          echo "=== LISTANDO /out ==="
+          ls -la out || true
+          find out -maxdepth 3 -type f | head -200
 
-      - name: Remote PWD & list (before)
-        run: |
-          sudo apt-get update && sudo apt-get install -y lftp
-          lftp -e "set ssl:verify-certificate no; open -p 21 -u $FTP_USER,$FTP_PASS $FTP_HOST; \
-                   echo 'PWD:'; pwd; echo 'LIST:'; ls -la; bye"
-        env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USER: ${{ secrets.FTP_USER }}
-          FTP_PASS: ${{ secrets.FTP_PASS }}
-
-      - name: FTP Deploy
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_HOST }}
@@ -46,7 +38,7 @@ jobs:
           protocol: ftp
           port: 21
           local-dir: out/
-          server-dir: /          # sua raiz do FTP JÁ é o public_html
+          server-dir: /
           dangerous-clean-slate: true
           log-level: verbose
           exclude: |

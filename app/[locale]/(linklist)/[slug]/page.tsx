@@ -58,7 +58,7 @@ const LINK_ITEMS = [
   },
   {
     id: 'whatsapp',
-    href: 'https://wa.me/55119900000000',
+    href: 'https://api.whatsapp.com/send?phone=5511966440147&text=Venho%20do%20Site',
     icon: MessageCircle,
     target: '_blank' as const,
     rel: 'noopener noreferrer'

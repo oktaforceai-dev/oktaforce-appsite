@@ -1,4 +1,9 @@
-import type { Metadata } from "next";
+import type {Metadata} from 'next';
+import {generateLocaleParams} from '@/src/lib/routes';
+
+export const dynamic = 'force-static';
+export const revalidate = false;
+export const generateStaticParams = generateLocaleParams;
 
 export const metadata: Metadata = {
   title: "Contato | OktaForce",

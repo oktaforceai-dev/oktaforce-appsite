@@ -1,12 +1,13 @@
-// next.config.mjs
 import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
+const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
-const isStaticExport = process.env.NEXT_OUTPUT_EXPORT === 'true';
-
-export default withNextIntl({
-  reactStrictMode: true,
-  trailingSlash: true,
-  ...(isStaticExport ? {output: 'export'} : {})
+/** @type {import('next').NextConfig} */
+const nextConfig = withNextIntl({
+  experimental: {
+    typedRoutes: true,
+  },
+  images: {unoptimized: true},
 });
+
+export default nextConfig;

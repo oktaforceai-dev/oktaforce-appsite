@@ -1,6 +1,8 @@
-export const generateStaticParams = () => [
-  { locale: 'pt' },
-  { locale: 'en' }
-];
+import {generateLocaleParams} from '@/src/lib/routes';
 
-export { default } from '../precos/page';
+export const dynamic = 'force-static';
+export const revalidate = false;
+
+export const generateStaticParams = generateLocaleParams;
+
+export {default} from '../precos/page';

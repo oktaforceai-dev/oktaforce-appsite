@@ -4,10 +4,19 @@ import {useTransition} from 'react';
 import {useLocale} from 'next-intl';
 import {usePathname, useRouter} from '@/lib/navigation';
 import {useTranslations} from 'next-intl';
+import {SUPPORTED_LOCALES} from '@/src/lib/routes';
 
-const SUPPORTED_LOCALES: Array<'pt' | 'en'> = ['pt', 'en'];
+type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
 
-type BaseHref = '/' | '/about' | '/solutions' | '/pricing' | '/contact' | '/blog' | '/differentials';
+type BaseHref =
+  | '/'
+  | '/about'
+  | '/solutions'
+  | '/pricing'
+  | '/contact'
+  | '/blog'
+  | '/differentials'
+  | '/learn-more';
 
 function stripLocale(path: string | null | undefined): string {
   const p = path || '/';
@@ -25,6 +34,7 @@ function toBaseHref(path: string): BaseHref {
     case '/contact':
     case '/blog':
     case '/differentials':
+    case '/learn-more':
       return clean as BaseHref;
     case '/quem-somos':
       return '/about';
@@ -34,6 +44,8 @@ function toBaseHref(path: string): BaseHref {
       return '/pricing';
     case '/contato':
       return '/contact';
+    case '/saibamais':
+      return '/learn-more';
     default:
       return '/';
   }
@@ -42,7 +54,7 @@ function toBaseHref(path: string): BaseHref {
 export function LanguageSwitcher() {
   const router = useRouter();
   const pathname = usePathname() ?? '/';
-  const locale = useLocale() as 'pt' | 'en';
+  const locale = useLocale() as SupportedLocale;
   const t = useTranslations('common.language');
   const [isPending, startTransition] = useTransition();
 

@@ -1,21 +1,12 @@
-// next-intl.config.ts
 import {defineRouting} from 'next-intl/routing';
+import {defaultLocale, locales, pathnames} from './src/i18n/config';
 
 const routing = defineRouting({
-  locales: ['pt', 'en'],
-  defaultLocale: 'pt',
+  locales: Array.from(locales),
+  defaultLocale,
   localePrefix: 'as-needed',
   localeCookie: false,
-  pathnames: {
-    '/': '/',
-    '/about':         {pt: '/quem-somos',   en: '/about'},
-    '/solutions':     {pt: '/solucoes',     en: '/solutions'},
-    '/pricing':       {pt: '/precos',       en: '/pricing'},
-    '/contact':       {pt: '/contato',      en: '/contact'},
-    '/linklist':      {pt: '/saibamais',   en: '/learn-more'},
-    '/blog':          {pt: '/blog',         en: '/blog'},
-    '/differentials': {pt: '/diferenciais', en: '/differentials'}
-  }
+  pathnames
 });
 
 export default routing;

@@ -1,10 +1,17 @@
 import HeroSection from '@/components/sections/home/HeroSection';
-import { PainPoints } from '@/components/sections/home/PainPoints';
-import { BenefitsGrid } from '@/components/sections/home/BenefitsGrid';
-import { IntelligenceSection } from '@/components/sections/home/IntelligenceSection';
-import { DifferentialsHighlights } from '@/components/sections/home/DifferentialsHighlights';
-import { FAQSection } from '@/components/sections/home/FAQSection';
-import { FinalCTA } from '@/components/sections/home/FinalCTA';
+import {PainPoints} from '@/components/sections/home/PainPoints';
+import {BenefitsGrid} from '@/components/sections/home/BenefitsGrid';
+import {IntelligenceSection} from '@/components/sections/home/IntelligenceSection';
+import {DifferentialsHighlights} from '@/components/sections/home/DifferentialsHighlights';
+import {FAQSection} from '@/components/sections/home/FAQSection';
+import {FinalCTA} from '@/components/sections/home/FinalCTA';
+import {generateLocaleParams} from '@/src/lib/routes';
+
+export const dynamic = 'force-static';
+export const revalidate = false;
+export const dynamicParams = false;
+
+export const generateStaticParams = generateLocaleParams;
 
 export default function HomePage() {
   return (
