@@ -2,8 +2,7 @@ name: Deploy estático via FTP (Hostinger)
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -19,33 +18,25 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install pnpm
+      - name: Install pnpm (corepack)
         run: |
-          npm install -g pnpm@9
-          pnpm --version
+          corepack enable
+          corepack prepare pnpm@9 --activate
 
-      - name: Install deps
+      - name: Instalar dependências
         run: pnpm install --frozen-lockfile
 
-      # aqui o seu postbuild pode falhar, mas NÃO vamos parar o job
-      - name: Build Next (pode falhar por causa do postbuild)
-        env:
-          NEXT_OUTPUT_EXPORT: "true"
+      # 1) build SEM pedir export
+      - name: Build Next (sem export)
         run: pnpm build
-        continue-on-error: true
+        env:
+          NEXT_OUTPUT_EXPORT: "false"
 
-      # agora sim geramos o /out de verdade
+      # 2) agora sim exporta pra /out
       - name: Exportar para /out
-        run: pnpm exec next export -o out
+        run: pnpm run export
 
       - name: Verificar /out
-        run: |
-          if [ ! -d "out" ]; then
-            echo "ERRO: diretório 'out' não foi gerado."
-            exit 1
-          fi
-
-      - name: Debug /out
         run: ls -R out || true
 
       - name: Deploy via FTP (Hostinger)
