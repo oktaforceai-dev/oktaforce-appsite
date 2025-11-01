@@ -6,7 +6,7 @@ import {ButtonLink} from '@/components/ui/ButtonLink';
 import {Link} from '@/i18n/routing';
 
 const HERO_IMAGE = '/exterior-modern-residential-banner.webp';
-const CTA_LINK = 'https://api.whatsapp.com/send?phone=5511966440147&text=Venho%20do%20Site';
+const CTA_LINK = 'https://api.whatsapp.com/send?phone=5511977178275&text=Venho%20do%20Site';
 
 export default function HeroSection() {
   const locale = useLocale();

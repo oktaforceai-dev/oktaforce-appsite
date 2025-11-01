@@ -3,7 +3,7 @@
 import {useTranslations} from 'next-intl';
 import {ButtonLink} from '@/components/ui/ButtonLink';
 
-const CTA_LINK = 'https://api.whatsapp.com/send?phone=5511966440147&text=Venho%20do%20Site';
+const CTA_LINK = 'https://api.whatsapp.com/send?phone=5511977178275&text=Venho%20do%20Site';
 
 export function FinalCTA() {
   const t = useTranslations('home.cta');
