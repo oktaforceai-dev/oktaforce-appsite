@@ -2,12 +2,14 @@ name: Deploy estático via FTP (Hostinger)
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   workflow_dispatch: {}
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -16,39 +18,36 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: "pnpm"
 
-      - name: Enable corepack
-        run: corepack enable
-
-      - name: Prepare pnpm
-        run: corepack prepare pnpm@9 --activate
+      - name: Enable pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@9 --activate
 
       - name: Instalar dependências
         run: pnpm install --frozen-lockfile
 
-      - name: Build (Next export -> /out)
-        env:
-          NEXT_OUTPUT_EXPORT: true
+      - name: Build Next.js
         run: pnpm build
 
+      - name: Exportar estático para /out
+        run: pnpm exec next export -o out
+
       - name: Debug /out
-        run: |
-          echo "=== LISTANDO /out ==="
-          ls -la out || true
-          find out -maxdepth 3 -type f | head -200
+        run: ls -R out || true
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USER }}
-          password: ${{ secrets.FTP_PASS }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
-          local-dir: out/
-          server-dir: /
-          dangerous-clean-slate: true
-          log-level: verbose
+          local-dir: out
+          server-dir: /domains/oktaforce.com.br/public_html
+          dangerous-clean-slate: false
           exclude: |
             **/.git*
             **/.github/**
