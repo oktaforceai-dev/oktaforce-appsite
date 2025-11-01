@@ -15,13 +15,21 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: 20
+
+      - name: Enable corepack
+        run: corepack enable
+
+      - name: Prepare pnpm
+        run: corepack prepare pnpm@9 --activate
 
       - name: Instalar dependências
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build (Next export -> /out)
-        run: NEXT_OUTPUT_EXPORT=true pnpm build
+        env:
+          NEXT_OUTPUT_EXPORT: true
+        run: pnpm build
 
       - name: Debug /out
         run: |

@@ -1,5 +1,5 @@
 ﻿export const SITE_URL = 'https://www.oktaforce.com.br';
-export const WHATSAPP_NUMBER = '5555119664401';
+export const WHATSAPP_NUMBER = '5511966440147';
 export const WHATSAPP_MESSAGE = encodeURIComponent('Venho do Site');
 export const WHATSAPP_LINK = `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${WHATSAPP_MESSAGE}`;
 
