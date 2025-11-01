@@ -28,16 +28,23 @@ jobs:
       - name: Instalar dependências
         run: pnpm install --frozen-lockfile
 
-      - name: Build Next.js
+      - name: Build Next
         run: pnpm build
 
       - name: Exportar estático para /out
         run: pnpm exec next export -o out
 
+      - name: Verificar /out
+        run: |
+          if [ ! -d "out" ]; then
+            echo "ERRO: diretório 'out' não foi gerado. Verifique o passo de export."
+            exit 1
+          fi
+
       - name: Debug /out
         run: ls -R out || true
 
-      - name: Deploy via FTP
+      - name: Deploy via FTP (Hostinger)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_SERVER }}
