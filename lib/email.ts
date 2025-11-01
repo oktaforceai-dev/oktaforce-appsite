@@ -84,3 +84,4 @@ export async function sendLeadNotificationEmail(payload: LeadPayload) {
     throw new Error(`Failed to send email: ${response.status} ${response.statusText} - ${errorText}`);
   }
 }
+
