@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -14,27 +14,32 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node 20
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "pnpm"
 
-      - name: Enable pnpm
+      # GitHub runner não vem com pnpm no PATH, então instalamos manualmente
+      - name: Install pnpm
         run: |
-          corepack enable
-          corepack prepare pnpm@9 --activate
+          npm install -g pnpm@9
+          pnpm --version
 
-      - name: Instalar dependências
+      - name: Install deps
         run: pnpm install --frozen-lockfile
 
+      # build normal do Next (gera .next)
       - name: Build Next
+        env:
+          NEXT_OUTPUT_EXPORT: "true"
         run: pnpm build
 
-      - name: Exportar estático para /out
+      # exporta o que foi buildado para /out
+      - name: Export to /out
         run: pnpm exec next export -o out
 
-      - name: Verificar /out
+      # garante que /out existe antes do deploy
+      - name: Check /out
         run: |
           if [ ! -d "out" ]; then
             echo "ERRO: diretório 'out' não foi gerado. Verifique o passo de export."
