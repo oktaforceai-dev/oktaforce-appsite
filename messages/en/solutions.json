@@ -82,7 +82,7 @@
         "market": "partial"
       },
       {
-        "name": "80% of calls answered within 7 seconds",
+        "name": "98% of calls answered within 7 seconds",
         "oktaforce": "included",
         "market": "missing"
       },

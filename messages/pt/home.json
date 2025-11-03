@@ -15,7 +15,7 @@
         },
         {
           "label": "Chamadas respondidas em até 7 segundos",
-          "value": "80%"
+          "value": "98%"
         },
         {
           "label": "Monitoramento híbrido com IA e equipe dedicada",
@@ -86,7 +86,7 @@
       },
       "reliability": {
         "title": "Atendimento ultrarrápido 24/7",
-        "description": "SLA de até 1h30 para riscos críticos e 80% das chamadas respondidas em até 7 segundos por especialistas certificados."
+        "description": "SLA de até 1h30 para riscos críticos e 98% das chamadas respondidas em até 7 segundos por especialistas certificados."
       },
       "locker": {
         "title": "Logística inteligente de encomendas",
@@ -129,7 +129,7 @@
       },
       "agileService": {
         "title": "Atendimento ultrarrápido",
-        "description": "SLA de até 1h30 para riscos críticos e 80% das chamadas respondidas em até 7 segundos pela nossa central 24/7."
+        "description": "SLA de até 1h30 para riscos críticos e 98% das chamadas respondidas em até 7 segundos pela nossa central 24/7."
       },
       "dashboard": {
         "title": "Dados integrados no Super App",

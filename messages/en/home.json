@@ -10,7 +10,7 @@
       "imageAlt": "OKTAFORCE digital ecosystem in action",
       "highlight": [
         {"label": "Maximum SLA for critical risks", "value": "1h30"},
-        {"label": "Calls answered within 7 seconds", "value": "80%"},
+        {"label": "Calls answered within 7 seconds", "value": "98%"},
         {"label": "Hybrid monitoring with AI and dedicated teams", "value": "24/7"}
       ]
     }
@@ -77,7 +77,7 @@
       },
       "reliability": {
         "title": "24/7 ultra-fast support",
-        "description": "SLA of up to 1h30 for critical risks and 80% of calls answered within 7 seconds by certified specialists."
+        "description": "SLA of up to 1h30 for critical risks and 98% of calls answered within 7 seconds by certified specialists."
       },
       "locker": {
         "title": "Intelligent parcel logistics",
@@ -114,7 +114,7 @@
       },
       "agileService": {
         "title": "Ultra-fast support",
-        "description": "SLA of up to 1h30 for critical risks and 80% of calls answered within 7 seconds by our 24/7 command center."
+        "description": "SLA of up to 1h30 for critical risks and 98% of calls answered within 7 seconds by our 24/7 command center."
       },
       "dashboard": {
         "title": "Integrated data in the Super App",
