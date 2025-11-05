@@ -51,14 +51,14 @@ const LINK_ITEMS = [
   },
   {
     id: 'phone',
-    href: 'tel:+551132741040',
+    href: 'tel:+5511966445253',
     icon: Phone,
     target: '_self' as const,
     rel: ''
   },
   {
     id: 'whatsapp',
-    href: 'https://api.whatsapp.com/send?phone=5511977178275&text=Venho%20do%20Site',
+    href: 'https://api.whatsapp.com/send?phone=5511966445253&text=Venho%20do%20Site',
     icon: MessageCircle,
     target: '_blank' as const,
     rel: 'noopener noreferrer'
