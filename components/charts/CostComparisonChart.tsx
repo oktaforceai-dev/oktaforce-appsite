@@ -49,8 +49,11 @@ export function CostComparisonChart() {
           />
           <Tooltip
             cursor={{ fill: 'rgba(124,58,237,0.08)' }}
-            formatter={(value: number, key: string) => [formatter.format(value * 1000), key === 'traditional' ? traditionalLabel : oktaforceLabel]}
-            labelFormatter={(label: string) => t(`buckets.${label}`)}
+            formatter={(value, key) => {
+              const parsedValue = typeof value === 'number' ? value : Number(value ?? 0);
+              return [formatter.format(parsedValue * 1000), key === 'traditional' ? traditionalLabel : oktaforceLabel];
+            }}
+            labelFormatter={(label) => t(`buckets.${String(label ?? '')}`)}
           />
           <Bar dataKey="traditional" name={traditionalLabel} fill="rgba(148,163,184,0.6)" radius={[12, 12, 0, 0]} />
           <Bar dataKey="oktaforce" name={oktaforceLabel} fill="rgba(124,58,237,0.85)" radius={[12, 12, 0, 0]} />
